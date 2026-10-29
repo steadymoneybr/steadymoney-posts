@@ -10,10 +10,10 @@ As imagens ficam públicas via `https://raw.githubusercontent.com/steadymoneybr/
 3. Crie `posts/AAAA-MM-DD-slug/spec.json` no mesmo formato de `posts/2026-10-29-ordem-mercado-limitada/spec.json` e renderize:
    `python3 tools/render.py posts/AAAA-MM-DD-slug/spec.json posts/AAAA-MM-DD-slug`
 4. Abra cada PNG com Read e confira: nada cortado, bullets idealmente em 1 linha (no máximo 2), sem erro de português.
-5. Faça commit e push das imagens (git user: `Claude <noreply@anthropic.com>`), confirme que os links raw respondem 200.
+5. Faça commit e push das imagens (git user: `Claude <noreply@anthropic.com>`), confirme que os links raw respondem 200. **No Metricool use sempre os arquivos `.jpg`** (o render.py gera PNG e JPG): o TikTok recusa PNG e o post falha na hora de publicar.
 6. Crie o post no Metricool (blogId `7725288`) como **rascunho** (`draft: true`) para HOJE às **19:00 America/Sao_Paulo**, providers `instagram` + `tiktok`, `instagramData.type = POST`, `tiktokData` com `title` curto, `privacyOption PUBLIC_TO_EVERYONE`, `autoAddMusic false`.
 7. Envie ao Vini (SendUserFile com os 4 slides + SendUserMessage com a legenda) e peça aprovação. Mensagem curta, sem resumo extra no final.
-8. Quando ele responder "aprovado": `updateScheduledPost` com `draft: false` (mantendo todo o resto). Se pedir ajuste: ajuste, re-renderize, suba de novo e atualize o post (continua rascunho até aprovar).
+8. Quando ele responder "aprovado": `updateScheduledPost` com `draft: false` (mantendo todo o resto). Depois do horário de publicação, se tiver como, confira com `getScheduledPosts` se o status não ficou `ERROR` e avise o Vini se ficou. Se pedir ajuste: ajuste, re-renderize, suba de novo e atualize o post (continua rascunho até aprovar).
 9. Marque o tema como `publicado AAAA-MM-DD` em `temas.md` e faça commit/push.
 
 ## Regras da marca (obrigatórias)

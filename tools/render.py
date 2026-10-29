@@ -46,5 +46,8 @@ async def main(spec, outdir):
             await pg.set_content(f"<html><head><meta charset=utf-8><style>{CSS}</style></head><body>{body}</body></html>")
             await pg.wait_for_timeout(200)
             await pg.screenshot(path=f"{outdir}/slide{i}.png")
+            # TikTok só aceita JPEG/WEBP: gera também a versão .jpg (é essa que vai pro Metricool)
+            from PIL import Image
+            Image.open(f"{outdir}/slide{i}.png").convert("RGB").save(f"{outdir}/slide{i}.jpg","JPEG",quality=92,optimize=True)
         await b.close()
 asyncio.run(main(sys.argv[1], sys.argv[2]))
