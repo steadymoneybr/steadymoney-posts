@@ -1,0 +1,12 @@
+{"comp":"Brasileirão · 33ª rodada","date":"29.10.2026","source":"SuperVasco",
+"home":"Vasco","away":"Flamengo","hs":1,"as":4,
+"scorers":{"home":["Lescano 15'"],"away":["Pedro 10', 41'","Samuel Lino 53', 85'"]},
+"kicker":"Clássico dos Milhões",
+"hook":"Mais bola, mais chutes.<br>E quatro gols sofridos.",
+"lead":"O Vasco ganhou nos números de volume. Perdeu nos que importam.",
+"slides":[
+{"type":"bars","tag":"1 de 3 · O domínio","title":"O Vasco teve<br>mais a bola","rows":[["Posse",58,42,"%"],["Passes",556,414],["Precisão de passe",89,83,"%"],["Finalizações",15,14]]},
+{"type":"bars","tag":"2 de 3 · A diferença","title":"Mas o Flamengo<br>chutou melhor","rows":[["Chutes no gol",2,6],["Chutes dentro da área",8,11],["Chutes de fora da área",7,3]],"note":"7 dos 15 chutes do Vasco foram de fora da área. Volume não é perigo."},
+{"type":"big","tag":"3 de 3 · O número","kicker":"Gols / finalizações","a":"1/15","b":"4/14","winner":"b","note":"Com menos bola e um chute a menos, o Flamengo fez quatro. E se isolou na liderança, com 73 pontos."}
+],
+"cta":"Concorda com a leitura?"}
