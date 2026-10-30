@@ -124,7 +124,8 @@ def bars(fr, cx, y, a, scale=1.0, grow=1.0):
 
 def cover_scene(s):
     title = clean(s['title']); sub = clean(s.get('sub', ''))
-    fT = fit(title, LORA, 'Bold', 120, 70, 940, 4)
+    nexp = title.count('\n') + 1  # respeita as quebras <br> do título
+    fT = fit(title, LORA, 'Bold', 120, 70, 940, nexp if nexp > 1 else 4)
     tl = wrap(title, fT, 940); sl = wrap(sub, fBody, 900)
 
     def draw(t):
@@ -136,8 +137,9 @@ def cover_scene(s):
         y += 50
         for ln in sl:
             a, dy = appear(t, 0.8); fr.text(ln, fBody, TEXT, y, a, dy); y += 62
-        bars(fr, W / 2, max(y + 260, 1250), ease((t - 1.1) / 0.4), 1.3, (t - 1.1) / 0.9)
-        fr.text('STEADY MONEY', fBrand, NAVY, 1500, 0.9 * ease((t - 1.3) / 0.5))
+        by = max(y + 260, 1250)
+        bars(fr, W / 2, by, ease((t - 1.1) / 0.4), 1.3, (t - 1.1) / 0.9)
+        fr.text('STEADY MONEY', fBrand, NAVY, max(1500, by + 70), 0.9 * ease((t - 1.3) / 0.5))
         return fr
     return draw, 4.0
 
