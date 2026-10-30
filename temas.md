@@ -7,7 +7,7 @@ Status: `pendente` ou `publicado AAAA-MM-DD`. Ordem alterna as trilhas. Base de 
 | 0 | Regra 50/30/20 | Finanças Básico | publicado 2026-07-31 |
 | 0 | Reserva de emergência | Finanças Básico | publicado 2026-08-13 |
 | 1 | Ordem a mercado x ordem limitada | Como Comprar uma Ação na B3 | publicado 2026-10-29 |
-| 2 | Dívida "ruim" x dívida estrutural | Finanças Compacto | pendente |
+| 2 | Dívida "ruim" x dívida estrutural | Finanças Compacto | publicado 2026-10-30 |
 | 3 | CDI, Selic e IPCA em 3 slides | Renda Fixa | pendente |
 | 4 | 5 sinais de pirâmide financeira | Multiplicar Dinheiro com Risco Baixo | pendente |
 | 5 | FII de tijolo x FII de papel | Fundos Imobiliários | pendente |
