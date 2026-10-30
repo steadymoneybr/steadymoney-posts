@@ -104,7 +104,7 @@ def appear(t, start, dur=0.5):
     e = ease((t - start) / dur); return e, (1 - e) * 40
 
 
-fTag = F(DJB, 30); fSub = F(DJB, 38); fBody = F(DJ, 44); fIt = F(LORAI, 54, 'Italic'); fBrand = F(LORA, 44, 'Bold')
+fTag = F(DJB, 30); fSub = F(DJB, 34); fBody = F(DJ, 40); fIt = F(LORAI, 54, 'Italic'); fBrand = F(LORA, 44, 'Bold')
 
 
 def tag(fr, txt, t):
@@ -146,7 +146,7 @@ def inner_scene(s):
     big = clean(s['big']); sub = clean(s.get('sub', '')).upper()
     fB = fit(big, LORA, 'Bold', 150, 80, 940, 2)
     bl = wrap(big, fB, 940); subl = wrap(sub, fSub, 900)
-    bullets = [wrap(clean(b), fBody, 760) for b in s.get('bullets', [])]
+    bullets = [wrap(clean(b), fBody, 780) for b in s.get('bullets', [])]
     foot = clean(s.get('quote') or s.get('cta') or '')
     footf = fIt if s.get('quote') else F(DJB, 44)
     footl = wrap(foot, footf, 900)
