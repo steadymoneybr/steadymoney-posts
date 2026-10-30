@@ -1,5 +1,7 @@
 # Steady Money — rotina diária de posts
 
+> **Tarefa da G5 Delay?** Siga `g5/G5.md` e ignore este arquivo (as regras abaixo são só da Steady Money).
+
 Este repositório guarda as artes dos posts do Instagram/TikTok da Steady Money (@steadymoneybr).
 As imagens ficam públicas via `https://raw.githubusercontent.com/steadymoneybr/steadymoney-posts/main/<caminho>` e o Metricool puxa por esse link.
 

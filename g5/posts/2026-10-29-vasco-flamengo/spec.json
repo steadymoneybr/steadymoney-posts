@@ -1,0 +1,12 @@
+{"comp":"Brasileirão · 33ª rodada","date":"29.10.2026","source":"Sofascore",
+"home":"Vasco","away":"Flamengo","hs":1,"as":4,
+"scorers":{"home":["Lescano 15'"],"away":["Pedro 10', 41'","Samuel Lino 53', 85'"]},
+"kicker":"Clássico dos Milhões",
+"hook":"Mais bola, mais chutes.<br>E quatro gols sofridos.",
+"lead":"O Vasco dominou quase todos os números do jogo. Só não dominou os que importam.",
+"slides":[
+{"type":"bars","tag":"1 de 3 · O domínio","title":"O Vasco teve<br>mais o jogo","rows":[["Posse",56,44,"%"],["Passes",592,481],["Finalizações",15,14],["Entradas no último terço",68,39]]},
+{"type":"bars","tag":"2 de 3 · A diferença","title":"Mas o Flamengo<br>chutou melhor","rows":[["Chutes no gol",2,6],["Grandes chances",1,3],["Chutes dentro da área",8,11],["Chutes de fora da área",7,3]],"note":"7 dos 15 chutes do Vasco foram de fora da área. Volume não é perigo."},
+{"type":"big","tag":"3 de 3 · O número","kicker":"xG no alvo","a":"0,79","b":"2,99","winner":"b","note":"O xG no alvo mede a qualidade dos chutes que foram no gol. O Flamengo criou quase 4x mais perigo real, com menos bola."}
+],
+"cta":"Concorda com a leitura?"}
