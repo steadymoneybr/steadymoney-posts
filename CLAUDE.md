@@ -7,6 +7,8 @@ As imagens ficam públicas via `https://raw.githubusercontent.com/steadymoneybr/
 
 Formato (decidido pelo Vini em 29/10/2026): **Instagram recebe o carrossel; TikTok recebe o vídeo animado do mesmo conteúdo.** Os dois saem às 19h.
 
+Todos os vídeos do TikTok usam a trilha padrão aprovada pelo Vini (`assets/trilha-padrao.m4a`, instrumental leve, 110 BPM, volume baixo). O `tools/video.py` já aplica sozinho. Não trocar a música sem ele pedir.
+
 1. Escolha o primeiro tema com status `pendente` em `temas.md`.
 2. Escreva um carrossel de 4 slides: capa + 3 slides internos (o último com a pergunta para comentar). Os PDFs dos cursos NÃO ficam aqui: este repositório é público, então nunca suba cursos ou material pago. Use conhecimento geral correto e confira fatos que mudam (taxas, regras de IR, limites do FGC) com uma busca na web antes de afirmar.
 3. Crie `posts/AAAA-MM-DD-slug/spec.json` no mesmo formato de `posts/2026-10-29-ordem-mercado-limitada/spec.json` e gere carrossel e vídeo:

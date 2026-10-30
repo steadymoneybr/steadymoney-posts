@@ -191,6 +191,20 @@ def end_scene():
     return draw, 3.0
 
 
+def add_music(out, dur):
+    """Coloca a trilha padrão (assets/trilha-padrao.m4a) baixinha, com fade no final."""
+    import os, shutil
+    track = os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', 'assets', 'trilha-padrao.m4a')
+    if not os.path.exists(track):
+        return
+    tmp = out + '.tmp.mp4'
+    fa = max(0, dur - 2.0)
+    subprocess.run(['ffmpeg', '-y', '-loglevel', 'error', '-i', out, '-stream_loop', '-1', '-i', track,
+                    '-filter_complex', f'[1:a]atrim=0:{dur},afade=t=out:st={fa}:d=2,loudnorm=I=-25:TP=-5:LRA=7[a]',
+                    '-map', '0:v', '-map', '[a]', '-c:v', 'copy', '-c:a', 'aac', '-b:a', '160k', '-shortest', tmp], check=True)
+    shutil.move(tmp, out)
+
+
 def main(spec_path, out):
     spec = json.load(open(spec_path))
     scenes = []
@@ -215,6 +229,7 @@ def main(spec_path, out):
             img = Image.blend(scenes[i1][0](t1).im.convert('RGB'), scenes[i2][0](t2).im.convert('RGB'), eio(t2 / XF))
         p.stdin.write(img.tobytes())
     p.stdin.close(); p.wait()
+    add_music(out, total)
     # quadros de conferência: o fim de cada cena
     for i, (fn, d) in enumerate(scenes):
         fn(d - 0.05).im.convert('RGB').save(out.rsplit('.', 1)[0] + f'-check{i + 1}.jpg', quality=80)
