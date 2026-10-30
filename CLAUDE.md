@@ -5,15 +5,21 @@ As imagens ficam públicas via `https://raw.githubusercontent.com/steadymoneybr/
 
 ## Fluxo diário (tarefa agendada das 11h)
 
+Formato (decidido pelo Vini em 29/10/2026): **Instagram recebe o carrossel; TikTok recebe o vídeo animado do mesmo conteúdo.** Os dois saem às 19h.
+
 1. Escolha o primeiro tema com status `pendente` em `temas.md`.
 2. Escreva um carrossel de 4 slides: capa + 3 slides internos (o último com a pergunta para comentar). Os PDFs dos cursos NÃO ficam aqui: este repositório é público, então nunca suba cursos ou material pago. Use conhecimento geral correto e confira fatos que mudam (taxas, regras de IR, limites do FGC) com uma busca na web antes de afirmar.
-3. Crie `posts/AAAA-MM-DD-slug/spec.json` no mesmo formato de `posts/2026-10-29-ordem-mercado-limitada/spec.json` e renderize:
+3. Crie `posts/AAAA-MM-DD-slug/spec.json` no mesmo formato de `posts/2026-10-29-ordem-mercado-limitada/spec.json` e gere carrossel e vídeo:
    `python3 tools/render.py posts/AAAA-MM-DD-slug/spec.json posts/AAAA-MM-DD-slug`
-4. Abra cada PNG com Read e confira: nada cortado, bullets idealmente em 1 linha (no máximo 2), sem erro de português.
-5. Faça commit e push das imagens (git user: `Claude <noreply@anthropic.com>`), confirme que os links raw respondem 200. **No Metricool use sempre os arquivos `.jpg`** (o render.py gera PNG e JPG): o TikTok recusa PNG e o post falha na hora de publicar.
-6. Crie o post no Metricool (blogId `7725288`) como **rascunho** (`draft: true`) para HOJE às **19:00 America/Sao_Paulo**, providers `instagram` + `tiktok`, `instagramData.type = POST`, `tiktokData` com `title` curto, `privacyOption PUBLIC_TO_EVERYONE`, `autoAddMusic false`.
-7. Envie ao Vini (SendUserFile com os 4 slides + SendUserMessage com a legenda) e peça aprovação. Mensagem curta, sem resumo extra no final.
-8. Quando ele responder "aprovado": `updateScheduledPost` com `draft: false` (mantendo todo o resto). Depois do horário de publicação, se tiver como, confira com `getScheduledPosts` se o status não ficou `ERROR` e avise o Vini se ficou. Se pedir ajuste: ajuste, re-renderize, suba de novo e atualize o post (continua rascunho até aprovar).
+   `python3 tools/video.py posts/AAAA-MM-DD-slug/spec.json posts/AAAA-MM-DD-slug/video.mp4`
+4. Abra cada PNG e cada `video-check*.jpg` com Read e confira: nada cortado ou sobreposto, bullets idealmente em 1 linha (no máximo 2), sem erro de português. Não suba os `video-check*.jpg` (apague antes do commit).
+5. Faça commit e push dos `.jpg` dos slides e do `video.mp4` (git user: `Claude <noreply@anthropic.com>`), confirme que os links raw respondem 200. **No Metricool use sempre os `.jpg`** para imagens: o TikTok recusa PNG.
+6. Crie DOIS posts no Metricool (blogId `7725288`), ambos como **rascunho** (`draft: true`) para HOJE às **19:00 America/Sao_Paulo**:
+   - Instagram: providers `instagram`, media = os 4 `.jpg`, `instagramData.type = POST`.
+   - TikTok: providers `tiktok`, media = o `video.mp4`, `tiktokData` com `title` curto, `privacyOption PUBLIC_TO_EVERYONE`.
+   A legenda é a mesma nos dois.
+7. Envie ao Vini (SendUserFile com os 4 slides e o vídeo + SendUserMessage com a legenda) e peça aprovação. Mensagem curta, sem resumo extra no final.
+8. Quando ele responder "aprovado": `updateScheduledPost` com `draft: false` nos dois posts (mantendo todo o resto). Depois do horário de publicação, se tiver como, confira com `getScheduledPosts` se algum status ficou `ERROR` e avise o Vini se ficou. Se pedir ajuste: ajuste, gere de novo, suba e atualize os posts (continuam rascunho até aprovar).
 9. Marque o tema como `publicado AAAA-MM-DD` em `temas.md` e faça commit/push.
 
 ## Regras da marca (obrigatórias)
