@@ -1,0 +1,12 @@
+{"comp":"Brasileirão · 33ª rodada","date":"30.10.2026","source":"Papo de Bola",
+"home":"Corinthians","away":"Mirassol","hs":2,"as":0,
+"scorers":{"home":["Matheus Bidu 58'","Kaio César 80'"],"away":[]},
+"kicker":"Briga contra o Z-4",
+"hook":"35 chutes contra 1.<br>E o jejum acabou.",
+"lead":"Com um a mais desde o 1º tempo, o Corinthians empurrou o Mirassol pra trás. E voltou a vencer após 10 jogos no Brasileirão.",
+"slides":[
+{"type":"bars","tag":"1 de 3 · O domínio","title":"Um time só<br>em campo","rows":[["Posse",60,40,"%"],["Passes",555,391],["Finalizações",35,1],["Toques na área",37,1]]},
+{"type":"bars","tag":"2 de 3 · A resistência","title":"Mas o gol<br>demorou","rows":[["Chutes no gol",8,0],["Chutes de fora da área",19,1],["Grandes chances",3,0],["Defesas do goleiro",0,6]],"note":"Walter fez 6 defesas, e 19 dos 35 chutes do Corinthians foram de fora da área. O 1º gol só saiu no 2º tempo."},
+{"type":"big","tag":"3 de 3 · O número","kicker":"xG (gols esperados)","a":"2,52","b":"0,03","winner":"a","note":"O Mirassol praticamente não criou. Com a vitória, o Corinthians chega a 36 pontos, ainda no Z-4, a 1 do próprio Mirassol."}
+],
+"cta":"Concorda com a leitura?"}
