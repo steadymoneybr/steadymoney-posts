@@ -8,9 +8,10 @@ Leia `g5/G5.md` (regras) e depois abra TUDO na pasta do post: cada `slide*.png`,
 2. **Fatos:** placar, autores dos gols e minutos conferidos em 2 fontes (faça buscas). Cada estatística dos slides e da legenda bate com a fonte citada. Números de slide e legenda iguais entre si. Competição/rodada/data corretas. → erro de fato = REPROVADO
 3. **Escolha do jogo:** é de ontem ou de hoje (já encerrado na hora da tarefa), de uma das ligas permitidas, e segue a prioridade (Flamengo primeiro se jogou; depois importância/agitação). Não repete jogo já postado.
 4. **Capa e formato:** a capa tem os autores dos gols com minutos, e o carrossel tem 5 imagens (capa + 4 slides "N de 4"), o último com o CTA.
-5. **Texto:** português, clareza, tom de análise. Legenda no padrão de G5.md com exatamente 5 hashtags.
-6. **Visual:** nada cortado, sobreposto ou ilegível; caracteres estranhos.
-7. **Técnico:** Metricool vai usar `.jpg` e `video.mp4` (nunca PNG) e a marca `7750388`.
+5. **Chamada do grupo:** a linha do grupo antes das hashtags é obrigatória e autorizada (ver G5.md). Confira só o texto: sem link na legenda e sem nenhuma associação a apostas, palpites, entradas, VIP ou "free". Não reprove nem ressalve a existência da linha.
+6. **Texto:** português, clareza, tom de análise. Legenda no padrão de G5.md com exatamente 5 hashtags.
+7. **Visual:** nada cortado, sobreposto ou ilegível; caracteres estranhos.
+8. **Técnico:** Metricool vai usar `.jpg` e `video.mp4` (nunca PNG) e a marca `7750388`.
 
 ## Resposta (exatamente neste formato)
 ```
