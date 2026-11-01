@@ -5,9 +5,12 @@
 Este repositório guarda as artes dos posts do Instagram/TikTok da Steady Money (@steadymoneybr).
 As imagens ficam públicas via `https://raw.githubusercontent.com/steadymoneybr/steadymoney-posts/main/<caminho>` e o Metricool puxa por esse link.
 
-## Fluxo diário (tarefa agendada das 11h)
+## Fluxo diário (tarefa agendada das 11h20)
 
-Formato (decidido pelo Vini em 29/10/2026): **Instagram recebe o carrossel; TikTok recebe o vídeo animado do mesmo conteúdo.** Os dois saem às 19h.
+Formato (decidido pelo Vini em 29/10/2026): **Instagram recebe o carrossel; TikTok recebe o vídeo animado do mesmo conteúdo.**
+
+**Horário (decidido pelo Vini em 01/11/2026):** dias úteis às **19:00**; **sábados, domingos e feriados nacionais às 14:00** (America/Sao_Paulo). Em todo este arquivo, "o horário do dia" é esse.
+Feriados nacionais: 02/11/2026, 15/11/2026, 20/11/2026, 25/12/2026, 01/01/2027, 08/02/2027 e 09/02/2027 (Carnaval), 26/03/2027 (Sexta-feira Santa), 21/04/2027, 01/05/2027, 27/05/2027 (Corpus Christi), 07/09/2027, 12/10/2027, 02/11/2027, 15/11/2027, 20/11/2027, 25/12/2027. Atualize a lista no fim de 2027.
 
 Todos os vídeos do TikTok usam a trilha padrão aprovada pelo Vini (`assets/trilha-padrao.m4a`, instrumental leve, 110 BPM, volume baixo). O `tools/video.py` já aplica sozinho. Não trocar a música sem ele pedir.
 
@@ -19,7 +22,7 @@ Todos os vídeos do TikTok usam a trilha padrão aprovada pelo Vini (`assets/tri
 4. Abra cada PNG e cada `video-check*.jpg` com Read e confira: nada cortado ou sobreposto, bullets idealmente em 1 linha (no máximo 2), sem erro de português. Não suba os `video-check*.jpg` (apague antes do commit).
 4b. **Revisão independente (obrigatória):** escreva a legenda em `posts/AAAA-MM-DD-slug/legenda.txt` e chame um agente separado (ferramenta Agent, `subagent_type: general-purpose`) que NÃO viu a criação, passando só: "Siga as instruções de REVISAO.md e revise o post em posts/AAAA-MM-DD-slug/ (repositório em <caminho do clone>)." Se o veredito for AJUSTAR ou REPROVADO, corrija, gere de novo e rode a revisão outra vez (no máximo 3 rodadas). Se depois de 3 rodadas ainda houver problema, siga em frente e avise o Vini do que ficou pendente. Na mensagem de aprovação, inclua uma linha "✅ Revisado" (ou o que o revisor apontou e não foi resolvido). Se a ferramenta Agent não existir na sessão, faça você mesmo a revisão do REVISAO.md item por item antes de enviar.
 5. Faça commit e push dos `.jpg` dos slides e do `video.mp4` (git user: `Claude <noreply@anthropic.com>`), confirme que os links raw respondem 200. **No Metricool use sempre os `.jpg`** para imagens: o TikTok recusa PNG.
-6. Crie DOIS posts no Metricool (blogId `7725288`), ambos como **rascunho** (`draft: true`) para HOJE às **19:00 America/Sao_Paulo**:
+6. Crie DOIS posts no Metricool (blogId `7725288`), ambos como **rascunho** (`draft: true`) para HOJE no **horário do dia** (19:00 em dia útil, 14:00 em fim de semana/feriado, America/Sao_Paulo):
    - Instagram: providers `instagram`, media = os 6 `.jpg` na ordem, `instagramData.type = POST`.
    - TikTok: providers `tiktok`, media = o `video.mp4`, `tiktokData` com `title` curto, `privacyOption PUBLIC_TO_EVERYONE`.
    A legenda é a mesma nos dois.
