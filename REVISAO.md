@@ -21,7 +21,8 @@ Abra e leia TUDO: cada slide e cada quadro do vídeo com a ferramenta de leitura
 ### 3. Texto
 - Erros de português, acentuação, concordância.
 - Tom: simples, direto, informal ("pra", "você"). Sem jargão sem explicação.
-- Legenda segue o padrão do CLAUDE.md: abertura com 👆, pontos 1️⃣ 2️⃣ 3️⃣, frase de fechamento, "💬 Comenta aí:", "Salva esse post pra … 📎", exatamente 5 hashtags em CamelCase com acento, sem disclaimer no final.
+- Carrossel tem 6 slides (capa + 5 internos "N DE 5"), o último com a pergunta.
+- Legenda segue o padrão do CLAUDE.md: abertura com 👆, pontos 1️⃣ a 5️⃣ (um por slide interno), frase de fechamento, "💬 Comenta aí:", "Salva esse post pra … 📎", exatamente 5 hashtags em CamelCase com acento, sem disclaimer no final.
 - Slides e legenda dizem a mesma coisa (sem contradição).
 
 ### 4. Visual
