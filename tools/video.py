@@ -153,6 +153,8 @@ def inner_scene(s):
     footf = fIt if s.get('quote') else F(DJB, 44)
     footl = wrap(foot, footf, 900)
     nb = len(bullets)
+    bw = max([fBody.getlength(ln) for b in bullets for ln in b] or [0])
+    bx = int(max(120, (W - (50 + bw)) / 2))  # bloco de bullets centralizado (longe dos botões do TikTok)
     dur = 3.2 + 0.55 * nb
 
     def draw(t):
@@ -167,9 +169,9 @@ def inner_scene(s):
         fr.rect((170, y, 910, y + 2), LINE, ease((t - 0.6) / 0.4)); y += 60
         for i, lines in enumerate(bullets):
             a, dy = appear(t, 0.9 + i * 0.5)
-            fr.rect((175, y + 18, 193, y + 36), GOLD, a, r=9)
+            fr.rect((bx, y + 18, bx + 18, y + 36), GOLD, a, r=9)
             for ln in lines:
-                fr.text(ln, fBody, TEXT, y, a, dy, x=225); y += 58
+                fr.text(ln, fBody, TEXT, y, a, dy, x=bx + 50); y += 58
             y += 34
         y += 30
         fs = 0.9 + nb * 0.5 + 0.3
