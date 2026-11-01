@@ -1,0 +1,12 @@
+{"comp":"Bundesliga · 8ª rodada","date":"31.10.2026","source":"Bundesliga (DFL) / ZDF",
+"home":"Bayern","away":"Dortmund","hs":2,"as":2,
+"scorers":{"home":["Laimer 38'","Upamecano 66'"],"away":["Guirassy 60'","Fábio Silva 89'"]},
+"kicker":"Der Klassiker",
+"hook":"4 bolas no alumínio.<br>E o empate no fim.",
+"lead":"O Bayern criou muito mais, perdeu pênalti com Kane e levou o 2 a 2 aos 44 do 2º tempo.",
+"slides":[
+{"type":"bars","tag":"1 de 3 · O domínio","title":"O Bayern foi<br>muito mais time","rows":[["Posse",54,46,"%"],["Finalizações",23,12],["Passes",603,486],["Escanteios",5,2]]},
+{"type":"bars","tag":"2 de 3 · A resistência","title":"Mas o Dortmund<br>ganhou no corpo","rows":[["Duelos ganhos",43,57,"%"],["Faltas cometidas",11,6],["Cartões amarelos",2,1]],"note":"O BVB venceu 57% das divididas e cometeu só 6 faltas, contra 11 do Bayern."},
+{"type":"big","tag":"3 de 3 · O número","kicker":"xG (gols esperados) · Dados DFL","a":"4,83","b":"0,70","winner":"a","note":"Quase 7x mais perigo criado. Mas o Bayern parou 4 vezes no alumínio, uma delas no pênalti de Kane aos 56'. Os dois seguem invictos, com 18 pontos."}
+],
+"cta":"Foi azar ou faltou pontaria?"}
