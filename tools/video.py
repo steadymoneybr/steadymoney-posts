@@ -145,39 +145,29 @@ def cover_scene(s):
 
 
 def inner_scene(s):
+    """Versão vídeo: só o essencial (palavra grande, subtítulo e frase final). Os bullets ficam no carrossel."""
     big = clean(s['big']); sub = clean(s.get('sub', '')).upper()
     fB = fit(big, LORA, 'Bold', 150, 80, 940, 2)
     bl = wrap(big, fB, 940); subl = wrap(sub, fSub, 900)
-    bullets = [wrap(clean(b), fBody, 780) for b in s.get('bullets', [])]
     foot = clean(s.get('quote') or s.get('cta') or '')
-    footf = fIt if s.get('quote') else F(DJB, 44)
+    footf = F(LORAI, 64, 'Italic') if s.get('quote') else F(DJB, 50)
     footl = wrap(foot, footf, 900)
-    nb = len(bullets)
-    bw = max([fBody.getlength(ln) for b in bullets for ln in b] or [0])
-    bx = int(max(120, (W - (50 + bw)) / 2))  # bloco de bullets centralizado (longe dos botões do TikTok)
-    dur = 3.2 + 0.55 * nb
+    words = len((big + ' ' + sub + ' ' + foot).split())
+    dur = max(3.6, 1.3 + words * 0.19)  # tempo de leitura confortável
 
     def draw(t):
         fr = Fr(); tag(fr, s.get('tag', ''), t)
-        y = 440
+        y = 560
         for ln in bl:
             a, dy = appear(t, 0.25); fr.text(ln, fB, NAVY, y, a, dy); y += int(fB.size * 1.15)
-        y += 20
-        for ln in subl:
-            a, dy = appear(t, 0.45); fr.text(ln, fSub, NAVY, y, a, dy, spacing=2); y += 54
-        y += 40
-        fr.rect((170, y, 910, y + 2), LINE, ease((t - 0.6) / 0.4)); y += 60
-        for i, lines in enumerate(bullets):
-            a, dy = appear(t, 0.9 + i * 0.5)
-            fr.rect((bx, y + 18, bx + 18, y + 36), GOLD, a, r=9)
-            for ln in lines:
-                fr.text(ln, fBody, TEXT, y, a, dy, x=bx + 50); y += 58
-            y += 34
         y += 30
-        fs = 0.9 + nb * 0.5 + 0.3
+        for ln in subl:
+            a, dy = appear(t, 0.5); fr.text(ln, fSub, GOLD, y, a, dy, spacing=3); y += 54
+        y += 70
+        fr.rect((390, y, 690, y + 3), LINE, ease((t - 0.8) / 0.4)); y += 90
         for ln in footl:
-            a, dy = appear(t, fs); fr.text(ln, footf, MUTED if s.get('quote') else NAVY, y, a, dy); y += int(footf.size * 1.35)
-        fr.text('STEADY MONEY', fBrand, NAVY, max(1500, y + 40), 0.9)
+            a, dy = appear(t, 1.1); fr.text(ln, footf, MUTED if s.get('quote') else NAVY, y, a, dy); y += int(footf.size * 1.35)
+        fr.text('STEADY MONEY', fBrand, NAVY, 1500, 0.9)
         return fr
     return draw, dur
 
@@ -189,8 +179,8 @@ def end_scene():
         fr = Fr()
         bars(fr, W / 2, 760, ease(t / 0.4), 1.8, t / 0.9)
         a, dy = appear(t, 0.6); fr.text('STEADY MONEY', fM, NAVY, 820, a, dy)
-        a, dy = appear(t, 1.0); fr.text('Educação financeira', fBody, TEXT, 1000, a, dy)
-        fr.text('sem enrolação. Segue a gente.', fBody, TEXT, 1062, a, dy)
+        a, dy = appear(t, 1.0); fr.text('Educação financeira sem enrolação.', fBody, TEXT, 1000, a, dy)
+        fr.text('Segue a gente.', fBody, TEXT, 1062, a, dy)
         return fr
     return draw, 3.0
 
@@ -207,6 +197,43 @@ def add_music(out, dur):
                     '-filter_complex', f'[1:a]atrim=0:{dur},afade=t=out:st={fa}:d=2,loudnorm=I=-25:TP=-5:LRA=7[a]',
                     '-map', '0:v', '-map', '[a]', '-c:v', 'copy', '-c:a', 'aac', '-b:a', '160k', '-shortest', tmp], check=True)
     shutil.move(tmp, out)
+
+
+def hook_clip(h, out):
+    """Abertura com cena de IA (spec["hook"]): cena 9:16 cortada (tira marca d'água do topo), degradê escuro,
+    etiqueta dourada, título em Lora branco e 2ª linha em Lora itálico dourado-claro."""
+    import os, tempfile
+    from PIL import ImageFilter
+    root = os.path.join(os.path.dirname(os.path.abspath(__file__)), '..')
+    clip = os.path.join(root, h['clip']); tmp = tempfile.mkdtemp()
+    g = Image.new('RGBA', (W, H), (0, 0, 0, 0)); d = ImageDraw.Draw(g)
+    for y in range(1000):
+        d.line([(0, y), (W, y)], fill=(15, 22, 36, int(235 * (1 - y / 1000) ** 1.3)))
+    g.save(f'{tmp}/g.png')
+
+    def layer(txt, f, col, y, sp=0, name='x', rule=False):
+        im = Image.new('RGBA', (W, H), (0, 0, 0, 0)); sh = im.copy()
+        for tgt, c, o in ((sh, (0, 0, 0, 170), 5), (im, col + (255,), 0)):
+            dd = ImageDraw.Draw(tgt)
+            w = sum(dd.textlength(ch, font=f) + sp for ch in txt) - sp; x = (W - w) / 2
+            for ch in txt:
+                dd.text((x, y + o), ch, font=f, fill=c); x += dd.textlength(ch, font=f) + sp
+        im = Image.alpha_composite(sh.filter(ImageFilter.GaussianBlur(8)), im)
+        if rule:
+            ImageDraw.Draw(im).rectangle((W / 2 - 60, y + 52, W / 2 + 60, y + 55), fill=col + (255,))
+        im.save(f'{tmp}/{name}.png')
+    layer(h.get('kicker', '').upper(), F(DJB, 32), (217, 182, 106), 170, 8, 'k', True)
+    fl1 = fit(h['l1'], LORA, 'Bold', 104, 70, 960, 1); layer(h['l1'], fl1, CREAM, 270, 0, 'a')
+    fl2 = fit(h.get('l2', ''), LORAI, 'Italic', 96, 64, 960, 1); layer(h.get('l2', ''), fl2, (240, 214, 150), 400, 0, 'b')
+    dur = float(h.get('dur', 5.0)); t2 = float(h.get('l2_at', 2.5))
+    fc = (f'[0:v]scale=-2:2060,crop=1080:1920:(iw-1080)/2:ih-1920,fps={FPS},trim=0:{dur},setpts=PTS-STARTPTS[v];'
+          f'[2]format=rgba,fade=in:st=0.2:d=0.4:alpha=1[k];[3]format=rgba,fade=in:st=0.5:d=0.5:alpha=1[a];'
+          f'[4]format=rgba,fade=in:st={t2}:d=0.4:alpha=1[b];[v][1]overlay[v1];[v1][k]overlay[v2];[v2][a]overlay[v3];'
+          f'[v3][b]overlay,format=yuv420p[o]')
+    subprocess.run(['ffmpeg', '-y', '-loglevel', 'error', '-i', clip] + sum([['-loop', '1', '-i', f'{tmp}/{n}.png'] for n in 'gkab'], []) +
+                   ['-filter_complex', fc, '-map', '[o]', '-t', str(dur), '-an', '-c:v', 'libx264', '-preset', 'veryfast',
+                    '-crf', '20', '-r', str(FPS), out], check=True)
+    return dur
 
 
 def main(spec_path, out):
@@ -233,6 +260,17 @@ def main(spec_path, out):
             img = Image.blend(scenes[i1][0](t1).im.convert('RGB'), scenes[i2][0](t2).im.convert('RGB'), eio(t2 / XF))
         p.stdin.write(img.tobytes())
     p.stdin.close(); p.wait()
+    if spec.get('hook'):  # abertura com cena de IA na frente do vídeo
+        import os, shutil
+        hk = out + '.hook.mp4'; body = out + '.body.mp4'; shutil.move(out, body)
+        total += hook_clip(spec['hook'], hk)
+        lst = out + '.txt'; open(lst, 'w').write(f"file '{os.path.abspath(hk)}'\nfile '{os.path.abspath(body)}'\n")
+        subprocess.run(['ffmpeg', '-y', '-loglevel', 'error', '-f', 'concat', '-safe', '0', '-i', lst, '-c', 'copy',
+                        '-movflags', '+faststart', out], check=True)
+        for f_ in (hk, body, lst):
+            os.remove(f_)
+        fr = out.rsplit('.', 1)[0] + '-check0.jpg'
+        subprocess.run(['ffmpeg', '-y', '-loglevel', 'error', '-ss', '3.5', '-i', out, '-frames:v', '1', fr], check=True)
     add_music(out, total)
     # quadros de conferência: o fim de cada cena
     for i, (fn, d) in enumerate(scenes):

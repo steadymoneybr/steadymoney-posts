@@ -30,6 +30,14 @@ Todos os vídeos do TikTok usam a trilha padrão aprovada pelo Vini (`assets/tri
 8. Quando ele responder "aprovado": `updateScheduledPost` com `draft: false` nos dois posts (mantendo todo o resto). Depois do horário de publicação, se tiver como, confira com `getScheduledPosts` se algum status ficou `ERROR` e avise o Vini se ficou. Se pedir ajuste: ajuste, gere de novo, suba e atualize os posts (continuam rascunho até aprovar).
 9. Marque o tema como `publicado AAAA-MM-DD` em `temas.md` e faça commit/push.
 
+## Vídeo do TikTok: formato aprovado pelo Vini em 02/11/2026
+
+- **Slides do vídeo enxutos:** o `tools/video.py` mostra só palavra grande + subtítulo + frase final (os bullets ficam só no carrossel), com tempo de leitura automático (~4s por slide). Final: "Educação financeira sem enrolação." / "Segue a gente.". Não mudar sem ele pedir.
+- **Abertura com cena de IA (gancho de ~5s):** as cenas ficam em `assets/cenas/` (vídeos 9:16 gerados pelo Vini no PixVerse/Veo; o nome do arquivo diz o tema, ex.: `sm-piramide-desmoronando.mp4`). Se existir uma cena que combine com o tema do dia, adicione no `spec.json`:
+  `"hook": {"clip": "assets/cenas/<arquivo>.mp4", "kicker": "<etiqueta curta, 2-3 palavras>", "l1": "<frase curta>", "l2": "<virada curta>"}`
+  O `video.py` corta a marca d'água do topo, aplica degradê, etiqueta dourada, `l1` em Lora branco e `l2` em itálico dourado (aparece aos 2,5s). Padrão aprovado: kicker "Alerta de golpe", l1 "Parece ótimo.", l2 "Até desmoronar.". Cada linha precisa caber em 1 linha (máx. ~18 caracteres); tom de manchete, nada de texto amador ou caixa colorida. Confira o `video-check0.jpg` (a cena não pode brigar com o texto).
+  Se nenhuma cena combinar, faça o vídeo sem `hook` e, na mensagem ao Vini, mande 1 prompt pronto para ele gerar a cena no PixVerse (inglês, assunto → ação → câmera → estilo "cute 3D animation", 9:16, 5s, negative prompt: `text, letters, words, logos, watermark, brand names, realistic human faces, blurry, distorted, low quality`) com o nome de arquivo sugerido `sm-<tema>.mp4`.
+
 ## Regras da marca (obrigatórias)
 
 - Conteúdo 100% educativo. Nunca recomendar ativo, corretora, fundo ou aposta. Nunca prometer lucro ou rendimento.
