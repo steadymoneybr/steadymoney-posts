@@ -9,7 +9,7 @@ Status: `pendente` ou `publicado AAAA-MM-DD`. Ordem alterna as trilhas. Base de 
 | 1 | Ordem a mercado x ordem limitada | Como Comprar uma Ação na B3 | publicado 2026-10-29 |
 | 2 | Dívida "ruim" x dívida estrutural | Finanças Compacto | publicado 2026-10-30 |
 | 3 | CDI, Selic e IPCA em 3 slides | Renda Fixa | publicado 2026-11-01 |
-| 4 | 5 sinais de pirâmide financeira | Multiplicar Dinheiro com Risco Baixo | pendente |
+| 4 | 5 sinais de pirâmide financeira | Multiplicar Dinheiro com Risco Baixo | publicado 2026-11-02 |
 | 5 | FII de tijolo x FII de papel | Fundos Imobiliários | pendente |
 | 6 | PGBL ou VGBL? Depende da sua declaração | Previdência Privada | pendente |
 | 7 | 5 perguntas antes de qualquer investimento | Finanças Intermediário | pendente |
