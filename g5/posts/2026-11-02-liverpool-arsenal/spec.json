@@ -1,0 +1,13 @@
+{"comp":"Premier League · 9ª rodada","date":"01.11.2026","source":"Opta / FotMob / ESPN",
+"home":"Liverpool","away":"Arsenal","hs":0,"as":1,
+"scorers":{"home":[],"away":["Havertz 16'"]},
+"kicker":"Jejum quebrado em Anfield",
+"hook":"17 chutes, nenhum no gol.<br>E deu Arsenal.",
+"lead":"O Liverpool pressionou o jogo todo, mas o gol de Havertz deu ao Arsenal a liderança da Premier League.",
+"slides":[
+{"type":"bars","tag":"1 de 4 · A pressão","title":"O Liverpool<br>teve a bola","rows":[["Posse",56,44,"%"],["Finalizações",17,10]],"note":"Só no 1º tempo, foram 28 toques na área do Arsenal: o maior número de um time contra o Arsenal num 1º tempo de Premier League desde 2008-09 (Opta)."},
+{"type":"big","tag":"2 de 4 · O número","kicker":"Os chutes do Liverpool","a":"17","la":"Finalizações","b":"0","lb":"No gol","winner":"b","note":"Pela 1ª vez em 442 jogos de Premier League em Anfield desde 2003-04 (Opta), o Liverpool terminou sem nenhum chute no gol. Wirtz ainda mandou uma falta no travessão."},
+{"type":"big","tag":"3 de 4 · O jejum","kicker":"Vitória do Arsenal em Anfield pela liga","a":"2012","la":"A anterior","b":"2026","lb":"Domingo","winner":"b","note":"Antes de domingo, o Arsenal não vencia o Liverpool em Anfield pela liga desde setembro de 2012. Com Arteta, pela liga, eram 3 derrotas e 3 empates por lá."},
+{"type":"big","tag":"4 de 4 · A tabela","kicker":"Pontos na Premier League","a":"15","la":"Liverpool","b":"24","lb":"Arsenal","winner":"b","note":"O Arsenal assume a liderança, 3 pontos à frente do Manchester City. O Liverpool segue em 5º, 9 atrás."}
+],
+"cta":"Faltou pontaria?"}
