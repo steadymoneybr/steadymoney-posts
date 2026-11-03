@@ -21,3 +21,7 @@ Pendentes (o Vini estourou o limite do Gemini e vai terminar quando liberar):
 Notas técnicas: recorte por chroma (verdor g-max(r,b)); limpar manchas claras no topo de P12/O09;
 poeira da P13 e folha da maçã da O11 ficam semitransparentes (animar poeira à parte).
 Vistas 2-4 (3/4, perfil, costas) foram abandonadas: o Gemini não gira bem o boneco.
+
+## Simulação (03/11/2026)
+`tools/steady_video.py` gera o piloto (47s, só legenda + trilha padrão). O Vini aprovou o estilo ("ficou ótimo").
+Próximos passos: ele termina P18/P10 (e o ajuste da P19), depois decidir a narração.
