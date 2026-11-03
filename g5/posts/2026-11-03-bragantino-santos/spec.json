@@ -1,0 +1,13 @@
+{"comp":"Brasileirão · 34ª rodada","date":"02.11.2026","source":"RB Bragantino / 365Scores / Gazeta Esportiva",
+"home":"Bragantino","away":"Santos","hs":2,"as":1,
+"scorers":{"home":["Rodinei (contra) 3'","Wallace Yan 40'"],"away":["Coutinho 37'"]},
+"kicker":"Confronto direto",
+"hook":"Três gols em 40 minutos.<br>E troca de lugar na tabela.",
+"lead":"Os dois chegaram colados na tabela. O Bragantino resolveu tudo no 1º tempo e passou o Santos.",
+"slides":[
+{"type":"bars","tag":"1 de 4 · A tabela","title":"Mesmos 47 pontos.<br>Bragantino na frente.","rows":[["Pontos",47,47],["Vitórias",13,12],["Gols sofridos",39,49],["Saldo de gols",5,1]],"note":"Empatados em pontos, o desempate foi nas vitórias (13 a 12): o Bragantino sobe para 8º e o Santos cai para 9º."},
+{"type":"big","tag":"2 de 4 · O jogo","kicker":"Os gols da partida","a":"3","la":"Até os 40' do 1º tempo","b":"0","lb":"No 2º tempo","winner":"a","note":"Rodinei (contra) aos 3', Coutinho aos 37' e Wallace Yan, de cabeça, aos 40'. Depois disso, o placar não mudou mais."},
+{"type":"big","tag":"3 de 4 · A sequência","kicker":"Jogos seguidos","a":"2","la":"Bragantino vencendo","b":"3","lb":"Santos sem vencer","winner":"a","note":"O Bragantino vinha de 3 a 0 na Chapecoense. O Santos vinha de empates com Bahia e Palmeiras e agora perdeu."},
+{"type":"big","tag":"4 de 4 · A briga","kicker":"Pontos atrás do Bahia (6º)","a":"6","la":"Bragantino","b":"6","lb":"Santos","note":"O Bahia tem 53 pontos e um jogo a menos. Próximos: Vitória x Bragantino (19/11) e Coritiba x Santos (18/11)."}
+],
+"cta":"O Santos ainda reage?"}
