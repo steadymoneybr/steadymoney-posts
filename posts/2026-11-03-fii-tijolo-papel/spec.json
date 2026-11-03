@@ -1,0 +1,75 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "tag": "Educação Financeira",
+   "title": "FII de tijolo<br>x FII de papel",
+   "sub": "Dois jeitos de investir no<br>setor imobiliário pela bolsa."
+  },
+  {
+   "type": "inner",
+   "tag": "1 de 5 — FII de tijolo x papel",
+   "big": "FII",
+   "sub": "Fundo de investimento imobiliário",
+   "bullets": [
+    "Você compra cotas do fundo na bolsa",
+    "O fundo aplica no setor imobiliário",
+    "Um gestor cuida do dia a dia",
+    "Muitos pagam rendimentos todo mês"
+   ],
+   "quote": "Um pedacinho de imóvel<br>sem comprar o imóvel."
+  },
+  {
+   "type": "inner",
+   "tag": "2 de 5 — FII de tijolo x papel",
+   "big": "Tijolo",
+   "sub": "Dono de imóveis de verdade",
+   "bullets": [
+    "Galpões, shoppings, escritórios",
+    "A renda vem do aluguel dos inquilinos",
+    "Contratos costumam ter reajuste anual",
+    "O valor dos imóveis também oscila"
+   ],
+   "quote": "Aqui você vira sócio<br>do aluguel."
+  },
+  {
+   "type": "inner",
+   "tag": "3 de 5 — FII de tijolo x papel",
+   "big": "Papel",
+   "sub": "Credor do setor imobiliário",
+   "bullets": [
+    "Aplica em CRI, um título de dívida",
+    "A renda vem dos juros desses títulos",
+    "Juros em geral ligados ao CDI ou IPCA",
+    "Não é dono de imóvel nenhum"
+   ],
+   "quote": "Aqui você empresta,<br>não compra."
+  },
+  {
+   "type": "inner",
+   "tag": "4 de 5 — FII de tijolo x papel",
+   "big": "Riscos",
+   "sub": "Nenhum dos dois é garantido",
+   "bullets": [
+    "Tijolo: imóvel vazio ou inquilino que sai",
+    "Papel: devedor que não paga o CRI",
+    "A cota sobe e desce todo dia na bolsa",
+    "Não tem cobertura do FGC"
+   ],
+   "quote": "Rendimento mensal não é<br>rendimento garantido."
+  },
+  {
+   "type": "inner",
+   "tag": "5 de 5 — FII de tijolo x papel",
+   "big": "Na prática",
+   "sub": "Como comparar antes de escolher",
+   "bullets": [
+    "Veja se o fundo é de tijolo ou papel",
+    "Leia o relatório gerencial do fundo",
+    "Tijolo: confira a vacância dos imóveis",
+    "Papel: confira quem são os devedores"
+   ],
+   "cta": "💬 <b>Comenta aqui embaixo:</b><br>você já sabia a diferença<br>entre tijolo e papel?"
+  }
+ ]
+}
