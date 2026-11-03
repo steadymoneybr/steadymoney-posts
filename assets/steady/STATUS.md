@@ -25,3 +25,8 @@ Vistas 2-4 (3/4, perfil, costas) foram abandonadas: o Gemini não gira bem o bon
 ## Simulação (03/11/2026)
 `tools/steady_video.py` gera o piloto (47s, só legenda + trilha padrão). O Vini aprovou o estilo ("ficou ótimo").
 Próximos passos: ele termina P18/P10 (e o ajuste da P19), depois decidir a narração.
+
+## Narração (decidido pelo Vini em 03/11/2026)
+Quando ele mandar as poses restantes (P18, P10 e o ajuste da P19): montar o piloto em 2 versões para comparar,
+(a) só legenda + trilha padrão e (b) com voz de IA (ex.: ElevenLabs; ele precisa passar a chave de API).
+Se usar voz de IA, marcar o vídeo como conteúdo de IA no TikTok (isAigc).
