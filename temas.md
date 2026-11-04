@@ -10,7 +10,7 @@ Status: `pendente` ou `publicado AAAA-MM-DD`. Ordem alterna as trilhas. Base de 
 | 2 | Dívida "ruim" x dívida estrutural | Finanças Compacto | publicado 2026-10-30 |
 | 3 | CDI, Selic e IPCA em 3 slides | Renda Fixa | publicado 2026-11-01 |
 | 4 | 5 sinais de pirâmide financeira | Multiplicar Dinheiro com Risco Baixo | publicado 2026-11-02 |
-| 5 | FII de tijolo x FII de papel | Fundos Imobiliários | pendente |
+| 5 | FII de tijolo x FII de papel | Fundos Imobiliários | publicado 2026-11-03 |
 | 6 | PGBL ou VGBL? Depende da sua declaração | Previdência Privada | pendente |
 | 7 | 5 perguntas antes de qualquer investimento | Finanças Intermediário | pendente |
 | 8 | Patrimônio líquido: a conta que ninguém faz | Finanças Compacto | pendente |
