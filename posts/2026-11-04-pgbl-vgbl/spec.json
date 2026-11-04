@@ -1,0 +1,75 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "tag": "Educação Financeira",
+   "title": "PGBL ou VGBL?",
+   "sub": "A resposta depende do jeito<br>que você declara o IR."
+  },
+  {
+   "type": "inner",
+   "tag": "1 de 5 — PGBL ou VGBL",
+   "big": "Previdência",
+   "sub": "Dois planos, duas lógicas de imposto",
+   "bullets": [
+    "Os dois são planos de previdência privada",
+    "Feitos pra juntar dinheiro no longo prazo",
+    "Os produtos por dentro podem ser parecidos",
+    "A grande diferença está no IR"
+   ],
+   "quote": "Mesmo objetivo,<br>imposto diferente."
+  },
+  {
+   "type": "inner",
+   "tag": "2 de 5 — PGBL ou VGBL",
+   "big": "PGBL",
+   "sub": "Abate até 12% da renda tributável",
+   "bullets": [
+    "Só vale na declaração completa do IR",
+    "Precisa pagar INSS ou regime próprio, ou ser aposentado",
+    "Você paga menos IR hoje, no ano do aporte",
+    "No resgate, o IR incide sobre o valor total"
+   ],
+   "quote": "O imposto não some:<br>fica pra depois."
+  },
+  {
+   "type": "inner",
+   "tag": "3 de 5 — PGBL ou VGBL",
+   "big": "VGBL",
+   "sub": "Não abate nada na declaração",
+   "bullets": [
+    "Não reduz o seu IR no ano do aporte",
+    "No resgate, o IR incide só sobre o rendimento",
+    "O que você aportou volta sem imposto",
+    "Comum pra quem faz a simplificada"
+   ],
+   "quote": "Sem desconto agora,<br>IR só sobre o rendimento."
+  },
+  {
+   "type": "inner",
+   "tag": "4 de 5 — PGBL ou VGBL",
+   "big": "Exemplo",
+   "sub": "Renda tributável de R$ 100 mil no ano",
+   "bullets": [
+    "Com PGBL, dá pra abater até R$ 12 mil",
+    "Aporte acima disso não gera desconto",
+    "Na simplificada, o PGBL não abate nada",
+    "Aí o VGBL costuma fazer mais sentido"
+   ],
+   "quote": "O limite dos 12%<br>é anual."
+  },
+  {
+   "type": "inner",
+   "tag": "5 de 5 — PGBL ou VGBL",
+   "big": "Na prática",
+   "sub": "O que olhar antes de escolher",
+   "bullets": [
+    "Veja qual modelo de declaração você usa",
+    "Some a sua renda tributável do ano",
+    "Compare as taxas de administração",
+    "Escolha a tabela: progressiva ou regressiva"
+   ],
+   "cta": "💬 <b>Comenta aqui embaixo:</b><br>você faz a declaração<br>completa ou simplificada?"
+  }
+ ]
+}
