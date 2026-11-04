@@ -1,0 +1,13 @@
+{"comp":"Champions League · 4ª rodada","date":"03.11.2026","source":"ESPN / The Analyst (Opta) / Goal",
+"home":"Man United","away":"Roma","hs":3,"as":2,
+"scorers":{"home":["Bruno Fernandes (pên.) 58'","Cunha 83', 86'"],"away":["Soulé 11'","Malen (pên.) 17'"]},
+"kicker":"Virada em Old Trafford",
+"hook":"2 a 0 Roma no intervalo.<br>3 a 2 United no fim.",
+"lead":"A Roma abriu dois gols em 17 minutos. O United virou no 2º tempo, com dois gols de Cunha em três minutos.",
+"slides":[
+{"type":"bars","tag":"1 de 4 · A pressão","title":"O United foi<br>pra cima","rows":[["Finalizações",15,7],["Chutes no gol",6,4],["Toques na área rival",30,8],["Escanteios",3,1]],"note":"Com a posse quase dividida (52% a 48%), o United chutou mais que o dobro da Roma."},
+{"type":"big","tag":"2 de 4 · O número","kicker":"xG do United por tempo","a":"0,24","la":"1º tempo","b":"2,48","lb":"2º tempo","winner":"b","note":"O xG mede a qualidade das chances criadas. Quase todo o perigo do United veio depois do intervalo."},
+{"type":"big","tag":"3 de 4 · O personagem","kicker":"Matheus Cunha","a":"2","la":"Gols (83' e 86')","b":"1","lb":"Expulsão (90'+1')","winner":"a","note":"Dois gols em três minutos para virar o jogo. O 1º amarelo veio por tirar a camisa na comemoração; o 2º, num carrinho atrasado."},
+{"type":"big","tag":"4 de 4 · O contexto","kicker":"Pontos após 4 rodadas","a":"6","la":"Man United","b":"4","lb":"Roma","winner":"a","note":"O United vinha de 9 jogos sem vencer. E é a 4ª vez que vence na Champions depois de estar 2 gols atrás, recorde igualado com o Real Madrid."}
+],
+"cta":"Virada ou apagão?"}

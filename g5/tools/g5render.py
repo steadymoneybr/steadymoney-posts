@@ -171,7 +171,8 @@ async def render(spec_path):
         k = 0
         listing = []
         for i, body in enumerate(pages):
-            await pv.set_content(doc(body, 1920, 380)); await pv.wait_for_timeout(250)
+            vbody = body.replace('<span>Arrasta pro lado →</span>', '<span>G5 Delay</span>') if i == 0 else body
+            await pv.set_content(doc(vbody, 1920, 380)); await pv.wait_for_timeout(250)
             for f in range(anim):
                 t = (f + 1) / anim
                 e = 1 - (1 - t) ** 3
