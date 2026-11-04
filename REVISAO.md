@@ -28,7 +28,7 @@ Abra e leia TUDO: cada slide e cada quadro do vídeo com a ferramenta de leitura
 ### 4. Visual
 - Algum texto cortado, sobreposto, saindo da área ou com quebra de linha feia?
 - Bullets com mais de 2 linhas?
-- Título de comparação (A x B) com o "x" sozinho na linha do meio, em 3 linhas simétricas? Se o "x" estiver colado em uma das linhas → AJUSTAR.
+- Título de comparação (A x B): se cabe em 1 linha, pode ficar junto; se quebra linha, o "x" tem que estar sozinho na linha do meio (3 linhas simétricas). "x" colado numa linha quebrada → AJUSTAR.
 - Emoji ou caractere aparecendo como quadrado/vazio?
 - O vídeo tem as mesmas informações do carrossel?
 

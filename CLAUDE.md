@@ -50,7 +50,7 @@ Todos os vídeos do TikTok usam a trilha padrão aprovada pelo Vini (`assets/tri
 - Fundo creme `#FBF9F4`, azul-marinho `#1B2A41`, dourado `#9C7A3C`, divisórias `#DED8C9`.
 - Títulos em Lora Bold; textos em DejaVu Sans; frase de fechamento em Lora itálico cinza.
 - Capa: etiqueta "EDUCAÇÃO FINANCEIRA", título serifado grande, subtítulo de 2 linhas, logo de barras, "Arraste para o lado →", "STEADY MONEY".
-- **Títulos de comparação (decidido pelo Vini em 03/11/2026, vale sempre):** quando o título comparar duas coisas, o "x" fica sozinho numa linha do meio, em 3 linhas simétricas. Ex.: `"title": "FII de tijolo<br>x<br>FII de papel"`. Nunca "FII de tijolo<br>x FII de papel". Vale para a capa do carrossel e do vídeo.
+- **Títulos de comparação (decidido pelo Vini em 03/11/2026, vale sempre):** quando o título comparar duas coisas e couber inteiro em 1 linha, pode ficar tudo junto (ex.: `"Papel x Tijolo"`). Se precisar quebrar linha, o "x" fica sozinho na linha do meio, em 3 linhas simétricas (ex.: `"FII de tijolo<br>x<br>FII de papel"`). Nunca deixar o "x" colado numa das linhas quebradas (ex.: "FII de tijolo<br>x FII de papel"). Vale para a capa do carrossel e do vídeo.
 - Slides internos: etiqueta "N DE 5 — TEMA", palavra/número grande, subtítulo em caixa alta, 3–4 bullets dourados, frase em itálico (slides 2 a 5) ou CTA "💬 Comenta aqui embaixo:" (slide 6).
 
 ## Padrão da legenda (igual aos posts já publicados)
