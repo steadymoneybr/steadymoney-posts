@@ -13,7 +13,7 @@ O01 moeda, O02 pilha de moedas, O03 nota, O06 cofrinho, O07/O08/O09 envelopes (c
 O11 sacola, O12 calendário. P19 refeita em 05/11 com pés menores (a anterior ficou em P19-v1.png).
 
 Pendentes (o Vini estourou o limite do Gemini e vai terminar quando liberar):
-- P18 relaxado na poltrona (cena 10 do roteiro piloto).
+- P18 relaxado na poltrona: versão de 05/11 salva (aceitável; bermuda virou 'tubos' na perna cruzada e apareceu uma orelha; o Vini pode refazer).
 - P10 joinha (cena 9).
 - Depois: montar o vídeo piloto ("Por que seu salário some antes do fim do mês"), 12 cenas, legenda palavra por palavra + trilha padrão; narração ainda não definida (versão só legenda é o plano B).
 
