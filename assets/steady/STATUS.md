@@ -14,7 +14,6 @@ O11 sacola, O12 calendário. P19 refeita em 05/11 com pés menores (a anterior f
 
 Pendentes (o Vini estourou o limite do Gemini e vai terminar quando liberar):
 - P18 relaxado na poltrona: versão de 05/11 salva (aceitável; bermuda virou 'tubos' na perna cruzada e apareceu uma orelha; o Vini pode refazer).
-- P10 joinha (cena 9).
 - Depois: montar o vídeo piloto ("Por que seu salário some antes do fim do mês"), 12 cenas, legenda palavra por palavra + trilha padrão; narração ainda não definida (versão só legenda é o plano B).
 
 Notas técnicas: recorte por chroma (verdor g-max(r,b)); limpar manchas claras no topo de P12/O09;
@@ -29,3 +28,6 @@ Próximos passos: ele termina P18/P10 (e o ajuste da P19), depois decidir a narr
 Quando ele mandar as poses restantes (P18, P10 e o ajuste da P19): montar o piloto em 2 versões para comparar,
 (a) só legenda + trilha padrão e (b) com voz de IA (ex.: ElevenLabs; ele precisa passar a chave de API).
 Se usar voz de IA, marcar o vídeo como conteúdo de IA no TikTok (isAigc).
+
+## Poses completas (05/11/2026)
+P10 joinha (cena 9, calendário) e P18 poltrona (cena 10) entraram no `steady_video.py`. Versão (a) do piloto (só legenda + trilha) gerada e enviada ao Vini. Versão (b) com voz de IA aguarda a chave de API.

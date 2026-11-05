@@ -207,13 +207,13 @@ def s_piggy(c, t, d):
 
 def s_calendar(c, t, d):
     pill(c, 5, t)
-    place(c, sized('P01.png', h=860), 300, FLOOR, floor=True)
+    place(c, sized('P10.png', h=860), 260, FLOOR + math.sin(t * 2) * 4, floor=True)
     cal = sized('O12.png', w=520)
     k = back(t / 0.45)
     pulse = 1 + 0.08 * max(0, 1 - abs(t - 1.8) / 0.3)
-    place(c, cal, 740, 1300, scale=max(0.05, k) * pulse, floor=True)
+    place(c, cal, 780, 1300, scale=max(0.05, k) * pulse, floor=True)
     if t > 1.6:  # brilho no check
-        tt = t - 1.6; d_ = ImageDraw.Draw(c); cx, cy = 740, 1300 - cal.height * 0.47
+        tt = t - 1.6; d_ = ImageDraw.Draw(c); cx, cy = 780, 1300 - cal.height * 0.47
         for j in range(8):
             a = j * math.pi / 4; r1 = 60 + tt * 80; r2 = r1 + 30
             al = int(255 * max(0, 1 - tt / 0.8))
@@ -221,10 +221,10 @@ def s_calendar(c, t, d):
                 d_.line((cx + math.cos(a) * r1, cy + math.sin(a) * r1, cx + math.cos(a) * r2, cy + math.sin(a) * r2), fill=GOLD_L + (al,), width=8)
 
 def s_balance(c, t, d):
-    place(c, sized('P01.png', h=CHAR_H), W / 2, FLOOR + math.sin(t * 2) * 4, floor=True)
+    place(c, sized('P18.png', h=780), W / 2, FLOOR + math.sin(t * 1.5) * 3, floor=True)
     k1 = back((t - 0.3) / 0.4); k2 = back((t - 0.7) / 0.4)
-    if k1 > 0.02: place(c, sized('O06.png', w=260), 190, FLOOR, floor=True, scale=k1)
-    if k2 > 0.02: place(c, sized('O11.png', w=230), 890, FLOOR, floor=True, scale=k2)
+    if k1 > 0.02: place(c, sized('O06.png', w=200), 130, FLOOR, floor=True, scale=k1)
+    if k2 > 0.02: place(c, sized('O11.png', w=180), 950, FLOOR, floor=True, scale=k2)
 
 def s_path(c, t, d):
     place(c, sized('P08.png', h=900), 290, FLOOR, floor=True)
