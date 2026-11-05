@@ -35,7 +35,7 @@ P10 joinha (cena 9, calendário) e P18 poltrona (cena 10) entraram no `steady_vi
 ## Vídeos diários com o Steady (decidido pelo Vini em 05/11/2026)
 Intercalar no TikTok, para testar: um dia o formato atual (slides enxutos + cena de IA), no outro um vídeo com o Steady.
 Só começa quando o `steady_video.py` virar gerador genérico (biblioteca de cenas lida do spec do dia), o que ainda está por fazer.
-Poses/objetos extras pedidos para variar: P07, P09, P11, P14, P16 e O13 (o Vini está gerando).
+Poses/objetos extras para variar: P07, P09, P11 (semblante suave), P14, P16 e O13, todos recebidos em 05/11. Próximo passo: gerador genérico.
 
 P16 placa: a placa está inclinada ~3,6° no sentido horário. Centro real (381, 494), bordas x 198–565, topo/base com inclinação 0,063, na imagem 1024x1024.
 **Regra (pedida pelo Vini em 05/11/2026): texto escrito em placa, papel ou qualquer superfície tem que ficar centrado na superfície e com a MESMA inclinação dela** (nunca reto em 90° se o papel está torto). Medir as bordas antes, girar o texto junto e conferir o quadro com Read.
