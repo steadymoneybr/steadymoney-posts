@@ -21,7 +21,7 @@ poeira da P13 e folha da maçã da O11 ficam semitransparentes (animar poeira à
 Vistas 2-4 (3/4, perfil, costas) foram abandonadas: o Gemini não gira bem o boneco.
 
 ## Simulação (03/11/2026)
-`tools/steady_video.py` gera o piloto (47s, só legenda + trilha padrão). O Vini aprovou o estilo ("ficou ótimo").
+`tools/steady.py assets/steady/piloto.json` gera o piloto (47s, só legenda + trilha padrão). O Vini aprovou o estilo ("ficou ótimo").
 Próximos passos: ele termina P18/P10 (e o ajuste da P19), depois decidir a narração.
 
 ## Narração (decidido pelo Vini em 03/11/2026)
@@ -30,7 +30,7 @@ Quando ele mandar as poses restantes (P18, P10 e o ajuste da P19): montar o pilo
 Se usar voz de IA, marcar o vídeo como conteúdo de IA no TikTok (isAigc).
 
 ## Poses completas (05/11/2026)
-P10 joinha (cena 9, calendário) e P18 poltrona (cena 10) entraram no `steady_video.py`. Versão (a) do piloto (só legenda + trilha) gerada e enviada ao Vini. Versão (b) com voz de IA aguarda a chave de API.
+P10 joinha (cena 9, calendário) e P18 poltrona (cena 10) entraram no piloto. Versão (a) do piloto (só legenda + trilha) gerada e enviada ao Vini. Versão (b) com voz de IA aguarda a chave de API.
 
 ## Vídeos diários com o Steady (decidido pelo Vini em 05/11/2026)
 Intercalar no TikTok, para testar: um dia o formato atual (slides enxutos + cena de IA), no outro um vídeo com o Steady.
@@ -39,3 +39,6 @@ Poses/objetos extras para variar: P07, P09, P11 (semblante suave), P14, P16 e O1
 
 P16 placa: a placa está inclinada ~3,6° no sentido horário. Centro real (381, 494), bordas x 198–565, topo/base com inclinação 0,063, na imagem 1024x1024.
 **Regra (pedida pelo Vini em 05/11/2026): texto escrito em placa, papel ou qualquer superfície tem que ficar centrado na superfície e com a MESMA inclinação dela** (nunca reto em 90° se o papel está torto). Medir as bordas antes, girar o texto junto e conferir o quadro com Read.
+
+## Gerador genérico (05/11/2026)
+`tools/steady.py` lê um roteiro `steady.json` (guia em `README-roteiro.md`). O piloto virou `piloto.json`. Teste: `posts/_teste-steady-5-perguntas/` enviado ao Vini para aprovar. Quando aprovado, mudar o status no CLAUDE.md para ATIVO.

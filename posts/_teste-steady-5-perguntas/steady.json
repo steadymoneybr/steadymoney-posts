@@ -1,0 +1,26 @@
+{
+ "titulo": "5 perguntas antes de qualquer investimento (teste do gerador Steady)",
+ "destaques": ["5", "perguntas", "Pergunta", "um", "dois", "três", "quatro", "cinco", "reserva", "pânico", "curte", "salva", "Steady", "Money"],
+ "cenas": [
+  {"dur": 4.4, "legenda": ["Antes de colocar", "seu dinheiro", "em qualquer lugar,", "faz essas", "5 perguntas."],
+   "personagem": {"img": "P14.png", "anim": "shake"}},
+  {"dur": 5.4, "legenda": ["Pergunta um:", "eu já tenho", "reserva de emergência?", "Sem ela,", "qualquer imprevisto", "vira resgate às pressas."], "pill": "PERGUNTA 1",
+   "personagem": {"img": "P03.png", "x": 300, "h": 900},
+   "objetos": [{"img": "O06.png", "x": 800, "w": 380, "y": 1380, "delay": 0.3, "pulse": 2.2}]},
+  {"dur": 4.6, "legenda": ["Pergunta dois:", "pra que é", "esse dinheiro", "e quando", "vou precisar dele?"], "pill": "PERGUNTA 2",
+   "personagem": {"img": "P09.png", "x": 270, "h": 880},
+   "objetos": [{"img": "O12.png", "x": 780, "w": 500, "y": 1300, "delay": 0.3, "pulse": 2.4, "brilho": true}]},
+  {"dur": 4.6, "legenda": ["Pergunta três:", "quanto de sobe e desce", "eu aguento", "sem entrar em pânico?"], "pill": "PERGUNTA 3",
+   "personagem": {"img": "P16.png"}, "placa": "RISCO"},
+  {"dur": 4.2, "legenda": ["Pergunta quatro:", "quanto vou pagar", "de taxa", "e de imposto?"], "pill": "PERGUNTA 4",
+   "personagem": {"img": "P19.png", "x": 560, "anim": "grow"}},
+  {"dur": 4.0, "legenda": ["Se você nunca", "fez nenhuma dessas,", "curte o vídeo", "e salva pra depois."],
+   "personagem": {"img": "P05.png", "anim": "shake"}, "efeitos": [{"tipo": "coracoes"}]},
+  {"dur": 4.6, "legenda": ["Pergunta cinco:", "eu entendo", "como isso rende", "e onde está o risco?"], "pill": "PERGUNTA 5",
+   "personagem": {"img": "P12.png", "x": 500}, "efeitos": [{"tipo": "interrogacao", "x": 880, "y": 600}]},
+  {"dur": 4.6, "legenda": ["Se você não consegue", "explicar pra alguém,", "ainda não é hora", "de colocar dinheiro."],
+   "personagem": {"img": "P11.png"}},
+  {"dur": 3.6, "legenda": ["Segue a", "Steady Money", "pra aprender", "isso de vez."],
+   "personagem": {"img": "P10.png"}}
+ ]
+}

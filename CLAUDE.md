@@ -38,6 +38,13 @@ Todos os vídeos do TikTok usam a trilha padrão aprovada pelo Vini (`assets/tri
   O `video.py` corta a marca d'água do topo, aplica degradê, etiqueta dourada, `l1` em Lora branco e `l2` em itálico dourado (aparece aos 2,5s). Padrão aprovado: kicker "Alerta de golpe", l1 "Parece ótimo.", l2 "Até desmoronar.". Cada linha precisa caber em 1 linha (máx. ~18 caracteres); tom de manchete, nada de texto amador ou caixa colorida. Confira o `video-check0.jpg` (a cena não pode brigar com o texto).
   Se nenhuma cena combinar, faça o vídeo sem `hook` e, na mensagem ao Vini, mande 1 prompt pronto para ele gerar a cena no PixVerse (inglês, assunto → ação → câmera → estilo "cute 3D animation", 9:16, 5s, negative prompt: `text, letters, words, logos, watermark, brand names, realistic human faces, blurry, distorted, low quality`) com o nome de arquivo sugerido `sm-<tema>.mp4`.
 
+## Vídeo com o Steady (intercalado no TikTok, decidido pelo Vini em 05/11/2026)
+
+**Status: AGUARDANDO aprovação do vídeo de teste** (`posts/_teste-steady-5-perguntas/`). Enquanto o status não for "ATIVO", siga só o formato acima.
+Quando ATIVO: o TikTok alterna os formatos. Olhe a pasta de post mais recente em `posts/` (ignorando as que começam com `_`): se ela tem `steady.json`, hoje é o formato de slides acima; se não tem, hoje é o Steady.
+No dia do Steady: o carrossel do Instagram continua igual; para o TikTok escreva `posts/AAAA-MM-DD-slug/steady.json` com os mesmos 5 pontos, seguindo `assets/steady/README-roteiro.md`, e gere
+`python3 tools/steady.py posts/AAAA-MM-DD-slug/steady.json posts/AAAA-MM-DD-slug/video.mp4 --check` (confira cada `video-check*.jpg`) e depois sem `--check`. Sem cena de IA (hook) e sem prompt de PixVerse nesses dias. O revisor confere os quadros do mesmo jeito.
+
 ## Regras da marca (obrigatórias)
 
 - Conteúdo 100% educativo. Nunca recomendar ativo, corretora, fundo ou aposta. Nunca prometer lucro ou rendimento.
