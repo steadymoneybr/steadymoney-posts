@@ -10,10 +10,9 @@ Prompts completos: doc "Piloto de vídeo animado — Steady Money", aba "Banco d
 Aprovadas: P01 (frente = referência principal), P03 pensativo, P04 confuso, P05 assustado, P08 apontando,
 P12 lendo papel, P13 carteira vazia (com mariposa), P19 recibo comprido (pés grandes e manga longa, aceitável);
 O01 moeda, O02 pilha de moedas, O03 nota, O06 cofrinho, O07/O08/O09 envelopes (casa/cadeado/estrela),
-O11 sacola, O12 calendário.
+O11 sacola, O12 calendário. P19 refeita em 05/11 com pés menores (a anterior ficou em P19-v1.png).
 
 Pendentes (o Vini estourou o limite do Gemini e vai terminar quando liberar):
-- P19: tentar o ajuste (pés pequenos ovais + manga curta); se não ficar bom, manter a atual.
 - P18 relaxado na poltrona (cena 10 do roteiro piloto).
 - P10 joinha (cena 9).
 - Depois: montar o vídeo piloto ("Por que seu salário some antes do fim do mês"), 12 cenas, legenda palavra por palavra + trilha padrão; narração ainda não definida (versão só legenda é o plano B).
