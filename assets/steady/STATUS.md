@@ -36,3 +36,5 @@ P10 joinha (cena 9, calendário) e P18 poltrona (cena 10) entraram no `steady_vi
 Intercalar no TikTok, para testar: um dia o formato atual (slides enxutos + cena de IA), no outro um vídeo com o Steady.
 Só começa quando o `steady_video.py` virar gerador genérico (biblioteca de cenas lida do spec do dia), o que ainda está por fazer.
 Poses/objetos extras pedidos para variar: P07, P09, P11, P14, P16 e O13 (o Vini está gerando).
+
+P16 placa: área útil para texto ≈ x 220–520, y 380–610 (centro 372,492) na imagem 1024x1024.
