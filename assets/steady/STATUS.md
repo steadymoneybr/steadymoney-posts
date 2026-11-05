@@ -31,3 +31,8 @@ Se usar voz de IA, marcar o vídeo como conteúdo de IA no TikTok (isAigc).
 
 ## Poses completas (05/11/2026)
 P10 joinha (cena 9, calendário) e P18 poltrona (cena 10) entraram no `steady_video.py`. Versão (a) do piloto (só legenda + trilha) gerada e enviada ao Vini. Versão (b) com voz de IA aguarda a chave de API.
+
+## Vídeos diários com o Steady (decidido pelo Vini em 05/11/2026)
+Intercalar no TikTok, para testar: um dia o formato atual (slides enxutos + cena de IA), no outro um vídeo com o Steady.
+Só começa quando o `steady_video.py` virar gerador genérico (biblioteca de cenas lida do spec do dia), o que ainda está por fazer.
+Poses/objetos extras pedidos para variar: P07, P09, P11, P14, P16 e O13 (o Vini está gerando).
