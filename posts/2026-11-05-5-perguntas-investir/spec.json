@@ -1,0 +1,75 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "tag": "Educação Financeira",
+   "title": "5 perguntas<br>antes de investir",
+   "sub": "Responda antes de colocar seu<br>dinheiro em qualquer lugar."
+  },
+  {
+   "type": "inner",
+   "tag": "1 de 5 — Antes de investir",
+   "big": "Reserva",
+   "sub": "Eu já tenho reserva de emergência?",
+   "bullets": [
+    "Reserva primeiro, investimento depois",
+    "Ela cobre imprevistos sem resgate às pressas",
+    "Sem ela, você pode vender na hora errada",
+    "Fica em algo seguro e de resgate rápido"
+   ],
+   "quote": "Imprevisto não avisa<br>quando vai chegar."
+  },
+  {
+   "type": "inner",
+   "tag": "2 de 5 — Antes de investir",
+   "big": "Prazo",
+   "sub": "Pra que é e quando vou precisar?",
+   "bullets": [
+    "Viagem daqui a 1 ano pede segurança",
+    "Aposentadoria em 30 anos aceita oscilação",
+    "Veja quando dá pra resgatar o dinheiro",
+    "Alguns só garantem a taxa no vencimento"
+   ],
+   "quote": "O objetivo define<br>onde o dinheiro fica."
+  },
+  {
+   "type": "inner",
+   "tag": "3 de 5 — Antes de investir",
+   "big": "Risco",
+   "sub": "Quanto sobe e desce eu aguento?",
+   "bullets": [
+    "Todo investimento tem algum tipo de risco",
+    "Ações podem cair forte em poucos dias",
+    "Vender no pânico torna a queda definitiva",
+    "Se tira seu sono, o risco está alto demais"
+   ],
+   "quote": "Risco que você não aguenta<br>vira prejuízo."
+  },
+  {
+   "type": "inner",
+   "tag": "4 de 5 — Antes de investir",
+   "big": "Custos",
+   "sub": "Quanto vou pagar de taxa e imposto?",
+   "bullets": [
+    "Fundos cobram taxa de administração",
+    "Veja se há corretagem ou taxa de custódia",
+    "IR do CDB: 22,5% a 15%, conforme o prazo",
+    "Compare o que sobra, não o bruto"
+   ],
+   "quote": "O que importa é<br>o que sobra pra você."
+  },
+  {
+   "type": "inner",
+   "tag": "5 de 5 — Antes de investir",
+   "big": "Entendo?",
+   "sub": "Sei como rende e onde está o risco?",
+   "bullets": [
+    "Dá pra explicar pra um amigo em 1 minuto?",
+    "Sabe de onde vem o rendimento?",
+    "Retorno alto e “garantido” é sinal de alerta",
+    "Na dúvida, estude antes de colocar dinheiro"
+   ],
+   "cta": "💬 <b>Comenta aqui embaixo:</b><br>qual dessas perguntas<br>você nunca tinha feito?"
+  }
+ ]
+}
