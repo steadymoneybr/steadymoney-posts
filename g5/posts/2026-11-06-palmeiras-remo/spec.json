@@ -1,0 +1,11 @@
+{"comp": "Brasileirão · 34ª rodada", "date": "05.11.2026", "source": "Portal do Palestra / Gazeta Esportiva", "home": "Palmeiras", "away": "Remo", "hs": 6, "as": 1,
+"scorers": {"home": ["Jhon Arias 4', 14'", "Maurício 21'", "Marcelinho (contra) 36'", "Flaco López 55'", "Felipe Anderson 80'"], "away": ["Zé Welison 45'+2'"]},
+"kicker": "Goleada no Nubank Parque",
+"hook": "4 a 1 no intervalo.<br>3 pontos do líder.",
+"lead": "O Palmeiras atropelou o Remo e segue na cola do Flamengo, com confronto direto marcado.",
+"slides": [
+{"type": "bars", "tag": "1 de 4 · O atropelo", "title": "Jogo resolvido<br>no 1º tempo", "rows": [["Gols no 1º tempo", 4, 1], ["Finalizações (jogo todo)", 19, 11], ["No gol (jogo todo)", 9, 5]], "note": "Jhon Arias marcou duas vezes nos primeiros 14 minutos. O Palmeiras ainda teve 58% da posse."},
+{"type": "big", "tag": "2 de 4 · O histórico", "kicker": "Maior vitória sobre o Remo", "a": "6x1", "la": "Brasileirão 2026", "b": "5x1", "lb": "Copa do Brasil 1992", "winner": "a", "note": "A goleada de ontem superou o 5 x 1 de 1992 e virou a maior vitória do Palmeiras no confronto."},
+{"type": "big", "tag": "3 de 4 · A tabela", "kicker": "Pontos na ponta", "a": "76", "la": "Flamengo", "b": "73", "lb": "Palmeiras", "winner": "a", "note": "Os dois têm 34 jogos e faltam 4 rodadas. O confronto direto é no dia 21/11, no Nubank Parque."},
+{"type": "big", "tag": "4 de 4 · O outro lado", "kicker": "Remo na tabela", "a": "29", "la": "Pontos", "b": "19º", "lb": "Posição", "note": "O Remo segue no Z4. Volta a campo no dia 18/11, contra a Chapecoense, no Mangueirão.", "extra": "<span style='font-size:.7em;letter-spacing:.08em;opacity:.7'>DADOS: PORTAL DO PALESTRA / GAZETA ESPORTIVA</span>"}
+], "cta": "Ainda dá pro Palmeiras?"}
