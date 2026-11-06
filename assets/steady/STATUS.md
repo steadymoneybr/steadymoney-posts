@@ -42,3 +42,6 @@ P16 placa: a placa está inclinada ~3,6° no sentido horário. Centro real (381,
 
 ## Gerador genérico (05/11/2026)
 `tools/steady.py` lê um roteiro `steady.json` (guia em `README-roteiro.md`). O piloto virou `piloto.json`. Teste: `posts/_teste-steady-5-perguntas/` enviado ao Vini para aprovar. Quando aprovado, mudar o status no CLAUDE.md para ATIVO.
+
+## Ativado (06/11/2026)
+O Vini aprovou o vídeo de teste. Intercalação ATIVA no CLAUDE.md. Próximo passo: narração com ElevenLabs (Starter) quando ele mandar a chave e liberar api.elevenlabs.io.

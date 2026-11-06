@@ -40,10 +40,10 @@ Todos os vídeos do TikTok usam a trilha padrão aprovada pelo Vini (`assets/tri
 
 ## Vídeo com o Steady (intercalado no TikTok, decidido pelo Vini em 05/11/2026)
 
-**Status: AGUARDANDO aprovação do vídeo de teste** (`posts/_teste-steady-5-perguntas/`). Enquanto o status não for "ATIVO", siga só o formato acima.
+**Status: ATIVO** (o Vini aprovou o vídeo de teste `posts/_teste-steady-5-perguntas/` em 06/11/2026; use-o como referência de estilo).
 Quando ATIVO: o TikTok alterna os formatos. Olhe a pasta de post mais recente em `posts/` (ignorando as que começam com `_`): se ela tem `steady.json`, hoje é o formato de slides acima; se não tem, hoje é o Steady.
 No dia do Steady: o carrossel do Instagram continua igual; para o TikTok escreva `posts/AAAA-MM-DD-slug/steady.json` com os mesmos 5 pontos, seguindo `assets/steady/README-roteiro.md`, e gere
-`python3 tools/steady.py posts/AAAA-MM-DD-slug/steady.json posts/AAAA-MM-DD-slug/video.mp4 --check` (confira cada `video-check*.jpg`) e depois sem `--check`. Sem cena de IA (hook) e sem prompt de PixVerse nesses dias. O revisor confere os quadros do mesmo jeito.
+`python3 tools/steady.py posts/AAAA-MM-DD-slug/steady.json posts/AAAA-MM-DD-slug/video.mp4 --check` (confira cada `video-check*.jpg`) e depois sem `--check`. Sem cena de IA (hook) e sem prompt de PixVerse nesses dias. O revisor confere os quadros do mesmo jeito. Por enquanto só legenda + trilha padrão (narração com voz do ElevenLabs entra quando o Vini mandar a chave de API).
 
 ## Regras da marca (obrigatórias)
 
