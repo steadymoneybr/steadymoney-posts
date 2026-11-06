@@ -1,0 +1,75 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "tag": "Educação Financeira",
+   "title": "Patrimônio<br>líquido",
+   "sub": "A conta que mostra quanto<br>você realmente tem."
+  },
+  {
+   "type": "inner",
+   "tag": "1 de 5 — Patrimônio líquido",
+   "big": "A conta",
+   "sub": "O que você tem menos o que deve",
+   "bullets": [
+    "Patrimônio líquido = bens − dívidas",
+    "Bens: dinheiro, investimentos, carro, imóvel",
+    "Dívidas: financiamento, cartão, empréstimo",
+    "Deu negativo? É só o ponto de partida"
+   ],
+   "quote": "Quem não mede<br>não sabe onde está."
+  },
+  {
+   "type": "inner",
+   "tag": "2 de 5 — Patrimônio líquido",
+   "big": "Bens",
+   "sub": "Liste tudo pelo valor de hoje",
+   "bullets": [
+    "Saldo em conta e investimentos",
+    "Carro pelo valor de venda, não o que pagou",
+    "Imóvel por quanto venderia hoje",
+    "Na dúvida, use o valor mais baixo"
+   ],
+   "quote": "Valor real,<br>não valor sonhado."
+  },
+  {
+   "type": "inner",
+   "tag": "3 de 5 — Patrimônio líquido",
+   "big": "Dívidas",
+   "sub": "Some o saldo devedor de tudo",
+   "bullets": [
+    "Saldo do financiamento, não só a parcela",
+    "Fatura do cartão e parcelas que faltam",
+    "Empréstimos, cheque especial e consignado",
+    "Dívida com parente também entra"
+   ],
+   "quote": "Parcela pequena<br>esconde dívida grande."
+  },
+  {
+   "type": "inner",
+   "tag": "4 de 5 — Patrimônio líquido",
+   "big": "Exemplo",
+   "sub": "A conta na prática",
+   "bullets": [
+    "Bens: R$ 15 mil guardados + carro R$ 60 mil",
+    "Dívidas: carro R$ 40 mil + cartão R$ 5 mil",
+    "Sobra: 75 mil − 45 mil = R$ 30 mil",
+    "O carro desvaloriza, a dívida continua"
+   ],
+   "quote": "Ter um carro de 60 mil<br>não é ter 60 mil."
+  },
+  {
+   "type": "inner",
+   "tag": "5 de 5 — Patrimônio líquido",
+   "big": "Evolução",
+   "sub": "Refaça a conta de tempos em tempos",
+   "bullets": [
+    "Use uma planilha simples, sempre igual",
+    "Compare com você, não com os outros",
+    "Subiu? Você está construindo patrimônio",
+    "Caiu? Veja se foi dívida nova ou gasto"
+   ],
+   "cta": "💬 <b>Comenta aqui embaixo:</b><br>você já fez essa conta<br>alguma vez?"
+  }
+ ]
+}

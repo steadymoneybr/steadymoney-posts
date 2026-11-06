@@ -1,0 +1,26 @@
+{
+ "titulo": "Patrimônio líquido: a conta que ninguém faz",
+ "destaques": ["realmente", "tem", "deve", "bens", "dívidas", "saldo", "inteiro", "75", "45", "30", "mil", "líquido", "Subiu", "Caiu", "curte", "salva", "Steady", "Money"],
+ "cenas": [
+  {"dur": 4.4, "legenda": ["Você sabe", "quanto você", "realmente tem?", "Não é o seu salário."],
+   "personagem": {"img": "P04.png"}, "efeitos": [{"tipo": "interrogacao", "x": 860, "y": 600}]},
+  {"dur": 4.6, "legenda": ["A conta é simples:", "tudo que você tem", "menos tudo", "que você deve."], "pill": "A CONTA",
+   "personagem": {"img": "P16.png"}, "placa": "TEM − DEVE"},
+  {"dur": 5.0, "legenda": ["Primeiro, os bens:", "dinheiro guardado,", "investimentos,", "carro e imóvel", "pelo valor de hoje."], "pill": "BENS",
+   "personagem": {"img": "P08.png", "x": 280, "h": 880},
+   "objetos": [{"img": "O02.png", "x": 780, "w": 420, "y": 1400, "delay": 0.3, "pulse": 2.4, "brilho": true}]},
+  {"dur": 4.8, "legenda": ["Depois, as dívidas:", "o saldo inteiro", "do financiamento,", "cartão e empréstimos."], "pill": "DÍVIDAS",
+   "personagem": {"img": "P19.png", "x": 560, "anim": "grow"}},
+  {"dur": 4.0, "legenda": ["Se você nunca", "fez essa conta,", "curte o vídeo", "e salva pra depois."],
+   "personagem": {"img": "P05.png", "anim": "shake"}, "efeitos": [{"tipo": "coracoes"}]},
+  {"dur": 5.0, "legenda": ["Exemplo:", "R$ 75 mil em bens,", "R$ 45 mil em dívidas.", "Seu patrimônio líquido", "é R$ 30 mil."], "pill": "EXEMPLO",
+   "personagem": {"img": "P12.png", "x": 540}},
+  {"dur": 4.6, "legenda": ["Refaz essa conta", "de tempos em tempos", "e compara", "com você mesmo."], "pill": "EVOLUÇÃO",
+   "personagem": {"img": "P09.png", "x": 270, "h": 880},
+   "objetos": [{"img": "O12.png", "x": 780, "w": 500, "y": 1300, "delay": 0.3, "pulse": 2.4, "brilho": true}]},
+  {"dur": 4.6, "legenda": ["Subiu?", "Você está construindo", "patrimônio.", "Caiu?", "Descobre o porquê."],
+   "personagem": {"img": "P07.png", "anim": "jump"}},
+  {"dur": 3.6, "legenda": ["Segue a", "Steady Money", "pra aprender", "isso de vez."],
+   "personagem": {"img": "P10.png"}}
+ ]
+}
