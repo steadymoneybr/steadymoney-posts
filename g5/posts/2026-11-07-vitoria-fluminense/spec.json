@@ -1,0 +1,11 @@
+{"comp": "Brasileirão · 34ª rodada", "date": "06.11.2026", "source": "FOX Sports / fluminense.com.br", "home": "Vitória", "away": "Fluminense", "hs": 0, "as": 3,
+"scorers": {"home": [], "away": ["Savarino 14'", "Canobbio 41'", "Castillo 89'"]},
+"kicker": "Noite fria no Barradão",
+"hook": "O dobro de cruzamentos.<br>Nenhum gol.",
+"lead": "O Vitória levantou bola na área a noite toda. O Fluminense chutou melhor e saiu com 3 a 0.",
+"slides": [
+{"type": "bars", "tag": "1 de 4 · O volume", "title": "O Vitória foi<br>pelo alto", "rows": [["Cruzamentos", 32, 16], ["Cruzamentos certos", 6, 4], ["Escanteios", 9, 6]], "note": "Foram 32 bolas levantadas na área e nenhum gol. Muito volume, pouco perigo."},
+{"type": "bars", "tag": "2 de 4 · A diferença", "title": "O Flu chutou<br>mais e melhor", "rows": [["Posse", 45, 55, "%"], ["Finalizações", 8, 14], ["No gol", 4, 7], ["Chances criadas", 6, 11]], "note": "Canobbio deu o passe do 1º gol e fez o 2º antes do intervalo."},
+{"type": "big", "tag": "3 de 4 · O número", "kicker": "xG (gols esperados)", "a": "0,51", "b": "2,06", "winner": "b", "note": "O xG mede a qualidade das chances. O Fluminense criou 4x mais perigo e fez 3 gols."},
+{"type": "big", "tag": "4 de 4 · A tabela", "kicker": "Pontos depois da rodada", "a": "57", "la": "Fluminense · 4º", "b": "38", "lb": "Vitória · 15º", "winner": "a", "note": "O Flu abriu 3 pontos para o 5º colocado. O Vitória está só 1 ponto acima do Z4. Os dois voltam a campo no dia 19/11.", "extra": "<span style='font-size:.7em;letter-spacing:.08em;opacity:.7'>DADOS: FOX SPORTS / FLUMINENSE.COM.BR</span>"}
+], "cta": "O Flu segura o G4?"}
