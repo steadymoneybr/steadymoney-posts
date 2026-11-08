@@ -1,0 +1,177 @@
+{
+ "titulo": "Renda fixa pode dar prejuízo?",
+ "destaques": [
+  "prejuízo",
+  "sim",
+  "perda",
+  "vender",
+  "sobem",
+  "cai",
+  "desconto",
+  "mais",
+  "maior",
+  "pouco",
+  "curte",
+  "salva",
+  "fim",
+  "combinada",
+  "reserva",
+  "prazo",
+  "Steady",
+  "Money"
+ ],
+ "cenas": [
+  {
+   "dur": 4.2,
+   "legenda": [
+    "Renda fixa",
+    "pode dar prejuízo?",
+    "Pode, sim."
+   ],
+   "personagem": {
+    "img": "P04.png"
+   },
+   "efeitos": [
+    {
+     "tipo": "interrogacao",
+     "x": 860,
+     "y": 600
+    }
+   ]
+  },
+  {
+   "dur": 5.4,
+   "legenda": [
+    "Muitos títulos",
+    "mudam de preço",
+    "todo dia.",
+    "O saldo pode cair,",
+    "mas só vira perda",
+    "se você vender."
+   ],
+   "pill": "SIM, PODE",
+   "personagem": {
+    "img": "P14.png",
+    "anim": "shake"
+   }
+  },
+  {
+   "dur": 5.5,
+   "legenda": [
+    "Juros sobem,",
+    "o preço cai.",
+    "Seu título paga 10%",
+    "e os novos, 12%?",
+    "Pra vender antes,",
+    "só com desconto."
+   ],
+   "pill": "JUROS",
+   "personagem": {
+    "img": "P16.png"
+   },
+   "placa": "+ JUROS\n− PREÇO"
+  },
+  {
+   "dur": 5.4,
+   "legenda": [
+    "Prefixado e IPCA+",
+    "oscilam mais.",
+    "Prazo longo,",
+    "balanço maior.",
+    "Tesouro Selic",
+    "oscila bem pouco."
+   ],
+   "pill": "QUEM OSCILA",
+   "personagem": {
+    "img": "P08.png",
+    "x": 345,
+    "h": 880
+   },
+   "objetos": [
+    {
+     "img": "O12.png",
+     "x": 815,
+     "w": 460,
+     "y": 1300,
+     "delay": 0.3,
+     "pulse": 2.4,
+     "brilho": true
+    }
+   ]
+  },
+  {
+   "dur": 4.0,
+   "legenda": [
+    "Se você já levou",
+    "esse susto,",
+    "curte o vídeo",
+    "e salva pra depois."
+   ],
+   "personagem": {
+    "img": "P05.png",
+    "anim": "shake"
+   },
+   "efeitos": [
+    {
+     "tipo": "coracoes"
+    }
+   ]
+  },
+  {
+   "dur": 5.6,
+   "legenda": [
+    "Levou até o fim?",
+    "Recebe a taxa",
+    "combinada na compra",
+    "(antes do IR),",
+    "se o emissor",
+    "pagar em dia."
+   ],
+   "pill": "VENCIMENTO",
+   "personagem": {
+    "img": "P12.png",
+    "x": 540
+   }
+  },
+  {
+   "dur": 5.4,
+   "legenda": [
+    "Na reserva,",
+    "prefira o que",
+    "oscila pouco.",
+    "No vermelho?",
+    "Olhe o prazo",
+    "antes de vender."
+   ],
+   "pill": "NA PRÁTICA",
+   "personagem": {
+    "img": "P09.png",
+    "x": 270,
+    "h": 880
+   },
+   "objetos": [
+    {
+     "img": "O06.png",
+     "x": 780,
+     "w": 440,
+     "y": 1400,
+     "delay": 0.3,
+     "pulse": 2.4,
+     "brilho": true
+    }
+   ]
+  },
+  {
+   "dur": 3.6,
+   "legenda": [
+    "Segue a",
+    "Steady Money",
+    "pra aprender",
+    "isso de vez."
+   ],
+   "personagem": {
+    "img": "P10.png"
+   }
+  }
+ ]
+}

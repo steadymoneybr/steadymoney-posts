@@ -1,0 +1,75 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "tag": "Educação Financeira",
+   "title": "Renda fixa pode<br>dar prejuízo?",
+   "sub": "Pode, se você vender antes da<br>hora. Entenda o porquê."
+  },
+  {
+   "type": "inner",
+   "tag": "1 de 5 — Renda fixa",
+   "big": "Sim, pode",
+   "sub": "Mas tem um motivo",
+   "bullets": [
+    "Muitos títulos têm preço que muda todo dia",
+    "Isso se chama marcação a mercado",
+    "O saldo na tela pode cair por um tempo",
+    "A perda só vira real se você vender"
+   ],
+   "quote": "Fixa é a regra do título,<br>não o preço dele."
+  },
+  {
+   "type": "inner",
+   "tag": "2 de 5 — Renda fixa",
+   "big": "Juros",
+   "sub": "Juros sobem, preço cai",
+   "bullets": [
+    "Você compra um título que paga 10% ao ano",
+    "Depois, os títulos novos passam a pagar 12%",
+    "Aí o seu título de 10% fica menos atraente",
+    "Pra vender antes, só com desconto"
+   ],
+   "quote": "É uma gangorra:<br>juros sobem, preço desce."
+  },
+  {
+   "type": "inner",
+   "tag": "3 de 5 — Renda fixa",
+   "big": "Quem oscila",
+   "sub": "Prefixados e IPCA+ sentem mais",
+   "bullets": [
+    "Tesouro Prefixado e IPCA+ oscilam mais",
+    "Quanto mais longo o prazo, maior o balanço",
+    "Tesouro Selic oscila bem pouco",
+    "Fundos de renda fixa também oscilam"
+   ],
+   "quote": "Prazo longo,<br>sobe e desce maior."
+  },
+  {
+   "type": "inner",
+   "tag": "4 de 5 — Renda fixa",
+   "big": "Vencimento",
+   "sub": "Levou até o fim, recebe o combinado",
+   "bullets": [
+    "No vencimento, vale a taxa da compra",
+    "O sobe e desce do caminho deixa de contar",
+    "Desde que o emissor pague em dia",
+    "Por isso, combine o prazo com seu objetivo"
+   ],
+   "quote": "Quem não precisa vender<br>não realiza a perda."
+  },
+  {
+   "type": "inner",
+   "tag": "5 de 5 — Renda fixa",
+   "big": "Na prática",
+   "sub": "Pra não levar susto",
+   "bullets": [
+    "Na reserva, prefira o que oscila pouco",
+    "Dinheiro pra daqui a anos aguenta mais",
+    "No vermelho? Olhe o prazo antes de vender",
+    "Juros caindo fazem o contrário: o preço sobe"
+   ],
+   "cta": "💬 <b>Comenta aqui embaixo:</b><br>você já viu sua renda fixa<br>no vermelho?"
+  }
+ ]
+}
