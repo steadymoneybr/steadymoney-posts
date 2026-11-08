@@ -1,0 +1,99 @@
+{
+ "comp": "Premier League · 10ª rodada",
+ "date": "07.11.2026",
+ "source": "FotMob / 101 Great Goals / Opta",
+ "home": "Forest",
+ "away": "Man City",
+ "hs": 3,
+ "as": 1,
+ "scorers": {
+  "home": [
+   "Jair Cunha 6'",
+   "Delap 18', 73'"
+  ],
+  "away": [
+   "Cherki 52'"
+  ]
+ },
+ "kicker": "Zebra no City Ground",
+ "hook": "22% de posse.<br>Três gols.",
+ "lead": "O City ficou com a bola quase o jogo todo. O Forest ficou com os gols.",
+ "slides": [
+  {
+   "type": "bars",
+   "tag": "1 de 4 · O domínio",
+   "title": "O City teve<br>a bola toda",
+   "rows": [
+    [
+     "Posse",
+     22,
+     78,
+     "%"
+    ],
+    [
+     "Passes",
+     205,
+     752
+    ],
+    [
+     "Passes certos",
+     137,
+     665
+    ],
+    [
+     "Toques na área rival",
+     14,
+     33
+    ]
+   ],
+   "note": "O City trocou quase 4x mais passes e pisou mais que o dobro de vezes na área do Forest."
+  },
+  {
+   "type": "bars",
+   "tag": "2 de 4 · A diferença",
+   "title": "Mas o Forest<br>foi mais direto",
+   "rows": [
+    [
+     "Finalizações",
+     11,
+     12
+    ],
+    [
+     "Chutes no gol",
+     5,
+     4
+    ],
+    [
+     "Gols",
+     3,
+     1
+    ]
+   ],
+   "note": "Com bem menos bola, o Forest chutou quase o mesmo tanto e acertou mais o gol."
+  },
+  {
+   "type": "big",
+   "tag": "3 de 4 · O nome",
+   "kicker": "Gols do Delap no jogo",
+   "a": "2",
+   "la": "Delap · 18' e 73'",
+   "b": "1",
+   "lb": "City inteiro",
+   "winner": "a",
+   "note": "Delap já jogou no City. É só o 2º ex-jogador do clube a marcar 2 vezes contra ele num jogo de Premier League. O 1º foi Anelka, pelo Bolton, em 2006."
+  },
+  {
+   "type": "big",
+   "tag": "4 de 4 · A sequência",
+   "kicker": "Campanha do City na Premier League",
+   "a": "7",
+   "la": "Vitórias no início",
+   "b": "3",
+   "lb": "Derrotas seguidas agora",
+   "winner": "b",
+   "note": "Só o Sheffield Wednesday, em 1904-05, tinha aberto a elite inglesa com 7 vitórias e perdido os 3 jogos seguintes. O City para na Data FIFA a 6 pontos do líder Arsenal.",
+   "extra": "<span style='font-size:.7em;letter-spacing:.08em;opacity:.7'>DADOS: FOTMOB / 101 GREAT GOALS / OPTA</span>"
+  }
+ ],
+ "cta": "O City ainda briga pelo título?"
+}
