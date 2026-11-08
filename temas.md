@@ -14,7 +14,7 @@ Status: `pendente` ou `publicado AAAA-MM-DD`. Ordem alterna as trilhas. Base de 
 | 6 | PGBL ou VGBL? Depende da sua declaração | Previdência Privada | publicado 2026-11-04 |
 | 7 | 5 perguntas antes de qualquer investimento | Finanças Intermediário | publicado 2026-11-05 |
 | 8 | Patrimônio líquido: a conta que ninguém faz | Finanças Compacto | publicado 2026-11-06 |
-| 9 | Renda fixa pode dar prejuízo? (marcação a mercado) | Renda Fixa | pendente |
+| 9 | Renda fixa pode dar prejuízo? (marcação a mercado) | Renda Fixa | publicado 2026-11-08 |
 | 10 | Ação ON x PN: qual a diferença | Como Comprar uma Ação na B3 | pendente |
 | 11 | O que é um ETF, em 3 slides | Carteira de ETFs | pendente |
 | 12 | Método bola de neve x avalanche | Finanças Básico | pendente |

@@ -7,6 +7,8 @@ As imagens ficam públicas via `https://raw.githubusercontent.com/steadymoneybr/
 
 ## Fluxo diário (tarefa agendada das 11h20)
 
+> **APROVAÇÃO PERMANENTE (Vini, 08/11/2026):** até o Vini avisar o contrário, todo conteúdo que passar na revisão independente (veredito APROVADO) está aprovado. Crie os dois posts já agendados (`draft: false`) no horário do dia, marque o tema como publicado, faça commit/push e mande ao Vini os slides, o vídeo e a legenda só para ciência ("✅ Revisado · já agendado para HH:MM"). Se a revisão não passar depois das rodadas, aí sim crie como rascunho e peça aprovação dizendo o que ficou pendente. Isso substitui os passos 6–8 (rascunho/esperar "aprovado") abaixo.
+
 Formato (decidido pelo Vini em 29/10/2026): **Instagram recebe o carrossel; TikTok recebe o vídeo animado do mesmo conteúdo.**
 
 **Horário (decidido pelo Vini em 01/11/2026):** dias úteis às **19:00**; **sábados, domingos e feriados nacionais às 14:00** (America/Sao_Paulo). Em todo este arquivo, "o horário do dia" é esse.
