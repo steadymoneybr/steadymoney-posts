@@ -1,0 +1,21 @@
+Ação ON x PN: qual a diferença? 👆
+
+O número no fim do código da ação diz muito. Entenda:
+
+1️⃣ ON (ação ordinária): dá direito a voto nas assembleias da empresa. O código costuma terminar em 3 (exemplo fictício: ABCD3), e o controlador costuma ter muitas ON.
+
+2️⃣ PN (ação preferencial): em geral não dá direito a voto. Em troca, tem alguma vantagem, como prioridade no recebimento de dividendos. O código costuma terminar em 4, 5 ou 6.
+
+3️⃣ Dividendos: PN não garante dividendo maior. A vantagem dela vem do estatuto da empresa e pode ser, por exemplo, prioridade ou dividendo 10% maior que o da ON. Sem lucro, o dividendo pode nem vir. Dá pra conferir no site de RI (Relações com Investidores) da empresa.
+
+4️⃣ Tag along: se o controle da empresa é vendido, a ON tem proteção. Por lei, recebe ao menos 80% do valor pago ao controlador, e no Novo Mercado são 100%. A PN só tem esse direito se o estatuto prever.
+
+5️⃣ Na prática: veja o que o estatuto dá a cada uma e qual delas é mais negociada. Empresa do Novo Mercado só tem ON. E final 11 pode ser uma unit, um pacote que junta ON e PN.
+
+ON te dá voz nas decisões; PN troca o voto por alguma preferência. Saber a diferença é o primeiro passo antes de olhar qualquer ação.
+
+💬 Comenta aí: você já tinha reparado no 3 e no 4 do código?
+
+Salva esse post pra lembrar da diferença na próxima vez que olhar a bolsa 📎
+
+#EducaçãoFinanceira #Ações #BolsaDeValores #FinançasPessoais #DicasFinanceiras
