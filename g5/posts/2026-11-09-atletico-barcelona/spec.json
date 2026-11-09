@@ -1,0 +1,89 @@
+{
+ "comp": "LaLiga · 12ª rodada",
+ "date": "08.11.2026",
+ "source": "ESPN / FotMob / 101GreatGoals",
+ "home": "Atlético",
+ "away": "Barcelona",
+ "hs": 1,
+ "as": 2,
+ "scorers": {
+  "home": [
+   "Giuliano Simeone 10'"
+  ],
+  "away": [
+   "Fermín López 45', 66'"
+  ]
+ },
+ "kicker": "Virada no Metropolitano",
+ "hook": "Atrás no placar.<br>Segue líder.",
+ "lead": "O Atlético saiu na frente e assustou cedo. O Barça teve a bola e teve o Fermín.",
+ "slides": [
+  {
+   "type": "bars",
+   "tag": "1 de 4 · A bola",
+   "title": "O Barça ficou<br>com a bola",
+   "rows": [
+    [
+     "Posse",
+     37,
+     63,
+     "%"
+    ],
+    [
+     "Passes certos",
+     317,
+     615
+    ],
+    [
+     "Precisão de passe",
+     81,
+     91,
+     "%"
+    ]
+   ],
+   "note": "O Barcelona acertou quase o dobro de passes do Atlético."
+  },
+  {
+   "type": "bars",
+   "tag": "2 de 4 · O perigo",
+   "title": "Mas o Atlético<br>não ficou atrás",
+   "rows": [
+    [
+     "Chutes no gol",
+     4,
+     4
+    ],
+    [
+     "Escanteios",
+     4,
+     2
+    ]
+   ],
+   "note": "Julián perdeu um gol cara a cara logo no início e o Atlético ainda acertou o travessão. No xG, quase empate."
+  },
+  {
+   "type": "big",
+   "tag": "3 de 4 · O nome",
+   "kicker": "Gols do Fermín López no jogo",
+   "a": "2",
+   "la": "Fermín · 45' e 66'",
+   "b": "1",
+   "lb": "Atlético inteiro",
+   "winner": "a",
+   "note": "Os dois gols da virada foram dele: o empate no fim do 1º tempo e o da vitória aos 66', em passe de Lamine Yamal."
+  },
+  {
+   "type": "big",
+   "tag": "4 de 4 · A tabela",
+   "kicker": "Pontos na LaLiga após 12 rodadas",
+   "a": "33",
+   "la": "Barcelona · 1º",
+   "b": "28",
+   "lb": "Atlético · 3º",
+   "winner": "a",
+   "note": "O Real Madrid é o 2º, com 30. O Atlético fica em 3º, a 5 do líder, e vê acabar a sequência de 7 vitórias seguidas na liga.",
+   "extra": "<span style='font-size:.7em;letter-spacing:.08em;opacity:.7'>DADOS: ESPN / FOTMOB / 101GREATGOALS</span>"
+  }
+ ],
+ "cta": "Quem jogou melhor?"
+}
