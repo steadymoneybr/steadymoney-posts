@@ -1,0 +1,75 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "tag": "Educação Financeira",
+   "title": "Ação ON x PN",
+   "sub": "O 3 e o 4 no fim do código<br>dizem muito. Entenda."
+  },
+  {
+   "type": "inner",
+   "tag": "1 de 5 — Ação ON x PN",
+   "big": "ON",
+   "sub": "Ação ordinária",
+   "bullets": [
+    "Dá direito a voto nas assembleias",
+    "O código costuma terminar em 3",
+    "Exemplo fictício: ABCD3",
+    "O controlador costuma ter muitas ON"
+   ],
+   "quote": "Quem tem ON tem voz<br>nas decisões."
+  },
+  {
+   "type": "inner",
+   "tag": "2 de 5 — Ação ON x PN",
+   "big": "PN",
+   "sub": "Ação preferencial",
+   "bullets": [
+    "Em geral, não dá direito a voto",
+    "Em troca, tem alguma vantagem",
+    "Exemplo: prioridade nos dividendos",
+    "O código costuma terminar em 4, 5 ou 6"
+   ],
+   "quote": "Abre mão do voto,<br>ganha preferência."
+  },
+  {
+   "type": "inner",
+   "tag": "3 de 5 — Ação ON x PN",
+   "big": "Dividendos",
+   "sub": "PN não garante dividendo maior",
+   "bullets": [
+    "A vantagem da PN vem do estatuto",
+    "Pode ser prioridade ou dividendo 10% maior",
+    "Sem lucro, o dividendo pode nem vir",
+    "Confira no site de RI da empresa"
+   ],
+   "quote": "Preferência não é<br>garantia de lucro."
+  },
+  {
+   "type": "inner",
+   "tag": "4 de 5 — Ação ON x PN",
+   "big": "Tag along",
+   "sub": "Proteção na venda do controle",
+   "bullets": [
+    "Se o controle é vendido, a ON tem proteção",
+    "Por lei, recebe ao menos 80% do valor",
+    "No Novo Mercado, são 100%",
+    "A PN só tem se o estatuto prever"
+   ],
+   "quote": "Na troca de dono,<br>a ON costuma sair na frente."
+  },
+  {
+   "type": "inner",
+   "tag": "5 de 5 — Ação ON x PN",
+   "big": "Na prática",
+   "sub": "Como olhar as duas",
+   "bullets": [
+    "Veja o que o estatuto dá a cada uma",
+    "Veja qual delas é mais negociada",
+    "Empresa do Novo Mercado só tem ON",
+    "Final 11 pode ser unit: pacote de ON e PN"
+   ],
+   "cta": "💬 <b>Comenta aqui embaixo:</b><br>você já tinha reparado no<br>3 e no 4 do código?"
+  }
+ ]
+}

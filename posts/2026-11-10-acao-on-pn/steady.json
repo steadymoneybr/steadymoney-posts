@@ -1,0 +1,164 @@
+{
+ "titulo": "Ação ON x PN: qual a diferença?",
+ "destaques": [
+  "ON",
+  "PN",
+  "3",
+  "4",
+  "voto",
+  "voz",
+  "preferência",
+  "dividendos",
+  "estatuto",
+  "garante",
+  "lucro",
+  "80%",
+  "100%",
+  "unit",
+  "curte",
+  "salva",
+  "Steady",
+  "Money",
+  "5",
+  "6"
+ ],
+ "cenas": [
+  {
+   "dur": 4.2,
+   "legenda": [
+    "Ação ON x PN:",
+    "qual a diferença?",
+    "Olha o fim do código."
+   ],
+   "personagem": {
+    "img": "P04.png"
+   },
+   "efeitos": [
+    {
+     "tipo": "interrogacao",
+     "x": 860,
+     "y": 600
+    }
+   ]
+  },
+  {
+   "dur": 5.2,
+   "legenda": [
+    "ON é a ordinária.",
+    "Dá direito a voto",
+    "nas assembleias.",
+    "O código costuma",
+    "terminar em 3."
+   ],
+   "pill": "ON",
+   "personagem": {
+    "img": "P16.png"
+   },
+   "placa": "ON = 3\nVOTO"
+  },
+  {
+   "dur": 5.2,
+   "legenda": [
+    "PN é a preferencial.",
+    "Em geral, sem voto.",
+    "Em troca, alguma",
+    "preferência.",
+    "Termina em 4, 5 ou 6."
+   ],
+   "pill": "PN",
+   "personagem": {
+    "img": "P16.png"
+   },
+   "placa": "PN = 4, 5, 6\nPREFERÊNCIA"
+  },
+  {
+   "dur": 5.4,
+   "legenda": [
+    "PN não garante",
+    "dividendos maiores.",
+    "A vantagem vem",
+    "do estatuto.",
+    "Sem lucro,",
+    "pode nem vir."
+   ],
+   "pill": "DIVIDENDOS",
+   "personagem": {
+    "img": "P12.png",
+    "x": 290,
+    "h": 880
+   },
+   "objetos": [
+    {
+     "img": "O02.png",
+     "x": 790,
+     "w": 400,
+     "y": 1400,
+     "delay": 0.3,
+     "pulse": 2.4,
+     "brilho": true
+    }
+   ]
+  },
+  {
+   "dur": 4.0,
+   "legenda": [
+    "Não sabia disso?",
+    "Curte o vídeo",
+    "e salva pra depois."
+   ],
+   "personagem": {
+    "img": "P07.png",
+    "anim": "jump"
+   },
+   "efeitos": [
+    {
+     "tipo": "coracoes"
+    }
+   ]
+  },
+  {
+   "dur": 5.8,
+   "legenda": [
+    "Venderam o controle?",
+    "Por lei, a ON leva",
+    "ao menos 80%",
+    "do valor pago.",
+    "No Novo Mercado, 100%.",
+    "PN, só se",
+    "o estatuto prever."
+   ],
+   "pill": "TAG ALONG",
+   "personagem": {
+    "img": "P05.png",
+    "anim": "shake"
+   }
+  },
+  {
+   "dur": 5.4,
+   "legenda": [
+    "Na prática:",
+    "leia o estatuto,",
+    "veja a mais negociada.",
+    "Final 11",
+    "pode ser unit,",
+    "pacote de ON e PN."
+   ],
+   "pill": "NA PRÁTICA",
+   "personagem": {
+    "img": "P09.png"
+   }
+  },
+  {
+   "dur": 3.6,
+   "legenda": [
+    "Segue a",
+    "Steady Money",
+    "pra aprender",
+    "isso de vez."
+   ],
+   "personagem": {
+    "img": "P10.png"
+   }
+  }
+ ]
+}
