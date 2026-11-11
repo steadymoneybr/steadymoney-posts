@@ -15,7 +15,7 @@ Status: `pendente` ou `publicado AAAA-MM-DD`. Ordem alterna as trilhas. Base de 
 | 7 | 5 perguntas antes de qualquer investimento | Finanças Intermediário | publicado 2026-11-05 |
 | 8 | Patrimônio líquido: a conta que ninguém faz | Finanças Compacto | publicado 2026-11-06 |
 | 9 | Renda fixa pode dar prejuízo? (marcação a mercado) | Renda Fixa | publicado 2026-11-08 |
-| 10 | Ação ON x PN: qual a diferença | Como Comprar uma Ação na B3 | pendente |
+| 10 | Ação ON x PN: qual a diferença | Como Comprar uma Ação na B3 | publicado 2026-11-11 |
 | 11 | O que é um ETF, em 3 slides | Carteira de ETFs | pendente |
 | 12 | Método bola de neve x avalanche | Finanças Básico | pendente |
 | 13 | Come-cotas: o imposto que você não vê | Finanças Intermediário | pendente |
