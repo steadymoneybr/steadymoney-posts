@@ -22,7 +22,7 @@ Status: `pendente` ou `publicado AAAA-MM-DD`. Ordem alterna as trilhas. Base de 
 | 14 | Seed phrase: por que nunca compartilhar | Criptomoedas | pendente |
 | 15 | Tabela regressiva x progressiva na previdência | Previdência Privada | pendente |
 | 16 | Juros compostos: o tempo trabalha pra você | Finanças Avançado | pendente |
-| 17 | LCI/LCA x CDB: isenção não é tudo | Renda Fixa | pendente |
+| 17 | LCI/LCA x CDB: isenção não é tudo | Renda Fixa | publicado 2026-11-12 |
 | 18 | Dividend yield: o que ele diz e o que esconde | Fundos Imobiliários | pendente |
 | 19 | Rentabilidade "boa demais": como desconfiar | Multiplicar Dinheiro com Risco Baixo | pendente |
 | 20 | Diversificação não é ter muitos ativos | Finanças Intermediário | pendente |
