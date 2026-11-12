@@ -1,0 +1,97 @@
+{
+ "comp": "Brasileirão · Reta final",
+ "date": "11.11.2026",
+ "source": "Flashscore / Folha PE / BNews",
+ "home": "Flamengo",
+ "away": "Palmeiras",
+ "hs": 76,
+ "as": 73,
+ "scorers_lbl": "Campanha em 34 jogos",
+ "scorers": {
+  "home": [
+   "23V · 7E · 4D",
+   "71 gols marcados"
+  ],
+  "away": [
+   "21V · 10E · 3D",
+   "23 gols sofridos"
+  ]
+ },
+ "kicker": "Corrida pelo título",
+ "hook": "3 pontos.<br>4 rodadas.",
+ "lead": "Só Flamengo e Palmeiras ainda brigam pelo título. E tem confronto direto em 21/11.",
+ "slides": [
+  {
+   "type": "bars",
+   "tag": "1 de 4 · A campanha",
+   "title": "Quase lado<br>a lado",
+   "rows": [
+    [
+     "Vitórias",
+     23,
+     21
+    ],
+    [
+     "Empates",
+     7,
+     10
+    ],
+    [
+     "Derrotas",
+     4,
+     3
+    ]
+   ],
+   "note": "Flamengo: 2 vitórias a mais. Palmeiras: 1 derrota a menos."
+  },
+  {
+   "type": "bars",
+   "tag": "2 de 4 · Ataque e defesa",
+   "title": "Melhor ataque<br>x<br>melhor defesa",
+   "rows": [
+    [
+     "Gols marcados",
+     71,
+     62
+    ],
+    [
+     "Gols sofridos",
+     29,
+     23
+    ],
+    [
+     "Saldo de gols",
+     42,
+     39
+    ]
+   ],
+   "note": "Ninguém fez mais gols que o Flamengo. Ninguém sofreu menos que o Palmeiras."
+  },
+  {
+   "type": "big",
+   "tag": "3 de 4 · A conta",
+   "kicker": "O que sobra no campeonato",
+   "a": "12",
+   "la": "Pontos em disputa",
+   "b": "3",
+   "lb": "Vantagem do Fla",
+   "winner": "a",
+   "note": "Faltam 4 rodadas. O Flamengo ainda pega Athletico-PR, Palmeiras, Coritiba e Chapecoense. O Palmeiras pega Cruzeiro, Flamengo, Chapecoense e Coritiba."
+  },
+  {
+   "type": "big",
+   "tag": "4 de 4 · O calendário",
+   "kicker": "As duas próximas rodadas",
+   "a": "18/11",
+   "la": "Próxima quarta",
+   "b": "21/11",
+   "lb": "36ª · Pal x Fla",
+   "winner": "b",
+   "note": "Na próxima quarta, 18/11, o Flamengo recebe o Athletico-PR e o Palmeiras visita o Cruzeiro. O confronto direto é no sábado, 21/11, às 16h30, no Nubank Parque.",
+   "extra": "<span style='font-size:.7em;letter-spacing:.08em;opacity:.7'>DADOS: FLASHSCORE / FOLHA PE / BNEWS</span>"
+  }
+ ],
+ "cta": "Quem leva o título?",
+ "score_unit": "Pontos na tabela",
+ "hook_static": true
+}

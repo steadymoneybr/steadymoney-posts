@@ -40,6 +40,7 @@ h2{font-weight:800;font-size:88px;line-height:.98;text-transform:uppercase;margi
 .score .t.r{text-align:right}
 .score .n{font-weight:900;font-size:170px;line-height:1}
 .score .x{font-weight:400;font-size:70px;color:#5D646B}
+.unit{text-align:center;font-weight:700;font-size:34px;letter-spacing:8px;text-transform:uppercase;color:#9AA0A6;margin-top:10px}
 .w{color:#FF5A1F!important}
 .l{color:#F2F2EE}
 .scorers{display:grid;grid-template-columns:1fr 1fr;gap:30px;margin-top:26px;font-weight:600;font-size:34px;line-height:1.35;color:#C9CDD1}
@@ -83,10 +84,13 @@ def cover(spec):
     sh = '<br>'.join(spec.get('scorers', {}).get('home', [])) or '—'
     sa = '<br>'.join(spec.get('scorers', {}).get('away', [])) or '—'
     kick = f"<div class=kicker>{spec['kicker']}</div>" if spec.get('kicker') else ''
+    lbl = spec.get('scorers_lbl', 'Gols')
+    hcls = '' if spec.get('hook_static') else 'fade'  # gancho visível já no quadro 0 do vídeo
+    unit = f"<div class=unit>{spec['score_unit']}</div>" if spec.get('score_unit') else ''  # ex. "pontos" em dia sem jogo  # dia sem jogo: ex. "Campanha"
     return head(spec['comp']) + f"""<div class=stripe></div>{kick}
-<div class=score><span class='t r {hc}'>{spec['home']}</span><span class='n {hc}'>{spec['hs']}</span><span class=x>×</span><span class='n {ac}'>{spec['as']}</span><span class='t {ac}'>{spec['away']}</span></div>
-<div class='scorers fade'><div><div class=lbl>Gols</div>{sh}</div><div><div class=lbl>Gols</div>{sa}</div></div>
-<h2 class=fade style='margin-top:56px'>{spec['hook']}</h2>
+<div class=score><span class='t r {hc}'>{spec['home']}</span><span class='n {hc}'>{spec['hs']}</span><span class=x>×</span><span class='n {ac}'>{spec['as']}</span><span class='t {ac}'>{spec['away']}</span></div>{unit}
+<div class='scorers fade'><div><div class=lbl>{lbl}</div>{sh}</div><div><div class=lbl>{lbl}</div>{sa}</div></div>
+<h2 class={hcls} style='margin-top:56px'>{spec['hook']}</h2>
 <p class='lead fade'>{spec.get('lead', '')}</p>
 <div class=foot><span>Arrasta pro lado →</span><span>{spec['date']}</span></div></div>"""
 
