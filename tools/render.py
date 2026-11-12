@@ -1,4 +1,6 @@
-import json, sys, asyncio
+import json, sys, asyncio, re, os
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from categorias import cat, label
 from playwright.async_api import async_playwright
 
 CSS = """
@@ -8,7 +10,7 @@ display:flex;flex-direction:column;align-items:center;justify-content:center;tex
 .tag{color:#9C7A3C;font-weight:700;font-size:21px;letter-spacing:6px;text-transform:uppercase}
 .tagline{width:200px;height:3px;background:#9C7A3C;margin:22px auto 0}
 .serif{font-family:'Lora',serif;font-weight:700;color:#1B2A41}
-.ctitle{font-size:92px;line-height:1.08;margin-top:90px}
+.ctitle{font-size:92px;line-height:1.08;margin-top:90px;max-width:800px}
 .csub{font-size:32px;line-height:1.35;margin-top:34px;color:#2B2B2B}
 .bars{display:flex;align-items:flex-end;gap:12px;margin-top:60px;padding:0 8px 6px;border-bottom:4px solid #1B2A41}
 .bars div{width:34px;border-radius:5px;background:#1B2A41}
@@ -26,8 +28,15 @@ li:before{content:'';position:absolute;left:-38px;top:13px;width:13px;height:13p
 """
 
 def cover(s):
-    return f"""<div class=tag>{s['tag']}</div><div class=tagline></div>
-<div class='serif ctitle'>{s['title']}</div><div class=csub>{s['sub']}</div>
+    c = cat(s)
+    title = s['title']
+    if (s.get('category') or '') == 'confronto':  # "x" do confronto em dourado e maior
+        title = re.sub(r'(^|\s|>)x(?=\s|<|$)', r"\1<span style='color:%s;font-size:1.15em'>x</span>" % c['vs'], title)
+    style = (f"<style>body{{background:{c['bg']}}}.tag{{color:{c['tag']}}}.tagline{{background:{c['tag']}}}"
+             f".ctitle{{color:{c['title']}}}.csub{{color:{c['sub']}}}.bars{{border-color:{c['bar']}}}.bars div{{background:{c['bar']}}}"
+             f".swipe,.brand{{color:{c['ink']}}}</style>")
+    return f"""{style}<div class=tag>{label(s)}</div><div class=tagline></div>
+<div class='serif ctitle'>{title}</div><div class=csub>{s['sub']}</div>
 <div class=bars><div style='height:62px'></div><div style='height:86px;background:#9C7A3C'></div><div style='height:76px'></div><div style='height:60px'></div></div>
 <div class=swipe>Arraste para o lado →</div><div class=brand>STEADY MONEY</div>"""
 

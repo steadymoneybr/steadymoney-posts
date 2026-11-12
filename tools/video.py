@@ -4,6 +4,9 @@ Uso: python3 tools/video.py posts/AAAA-MM-DD-slug/spec.json posts/AAAA-MM-DD-slu
 """
 import json, math, re, subprocess, sys
 from PIL import Image, ImageDraw, ImageFont
+import os as _os
+sys.path.insert(0, _os.path.dirname(_os.path.abspath(__file__)))
+from categorias import cat, label, rgb
 
 W, H, FPS = 1080, 1920, 30
 CREAM = (251, 249, 244); NAVY = (27, 42, 65); GOLD = (156, 122, 60); LINE = (222, 216, 201)
@@ -69,8 +72,8 @@ def fit(text, path, var, start, minsize, maxw, maxlines):
 
 
 class Fr:
-    def __init__(s):
-        s.im = Image.new('RGBA', (W, H), CREAM + (255,))
+    def __init__(s, bg=CREAM):
+        s.im = Image.new('RGBA', (W, H), bg + (255,))
 
     def _lay(s):
         return Image.new('RGBA', (W, H), (0, 0, 0, 0))
@@ -107,41 +110,60 @@ def appear(t, start, dur=0.5):
 fTag = F(DJB, 30); fSub = F(DJB, 34); fBody = F(DJ, 40); fIt = F(LORAI, 54, 'Italic'); fBrand = F(LORA, 44, 'Bold')
 
 
-def tag(fr, txt, t):
+def tag(fr, txt, t, col=GOLD):
     a, dy = appear(t, 0.05)
-    fr.text(txt.upper(), fTag, GOLD, 300, a, dy, spacing=7)
-    w = 220 * ease((t - 0.2) / 0.5); fr.rect((W / 2 - w / 2, 352, W / 2 + w / 2, 356), GOLD, a)
+    fr.text(txt.upper(), fTag, col, 300, a, dy, spacing=7)
+    w = 220 * ease((t - 0.2) / 0.5); fr.rect((W / 2 - w / 2, 352, W / 2 + w / 2, 356), col, a)
 
 
-def bars(fr, cx, y, a, scale=1.0, grow=1.0):
-    hs = [90, 128, 108, 86]; cols = [NAVY, GOLD, NAVY, NAVY]
+def bars(fr, cx, y, a, scale=1.0, grow=1.0, dark=NAVY):
+    hs = [90, 128, 108, 86]; cols = [dark, GOLD, dark, dark]
     bw = int(34 * scale); gap = int(14 * scale); tot = 4 * bw + 3 * gap; x0 = cx - tot / 2
     for i, (h, c) in enumerate(zip(hs, cols)):
         hh = h * scale * ease(grow - i * 0.12)
         x = x0 + i * (bw + gap); fr.rect((x, y - hh, x + bw, y), c, a, r=int(5 * scale))
-    fr.rect((x0 - 10 * scale, y + 8 * scale, x0 + tot + 10 * scale, y + 13 * scale), NAVY, a)
+    fr.rect((x0 - 10 * scale, y + 8 * scale, x0 + tot + 10 * scale, y + 13 * scale), dark, a)
 
 
 def cover_scene(s):
+    c = cat(s); cT = rgb(c['title']); cVS = rgb(c['vs']); cS = rgb(c['sub']); cTag = rgb(c['tag']); cBar = rgb(c['bar']); cInk = rgb(c['ink']); bg = rgb(c['bg'])
+    confronto = (s.get('category') or '') == 'confronto'
     title = clean(s['title']); sub = clean(s.get('sub', ''))
     nexp = title.count('\n') + 1  # respeita as quebras <br> do título
     fT = fit(title, LORA, 'Bold', 120, 70, 940, nexp if nexp > 1 else 4)
     tl = wrap(title, fT, 940); sl = wrap(sub, fBody, 900)
 
+    def line(fr, ln, y, a, dy):
+        words = ln.split(' ')
+        if not confronto or 'x' not in words:
+            fr.text(ln, fT, cT, y, a, dy); return
+        parts = []  # destaca o "x" em dourado
+        for i, w_ in enumerate(words):
+            parts.append(w_ + (' ' if i < len(words) - 1 else ''))
+        widths = [_meas.textlength(p, font=fT) for p in parts]; x = (W - sum(widths)) / 2
+        for p, w in zip(parts, widths):
+            fr.text(p, fT, cVS if p.strip() == 'x' else cT, y, a, dy, x=x); x += w
+
     def draw(t):
-        fr = Fr(); tag(fr, s.get('tag', 'Educação Financeira'), t)
+        fr = Fr(bg); tag(fr, label(s), t, cTag)
         y = 520
         lh = int(fT.size * 1.18)
         for i, ln in enumerate(tl):
-            a, dy = appear(t, 0.3 + i * 0.15); fr.text(ln, fT, NAVY, y, a, dy); y += lh
+            a, dy = appear(t, 0.3 + i * 0.15); line(fr, ln, y, a, dy); y += lh
         y += 50
         for ln in sl:
-            a, dy = appear(t, 0.8); fr.text(ln, fBody, TEXT, y, a, dy); y += 62
+            a, dy = appear(t, 0.8); fr.text(ln, fBody, cS, y, a, dy); y += 62
         by = max(y + 260, 1250)
-        bars(fr, W / 2, by, ease((t - 1.1) / 0.4), 1.3, (t - 1.1) / 0.9)
-        fr.text('STEADY MONEY', fBrand, NAVY, max(1500, by + 70), 0.9 * ease((t - 1.3) / 0.5))
+        bars(fr, W / 2, by, ease((t - 1.1) / 0.4), 1.3, (t - 1.1) / 0.9, cBar)
+        fr.text('STEADY MONEY', fBrand, cInk, max(1500, by + 70), 0.9 * ease((t - 1.3) / 0.5))
         return fr
     return draw, 4.0
+
+
+def save_cover(spec, path):
+    """Capa do Reel/TikTok (1080x1920) igual à capa do vídeo, já com a categoria. Use como videoThumbnailUrl."""
+    s = next(x for x in spec['slides'] if x['type'] == 'cover')
+    cover_scene(s)[0](3.9).im.convert('RGB').save(path, 'JPEG', quality=92)
 
 
 def inner_scene(s):
@@ -275,8 +297,12 @@ def main(spec_path, out):
     # quadros de conferência: o fim de cada cena
     for i, (fn, d) in enumerate(scenes):
         fn(d - 0.05).im.convert('RGB').save(out.rsplit('.', 1)[0] + f'-check{i + 1}.jpg', quality=80)
+    save_cover(spec, _os.path.join(_os.path.dirname(out) or '.', 'capa-video.jpg'))
     print(f'{out}: {total:.1f}s')
 
 
 if __name__ == '__main__':
-    main(sys.argv[1], sys.argv[2])
+    if len(sys.argv) > 3 and sys.argv[3] == '--capa':  # só a capa (ex.: dia do Steady): video.py spec.json capa-video.jpg --capa
+        save_cover(json.load(open(sys.argv[1])), sys.argv[2])
+    else:
+        main(sys.argv[1], sys.argv[2])

@@ -62,6 +62,22 @@ No dia do Steady: o carrossel do Instagram continua igual; para o TikTok escreva
 - **Títulos de comparação (decidido pelo Vini em 03/11/2026, vale sempre):** quando o título comparar duas coisas e couber inteiro em 1 linha, pode ficar tudo junto (ex.: `"Papel x Tijolo"`). Se precisar quebrar linha, o "x" fica sozinho na linha do meio, em 3 linhas simétricas (ex.: `"FII de tijolo<br>x<br>FII de papel"`). Nunca deixar o "x" colado numa das linhas quebradas (ex.: "FII de tijolo<br>x FII de papel"). Vale para a capa do carrossel e do vídeo.
 - Slides internos: etiqueta "N DE 5 — TEMA", palavra/número grande, subtítulo em caixa alta, 3–4 bullets dourados, frase em itálico (slides 2 a 5) ou CTA "💬 Comenta aqui embaixo:" (slide 6).
 
+## Categorias de capa (decidido pelo Vini em 12/11/2026, vale sempre)
+
+Todo tema pertence a uma categoria (coluna "Categoria" do `temas.md`) e a capa do carrossel e do vídeo muda conforme ela. No `spec.json`, a capa leva `"category"` e `"tag": "Educação Financeira"` (o render troca a etiqueta pelo rótulo da categoria):
+
+| category | Etiqueta | Visual | Quando usar |
+|---|---|---|---|
+| `confronto` | QUAL A DIFERENÇA? | título azul, "x" grande em dourado | X x Y, dois conceitos que o pessoal confunde |
+| `mito` | MITO OU VERDADE? | título dourado | pergunta/curiosidade, crença comum ("Renda fixa pode dar prejuízo?") |
+| `golpe` | ALERTA DE GOLPE | fundo azul-marinho, título creme | golpes, fraudes, sinais de alerta |
+| `conceito` | ENTENDA | creme + azul (visual clássico) | explicar um conceito ou ferramenta |
+
+- As cores ficam em `tools/categorias.py` (usado pelo `render.py` e pelo `video.py`). Nova categoria: adicione lá com rótulo e cores da paleta, e registre nesta tabela.
+- Ao criar temas novos, já defina a categoria. Evite a mesma categoria dois dias seguidos quando der.
+- O `video.py` gera também `capa-video.jpg` (capa 9:16 com a categoria); no dia do Steady gere só a capa com `python3 tools/video.py <spec.json> <pasta>/capa-video.jpg --capa`. Suba essa capa e use como `videoThumbnailUrl` no Reel (e no TikTok), para o feed manter o padrão das categorias.
+- O título da capa do carrossel tem largura máxima (o grid do Instagram corta as laterais do quadrado); confira se nada fica rente às bordas.
+
 ## Padrão da legenda (igual aos posts já publicados)
 
 ```
