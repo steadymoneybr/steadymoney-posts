@@ -76,6 +76,7 @@ Todo tema pertence a uma categoria (coluna "Categoria" do `temas.md`) e a capa d
 - As cores ficam em `tools/categorias.py` (usado pelo `render.py` e pelo `video.py`). Nova categoria: adicione lá com rótulo e cores da paleta, e registre nesta tabela.
 - Ao criar temas novos, já defina a categoria. Evite a mesma categoria dois dias seguidos quando der.
 - O `video.py` gera também `capa-video.jpg` (capa 9:16 com a categoria); no dia do Steady gere só a capa com `python3 tools/video.py <spec.json> <pasta>/capa-video.jpg --capa`. Suba essa capa e use como `videoThumbnailUrl` no Reel (e no TikTok), para o feed manter o padrão das categorias.
+- **Capa no 1º quadro (obrigatório em todo vídeo, inclusive Steady):** depois do vídeo final pronto, rode `python3 tools/capa_inicio.py <pasta>/capa-video.jpg <pasta>/video.mp4`. Isso põe a capa da categoria como 1º quadro (0,1 s), para o Instagram e o TikTok nunca usarem um quadro vazio ou só o boneco como capa. Rode uma vez só por vídeo e confira o 1º quadro (`ffmpeg -i video.mp4 -frames:v 1 video-check-capa.jpg`).
 - O título da capa do carrossel tem largura máxima (o grid do Instagram corta as laterais do quadrado); confira se nada fica rente às bordas.
 
 ## Padrão da legenda (igual aos posts já publicados)
