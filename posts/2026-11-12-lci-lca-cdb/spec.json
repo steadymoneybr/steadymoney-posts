@@ -1,0 +1,75 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "tag": "Educação Financeira",
+   "title": "LCI/LCA x CDB",
+   "sub": "Isenção de IR não é tudo.<br>Entenda a diferença."
+  },
+  {
+   "type": "inner",
+   "tag": "1 de 5 — LCI/LCA x CDB",
+   "big": "CDB",
+   "sub": "Certificado de Depósito Bancário",
+   "bullets": [
+    "Você empresta dinheiro pro banco",
+    "Em troca, recebe juros combinados",
+    "Pode ter liquidez diária ou prazo fixo",
+    "Tem Imposto de Renda sobre o rendimento"
+   ],
+   "quote": "CDB é um empréstimo<br>que você faz ao banco."
+  },
+  {
+   "type": "inner",
+   "tag": "2 de 5 — LCI/LCA x CDB",
+   "big": "LCI e LCA",
+   "sub": "Letras de crédito",
+   "bullets": [
+    "Também são empréstimos ao banco",
+    "LCI: dinheiro vai pro setor imobiliário",
+    "LCA: dinheiro vai pro agronegócio",
+    "Isentas de IR pra pessoa física"
+   ],
+   "quote": "Muda o destino do dinheiro<br>e o imposto."
+  },
+  {
+   "type": "inner",
+   "tag": "3 de 5 — LCI/LCA x CDB",
+   "big": "Imposto",
+   "sub": "A tabela do CDB cai com o tempo",
+   "bullets": [
+    "Até 180 dias: 22,5% do rendimento",
+    "De 181 a 360 dias: 20%",
+    "De 361 a 720 dias: 17,5%",
+    "Acima de 720 dias: 15%"
+   ],
+   "quote": "O IR morde só o rendimento,<br>não o valor investido."
+  },
+  {
+   "type": "inner",
+   "tag": "4 de 5 — LCI/LCA x CDB",
+   "big": "A conta",
+   "sub": "Compare a taxa já sem o IR",
+   "bullets": [
+    "Exemplo: CDB a 110% do CDI, 2+ anos",
+    "Tirando 15% de IR, sobra 93,5% do CDI",
+    "LCI a 90% do CDI rende menos que ele",
+    "LCI a 95% do CDI rende mais"
+   ],
+   "quote": "Isento nem sempre<br>rende mais."
+  },
+  {
+   "type": "inner",
+   "tag": "5 de 5 — LCI/LCA x CDB",
+   "big": "Na prática",
+   "sub": "O que olhar além da taxa",
+   "bullets": [
+    "LCI e LCA têm carência: meses sem resgate",
+    "Muitos CDBs têm liquidez diária",
+    "FGC: até R$ 250 mil por CPF e por instituição",
+    "Escolha pelo prazo do seu objetivo"
+   ],
+   "cta": "💬 <b>Comenta aqui embaixo:</b><br>CDB ou LCI/LCA:<br>qual você já usou?"
+  }
+ ]
+}
