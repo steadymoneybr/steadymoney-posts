@@ -7,7 +7,7 @@ As imagens ficam públicas via `https://raw.githubusercontent.com/steadymoneybr/
 
 ## Fluxo diário (tarefa agendada das 11h20)
 
-> **APROVAÇÃO PERMANENTE (Vini, 08/11/2026):** até o Vini avisar o contrário, todo conteúdo que passar na revisão independente (veredito APROVADO) está aprovado. Crie os dois posts já agendados (`draft: false`) no horário do dia, marque o tema como publicado, faça commit/push e mande ao Vini os slides, o vídeo e a legenda só para ciência ("✅ Revisado · já agendado para HH:MM"). Se a revisão não passar depois das rodadas, aí sim crie como rascunho e peça aprovação dizendo o que ficou pendente. Isso substitui os passos 6–8 (rascunho/esperar "aprovado") abaixo.
+> **APROVAÇÃO PERMANENTE (Vini, 08/11/2026):** até o Vini avisar o contrário, todo conteúdo que passar na revisão independente (veredito APROVADO) está aprovado. Crie os posts (carrossel, story e TikTok, ver passo 6) já agendados (`draft: false`) no horário do dia, marque o tema como publicado, faça commit/push e mande ao Vini os slides, o vídeo e a legenda só para ciência ("✅ Revisado · já agendado para HH:MM"). Se a revisão não passar depois das rodadas, aí sim crie como rascunho e peça aprovação dizendo o que ficou pendente. Isso substitui os passos 6–8 (rascunho/esperar "aprovado") abaixo.
 
 Formato (decidido pelo Vini em 29/10/2026): **Instagram recebe o carrossel; TikTok recebe o vídeo animado do mesmo conteúdo.**
 
@@ -28,6 +28,7 @@ Todos os vídeos do TikTok usam a trilha padrão aprovada pelo Vini (`assets/tri
    - Instagram: providers `instagram`, media = os 6 `.jpg` na ordem, `instagramData.type = POST`.
    - TikTok: providers `tiktok`, media = o `video.mp4`, `tiktokData` com `title` curto, `privacyOption PUBLIC_TO_EVERYONE`.
    A legenda é a mesma nos dois.
+   - **Story (decidido pelo Vini em 13/11/2026):** junto com o carrossel, no mesmo horário, crie um 3º post: providers `instagram`, `instagramData.type = STORY`, sem `text`, media = a `capa-video.jpg` (capa 9:16, 1080x1920, com a categoria). **NUNCA use o `slide1.jpg` no story:** ele é 4:5 e fica fora de formato. Confira com Read que a `capa-video.jpg` está em 9:16 e sem nada cortado, suba e confirme que o link raw responde 200 (se o link `main` ainda der 404 logo após o push, use o link com o hash do commit). Se o Metricool recusar o story, siga sem ele e avise o Vini em 1 linha.
 7. Envie ao Vini (SendUserFile com os 6 slides e o vídeo + SendUserMessage com a legenda) e peça aprovação. Mensagem curta, sem resumo extra no final.
 8. Quando ele responder "aprovado": `updateScheduledPost` com `draft: false` nos dois posts (mantendo todo o resto). Depois do horário de publicação, se tiver como, confira com `getScheduledPosts` se algum status ficou `ERROR` e avise o Vini se ficou. Se pedir ajuste: ajuste, gere de novo, suba e atualize os posts (continuam rascunho até aprovar).
 9. Marque o tema como `publicado AAAA-MM-DD` em `temas.md` e faça commit/push.
