@@ -1,0 +1,95 @@
+{
+ "comp": "Liga das Nações · 5ª rodada",
+ "date": "12.11.2026",
+ "source": "ESPN / Football Italia / 101 Great Goals",
+ "home": "Itália",
+ "away": "França",
+ "hs": 3,
+ "as": 1,
+ "scorers": {
+  "home": [
+   "Pio Esposito 26', 75' (pên.)",
+   "Frattesi 63'"
+  ],
+  "away": [
+   "Olise 10'"
+  ]
+ },
+ "kicker": "Jejum quebrado no San Siro",
+ "hook": "64 anos<br>depois.",
+ "lead": "1ª vitória da Itália sobre a França em casa desde 1962. E com só 35% de posse.",
+ "slides": [
+  {
+   "type": "bars",
+   "tag": "1 de 4 · O domínio",
+   "title": "A França teve<br>a bola",
+   "rows": [
+    [
+     "Posse",
+     35,
+     65,
+     "%"
+    ],
+    [
+     "Finalizações",
+     11,
+     18
+    ],
+    [
+     "Faltas cometidas",
+     10,
+     18
+    ]
+   ],
+   "note": "A França ficou com quase 2/3 da bola e chutou 18 vezes. Saiu na frente com Olise, aos 10'."
+  },
+  {
+   "type": "bars",
+   "tag": "2 de 4 · A diferença",
+   "title": "Mas a Itália<br>foi certeira",
+   "rows": [
+    [
+     "Chutes no gol",
+     5,
+     5
+    ],
+    [
+     "Chutes para fora",
+     5,
+     9
+    ],
+    [
+     "Gols",
+     3,
+     1
+    ]
+   ],
+   "note": "Mesmo número de chutes no gol, e a Itália fez 3. A França ainda parou 2 vezes na trave, e a Itália perdeu um pênalti aos 60'."
+  },
+  {
+   "type": "big",
+   "tag": "3 de 4 · O nome",
+   "kicker": "Pio Esposito, 21 anos",
+   "a": "2",
+   "la": "Gols no jogo",
+   "b": "9",
+   "lb": "Gols pela seleção",
+   "winner": "a",
+   "note": "Empatou aos 26' e fechou aos 75', de pênalti.<br>Frattesi fez o gol da virada aos 63'."
+  },
+  {
+   "type": "big",
+   "tag": "4 de 4 · A tabela",
+   "kicker": "Grupo A1 após 5 rodadas",
+   "a": "10",
+   "la": "Itália · 1ª",
+   "b": "10",
+   "lb": "França · 2ª",
+   "winner": "a",
+   "note": "Foi a 1ª derrota de Zidane no comando da França. A Itália passa pelo confronto direto.<br>Domingo: Bélgica x Itália e França x Turquia.",
+   "extra": "<span style='font-size:.7em;letter-spacing:.08em;opacity:.7'>DADOS: ESPN / FOOTBALL ITALIA / 101 GREAT GOALS</span>"
+  }
+ ],
+ "cta": "A Itália voltou a ser grande?",
+ "hook_static": true
+}
