@@ -25,7 +25,7 @@ Status: `pendente` ou `publicado AAAA-MM-DD`. Categoria da capa: `confronto`, `m
 | 17 | LCI/LCA x CDB: isenção não é tudo | Renda Fixa | confronto | publicado 2026-11-12 |
 | 18 | Dividend yield: o que ele diz e o que esconde | Fundos Imobiliários | mito | pendente |
 | 19 | Rentabilidade "boa demais": como desconfiar | Multiplicar Dinheiro com Risco Baixo | golpe | pendente |
-| 20 | Diversificação não é ter muitos ativos | Finanças Intermediário | mito | pendente |
+| 20 | Diversificação não é ter muitos ativos | Finanças Intermediário | mito | publicado 2026-11-13 |
 | 21 | Custódia em corretora x carteira própria (cripto) | Criptomoedas | confronto | pendente |
 | 22 | Taxa de administração: o custo silencioso | Previdência Privada | conceito | pendente |
 | 23 | Rebalanceamento de carteira | Finanças Intermediário | conceito | pendente |

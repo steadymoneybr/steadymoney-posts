@@ -1,0 +1,76 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "tag": "Educação Financeira",
+   "title": "Ter muitos ativos<br>é diversificar?",
+   "sub": "Não é a quantidade que protege.<br>Entenda o porquê.",
+   "category": "mito"
+  },
+  {
+   "type": "inner",
+   "tag": "1 de 5 — Diversificação",
+   "big": "Mito",
+   "sub": "Quantidade não é proteção",
+   "bullets": [
+    "10 ações de bancos são quase um risco só",
+    "Se o setor vai mal, todas caem juntas",
+    "Ter muitos ativos parecidos protege pouco",
+    "O que conta é se eles se comportam diferente"
+   ],
+   "quote": "Mais ativos não quer dizer<br>menos risco."
+  },
+  {
+   "type": "inner",
+   "tag": "2 de 5 — Diversificação",
+   "big": "Correlação",
+   "sub": "Ativos que andam juntos",
+   "bullets": [
+    "Mede se os preços sobem e caem juntos",
+    "Correlação alta: um não segura o outro",
+    "Correlação baixa: as quedas não vêm juntas",
+    "É isso que suaviza o sobe e desce"
+   ],
+   "quote": "Diversificar é misturar<br>comportamentos diferentes."
+  },
+  {
+   "type": "inner",
+   "tag": "3 de 5 — Diversificação",
+   "big": "Classes",
+   "sub": "Tipos diferentes de ativo",
+   "bullets": [
+    "Renda fixa, ações, FIIs, exterior...",
+    "Cada classe reage de um jeito à economia",
+    "Ex.: juro alto costuma pesar na bolsa",
+    "E deixa a renda fixa mais atraente"
+   ],
+   "quote": "Classe diferente,<br>risco diferente."
+  },
+  {
+   "type": "inner",
+   "tag": "4 de 5 — Diversificação",
+   "big": "Repetição",
+   "sub": "Fundos com a mesma carteira",
+   "bullets": [
+    "3 fundos de ações podem ter as mesmas empresas",
+    "ETF do Ibovespa já tem as maiores ações",
+    "Comprar as duas coisas repete o risco",
+    "Olhe o que tem dentro de cada fundo"
+   ],
+   "quote": "Nome diferente<br>não é carteira diferente."
+  },
+  {
+   "type": "inner",
+   "tag": "5 de 5 — Diversificação",
+   "big": "Na prática",
+   "sub": "Perguntas pra sua carteira",
+   "bullets": [
+    "Quanto está numa só empresa ou setor?",
+    "Tem dinheiro em mais de uma classe?",
+    "Tudo depende do mesmo risco, como o Brasil?",
+    "Diversificar reduz o risco, não zera"
+   ],
+   "cta": "💬 <b>Comenta aqui embaixo:</b><br>Quantas classes de ativo<br>você tem hoje?"
+  }
+ ]
+}

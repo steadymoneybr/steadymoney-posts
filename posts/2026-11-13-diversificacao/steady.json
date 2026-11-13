@@ -1,0 +1,23 @@
+{
+ "titulo": "Ter muitos ativos é diversificar?",
+ "destaques": ["diversificar", "risco", "setor", "juntas", "juntos", "correlação", "classes", "empresas", "dentro", "reduz", "zera", "curte", "salva", "Steady", "Money", "10", "3"],
+ "cenas": [
+  {"dur": 4.2, "legenda": ["Ter muitos ativos", "é diversificar?", "Nem sempre."],
+   "personagem": {"img": "P04.png"}, "efeitos": [{"tipo": "interrogacao", "x": 860, "y": 600}]},
+  {"dur": 5.2, "legenda": ["10 ações de bancos", "são quase", "um risco só.", "Se o setor vai mal,", "todas caem juntas."],
+   "pill": "MITO", "personagem": {"img": "P05.png", "anim": "shake"}},
+  {"dur": 5.4, "legenda": ["Correlação mede", "se os preços", "andam juntos.", "Alta: um não", "segura o outro."],
+   "pill": "CORRELAÇÃO", "personagem": {"img": "P16.png"}, "placa": "ANDAM\nJUNTOS?"},
+  {"dur": 5.4, "legenda": ["Misture classes:", "renda fixa, ações,", "FIIs, exterior.", "Cada uma reage", "de um jeito."],
+   "pill": "CLASSES", "personagem": {"img": "P08.png", "x": 280, "h": 880},
+   "objetos": [{"img": "O02.png", "x": 790, "w": 400, "y": 1400, "delay": 0.3, "pulse": 2.4, "brilho": true}]},
+  {"dur": 4.0, "legenda": ["Não sabia disso?", "Curte o vídeo", "e salva pra depois."],
+   "personagem": {"img": "P07.png", "anim": "jump"}, "efeitos": [{"tipo": "coracoes"}]},
+  {"dur": 5.4, "legenda": ["3 fundos de ações", "podem ter", "as mesmas empresas.", "Olhe o que tem", "dentro de cada um."],
+   "pill": "REPETIÇÃO", "personagem": {"img": "P12.png"}},
+  {"dur": 5.8, "legenda": ["Quanto está", "numa só empresa?", "Tem mais de", "uma classe?", "Diversificar reduz", "o risco, não zera."],
+   "pill": "NA PRÁTICA", "personagem": {"img": "P09.png"}},
+  {"dur": 3.6, "legenda": ["Segue a", "Steady Money", "pra aprender", "isso de vez."],
+   "personagem": {"img": "P10.png"}}
+ ]
+}
