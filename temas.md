@@ -17,7 +17,7 @@ Status: `pendente` ou `publicado AAAA-MM-DD`. Categoria da capa: `confronto`, `m
 | 9 | Renda fixa pode dar prejuízo? (marcação a mercado) | Renda Fixa | mito | publicado 2026-11-08 |
 | 10 | Ação ON x PN: qual a diferença | Como Comprar uma Ação na B3 | confronto | publicado 2026-11-11 |
 | 11 | O que é um ETF, em 3 slides | Carteira de ETFs | conceito | pendente |
-| 12 | Método bola de neve x avalanche | Finanças Básico | confronto | pendente |
+| 12 | Método bola de neve x avalanche | Finanças Básico | confronto | publicado 2026-11-14 |
 | 13 | Come-cotas: o imposto que você não vê | Finanças Intermediário | conceito | pendente |
 | 14 | Seed phrase: por que nunca compartilhar | Criptomoedas | golpe | pendente |
 | 15 | Tabela regressiva x progressiva na previdência | Previdência Privada | confronto | pendente |

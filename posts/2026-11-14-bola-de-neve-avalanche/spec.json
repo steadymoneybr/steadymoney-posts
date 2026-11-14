@@ -1,0 +1,76 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "tag": "Educação Financeira",
+   "title": "Bola de neve<br>x<br>Avalanche",
+   "sub": "Dois jeitos de sair das dívidas.<br>Qual combina com você?",
+   "category": "confronto"
+  },
+  {
+   "type": "inner",
+   "tag": "1 de 5 — Bola de neve x Avalanche",
+   "big": "Bola de neve",
+   "sub": "Começa pela menor dívida",
+   "bullets": [
+    "Paga o mínimo de todas as dívidas",
+    "O que sobrar vai pra de menor valor",
+    "Quitou? A parcela dela vai pra próxima",
+    "Vitórias rápidas dão motivação"
+   ],
+   "quote": "O valor que você paga<br>vai crescendo, como uma bola."
+  },
+  {
+   "type": "inner",
+   "tag": "2 de 5 — Bola de neve x Avalanche",
+   "big": "Avalanche",
+   "sub": "Começa pelos juros mais altos",
+   "bullets": [
+    "Também paga o mínimo de todas",
+    "O que sobrar vai pra de juros mais altos",
+    "Ataca primeiro a dívida que mais cresce",
+    "Na matemática, paga menos juros"
+   ],
+   "quote": "Primeiro a dívida mais cara,<br>não a maior."
+  },
+  {
+   "type": "inner",
+   "tag": "3 de 5 — Bola de neve x Avalanche",
+   "big": "Exemplo",
+   "sub": "Números ilustrativos",
+   "bullets": [
+    "Dívida A: R$ 600, juros de 3% ao mês",
+    "Dívida B: R$ 4.000, juros de 12% ao mês",
+    "Bola de neve: quita a A primeiro",
+    "Avalanche: ataca a B primeiro"
+   ],
+   "quote": "Mesmas dívidas,<br>ordem diferente."
+  },
+  {
+   "type": "inner",
+   "tag": "4 de 5 — Bola de neve x Avalanche",
+   "big": "Qual escolher?",
+   "sub": "Depende de você",
+   "bullets": [
+    "Avalanche: costuma sair mais barato",
+    "Bola de neve: ajuda quem desanima fácil",
+    "Os dois só funcionam sem dívida nova",
+    "O melhor é o que você consegue seguir"
+   ],
+   "quote": "Método bom é método<br>que vai até o fim."
+  },
+  {
+   "type": "inner",
+   "tag": "5 de 5 — Bola de neve x Avalanche",
+   "big": "Na prática",
+   "sub": "Antes de começar",
+   "bullets": [
+    "Liste valor, juros e parcela de cada uma",
+    "Não atrase nenhuma: atraso gera multa",
+    "Tente negociar ou trocar por mais barata",
+    "Defina um valor fixo por mês pra quitar"
+   ],
+   "cta": "💬 <b>Comenta aqui embaixo:</b><br>Bola de neve ou avalanche:<br>qual você usaria?"
+  }
+ ]
+}
