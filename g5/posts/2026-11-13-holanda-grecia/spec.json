@@ -1,0 +1,95 @@
+{
+ "comp": "Liga das Nações · 5ª rodada",
+ "date": "13.11.2026",
+ "source": "ESPN / FotMob",
+ "home": "Holanda",
+ "away": "Grécia",
+ "hs": 7,
+ "as": 0,
+ "scorers": {
+  "home": [
+   "Summerville 6'",
+   "Reijnders 12', 18', 33'",
+   "Timber 40', 59'",
+   "Malen 61'"
+  ],
+  "away": []
+ },
+ "kicker": "Atropelo em Amsterdã",
+ "hook": "13 chutes no gol.<br>A Grécia, 1.",
+ "lead": "5 gols só no 1º tempo e o recorde de maior vitória da Liga das Nações igualado.",
+ "slides": [
+  {
+   "type": "bars",
+   "tag": "1 de 4 · O massacre",
+   "title": "Um jogo<br>de um time só",
+   "rows": [
+    [
+     "Chutes no gol",
+     13,
+     1
+    ],
+    [
+     "Finalizações",
+     17,
+     9
+    ],
+    [
+     "Defesas do goleiro",
+     1,
+     6
+    ]
+   ],
+   "note": "A Grécia acertou o gol uma vez. O goleiro Tzolakis fez 6 defesas e ainda buscou 7 bolas no fundo da rede."
+  },
+  {
+   "type": "bars",
+   "tag": "2 de 4 · Sem sufoco",
+   "title": "E nem precisou<br>da bola toda",
+   "rows": [
+    [
+     "Posse",
+     53,
+     47,
+     "%"
+    ],
+    [
+     "Passes certos",
+     491,
+     420
+    ],
+    [
+     "Faltas cometidas",
+     5,
+     9
+    ]
+   ],
+   "note": "Posse quase dividida. A diferença foi o que a Holanda fez com a bola: 7 gols, 6 deles até os 59'."
+  },
+  {
+   "type": "big",
+   "tag": "3 de 4 · O nome",
+   "kicker": "Tijjani Reijnders",
+   "a": "3",
+   "la": "Gols no 1º tempo",
+   "b": "21",
+   "lb": "Minutos do 1º ao 3º",
+   "winner": "a",
+   "note": "Marcou aos 12', 18' e 33'. Foi o 1º holandês com hat-trick antes do intervalo desde Van Basten (Malta, 1990)."
+  },
+  {
+   "type": "big",
+   "tag": "4 de 4 · A tabela",
+   "kicker": "Grupo A2 após 5 rodadas",
+   "a": "11",
+   "la": "Holanda · 1ª",
+   "b": "8",
+   "lb": "Grécia e Alemanha",
+   "winner": "a",
+   "note": "A Grécia não sofria 7 gols num jogo desde maio de 1989. A Holanda segue invicta com Xavi.<br>Segunda (16/11): Alemanha x Holanda.",
+   "extra": "<span style='font-size:.7em;letter-spacing:.08em;opacity:.7'>DADOS: ESPN / FOTMOB</span>"
+  }
+ ],
+ "cta": "Holanda forte ou Grécia fraca?",
+ "hook_static": true
+}
