@@ -163,7 +163,16 @@ def cover_scene(s):
 def save_cover(spec, path):
     """Capa do Reel/TikTok (1080x1920) igual à capa do vídeo, já com a categoria. Use como videoThumbnailUrl."""
     s = next(x for x in spec['slides'] if x['type'] == 'cover')
-    cover_scene(s)[0](3.9).im.convert('RGB').save(path, 'JPEG', quality=92)
+    im = cover_scene(s)[0](3.9).im.convert('RGB')
+    # Grade do TikTok corta a capa 9:16 em ~1080x1260 no centro (y≈330–1590) e cortava a etiqueta da categoria.
+    # Reduz o bloco de conteúdo (etiqueta → STEADY MONEY) e centraliza na zona segura, que serve pro TikTok e pro Instagram.
+    from PIL import Image as _I
+    y0, y1, k = 250, 1590, 0.82
+    bloco = im.crop((0, y0, 1080, y1))
+    bloco = bloco.resize((int(1080 * k), int((y1 - y0) * k)), _I.LANCZOS)
+    out = _I.new('RGB', im.size, im.getpixel((5, 5)))
+    out.paste(bloco, ((1080 - bloco.width) // 2, (1920 - bloco.height) // 2))
+    out.save(path, 'JPEG', quality=92)
 
 
 def inner_scene(s):
