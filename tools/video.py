@@ -203,6 +203,31 @@ def inner_scene(s):
     return draw, dur
 
 
+def text_hook_scene(g):
+    """Gancho só de texto (spec["tiktok"]["gancho"]), sem cena de IA: fundo azul-marinho, etiqueta dourada,
+    frase grande em Lora creme e virada em itálico dourado. Entra no lugar da capa no vídeo (a capa continua
+    no 1º quadro via capa_inicio.py e na capa-video.jpg)."""
+    kick = clean(g.get('kicker', '')); l1 = clean(g['l1']); l2 = clean(g.get('l2', ''))
+    f1 = fit(l1, LORA, 'Bold', 130, 80, 940, 3); f2 = fit(l2, LORAI, 'Italic', 96, 60, 940, 2)
+    L1 = wrap(l1, f1, 940); L2 = wrap(l2, f2, 940) if l2 else []
+    t2 = float(g.get('l2_at', 1.0)); dur = float(g.get('dur', 2.8))
+    hgt = len(L1) * int(f1.size * 1.15) + (40 + len(L2) * int(f2.size * 1.25) if L2 else 0)
+    y0 = int(H / 2 - hgt / 2 - 40)
+
+    def draw(t):
+        fr = Fr(NAVY)
+        if kick:
+            tag(fr, kick, t * 2, (217, 182, 106))
+        y = y0
+        for ln in L1:
+            a, dy = appear(t, 0.0, 0.3); fr.text(ln, f1, CREAM, y, a, dy); y += int(f1.size * 1.15)
+        y += 40
+        for ln in L2:
+            a, dy = appear(t, t2, 0.35); fr.text(ln, f2, (240, 214, 150), y, a, dy); y += int(f2.size * 1.25)
+        return fr
+    return draw, dur
+
+
 def end_scene():
     fM = F(LORA, 64, 'Bold')
 
@@ -269,9 +294,18 @@ def hook_clip(h, out):
 
 def main(spec_path, out):
     spec = json.load(open(spec_path))
+    tk = spec.get('tiktok') or {}  # roteiro do agente de TikTok (TIKTOK.md): gancho de texto e ritmo
+    ritmo = float(tk.get('ritmo', 1.0))
     scenes = []
     for s in spec['slides']:
-        scenes.append(cover_scene(s) if s['type'] == 'cover' else inner_scene(s))
+        if s['type'] == 'cover':
+            if tk.get('gancho') and not spec.get('hook'):
+                scenes.append(text_hook_scene(tk['gancho']))
+            else:
+                scenes.append(cover_scene(s))
+        else:
+            fn, d = inner_scene(s)
+            scenes.append((fn, max(2.6, d * ritmo)))
     scenes.append(end_scene())
     XF = 0.35
     starts = []; acc = 0
