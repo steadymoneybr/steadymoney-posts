@@ -22,5 +22,8 @@ Atualizado pela análise semanal (toda segunda). Uma linha por aprendizado, com 
 - 2026-11-14: todos os vídeos abriam com a capa estática ou com a cena de IA. Nenhum tinha gancho de texto provocativo nos 2 primeiros segundos.
 - 2026-11-14: o Metricool não devolveu taxa de conclusão nem tempo médio assistido (campos vazios). Se continuar vazio, peça ao Vini os números de retenção do TikTok Studio.
 
+- 2026-11-15: o Vini aprovou a narração (voz Lucas) no formato curto: teste de 45 s com falas longas ficou arrastado (cenas paradas de 6 a 9 s); a versão de 28 s com falas de até ~18 palavras foi aprovada como padrão.
+
 ## Testes em andamento
+- A partir de 15/11/2026: narração com voz de IA (Lucas) em todo vídeo. Comparar views, curtidas e tempo médio com a linha de base.
 - A partir de 15/11/2026: gancho de texto (`tiktok.gancho`) e ritmo mais ágil (`ritmo` ~0,85) nos vídeos de slides. Comparar views e curtidas com a linha de base acima.
