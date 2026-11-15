@@ -1,0 +1,96 @@
+{
+ "comp": "Amistoso · Data FIFA",
+ "date": "14.11.2026",
+ "source": "Placar / FotMob",
+ "home": "Japão",
+ "away": "Brasil",
+ "hs": 3,
+ "as": 2,
+ "scorers": {
+  "home": [
+   "Kubo 15'",
+   "K. Nakamura 19'",
+   "Sakamoto 90+1'"
+  ],
+  "away": [
+   "Vini Jr. 33', 75'"
+  ]
+ },
+ "kicker": "Derrota no fim",
+ "hook": "17 chutes do Brasil.<br>E derrota.",
+ "lead": "Vini Jr. empatou um 2 x 0, mas Sakamoto decidiu nos acréscimos em Singapura.",
+ "slides": [
+  {
+   "type": "bars",
+   "tag": "1 de 4 · O domínio",
+   "title": "O Brasil<br>teve a bola",
+   "rows": [
+    [
+     "Posse",
+     42,
+     58,
+     "%"
+    ],
+    [
+     "Finalizações",
+     8,
+     17
+    ],
+    [
+     "Chutes no gol",
+     4,
+     6
+    ]
+   ],
+   "note": "Mais bola e mais que o dobro de finalizações. Mas o Japão fez 2 gols em 4 minutos no 1º tempo."
+  },
+  {
+   "type": "bars",
+   "tag": "2 de 4 · O jogo picado",
+   "title": "O Japão parou<br>o jogo na falta",
+   "rows": [
+    [
+     "Faltas cometidas",
+     21,
+     9
+    ],
+    [
+     "Escanteios",
+     1,
+     9
+    ],
+    [
+     "Cartões amarelos",
+     1,
+     2
+    ]
+   ],
+   "note": "21 faltas japonesas, mais que o dobro do Brasil. E 9 escanteios a 1: um deles virou o empate do Vini."
+  },
+  {
+   "type": "big",
+   "tag": "3 de 4 · O nome",
+   "kicker": "Vinícius Júnior",
+   "a": "2",
+   "la": "Gols (33' e 75')",
+   "b": "2x0",
+   "lb": "Placar que ele empatou",
+   "winner": "a",
+   "note": "Chute de fora da área aos 33' e o empate aos 75', em escanteio curto com passe de Bruno Guimarães. Não bastou."
+  },
+  {
+   "type": "big",
+   "tag": "4 de 4 · O fim",
+   "kicker": "Acréscimos em Singapura",
+   "a": "90+1'",
+   "la": "Gol de Sakamoto",
+   "b": "2",
+   "lb": "Expulsões no fim",
+   "winner": "a",
+   "note": "O Brasil reclamou de falta em João Gomes no início do lance do gol. Na confusão, Ancelotti e Raphinha (já substituído) foram expulsos. 2ª vitória do Japão sobre o Brasil, ambas por 3&nbsp;x&nbsp;2.<br>Terça (17/11): Singapura x Brasil.",
+   "extra": "<span style='font-size:.7em;letter-spacing:.08em;opacity:.7'>DADOS: PLACAR / FOTMOB</span>"
+  }
+ ],
+ "cta": "Juiz ou Brasil?",
+ "hook_static": true
+}
