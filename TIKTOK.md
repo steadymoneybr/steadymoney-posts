@@ -9,7 +9,7 @@ Você **não substitui** as regras do `CLAUDE.md`. Regras da marca, categorias d
 - Nunca mencionar apostas esportivas, bets ou cassino.
 - **Não citar cursos, "link na bio" nem vendas** até o Vini avisar que as vendas começaram. Até lá, o trabalho é construir audiência e confiança.
 - Gancho forte não é clickbait mentiroso: tudo que o gancho promete o vídeo entrega, e todo número precisa estar certo.
-- Use só o que o código já gera (abaixo). Narração com voz de IA (ElevenLabs) entra quando o Vini mandar a chave de API: até lá, deixe o texto pronto no campo `narracao` (fica guardado, o gerador ainda não usa).
+- Use só o que o código já gera (abaixo). Narração com voz de IA: ElevenLabs, voz **Lucas** (escolhida pelo Vini em 15/11/2026), gerada pelo `tools/narracao.py` quando a variável `ELEVENLABS_API_KEY` está definida. A chave NUNCA vai para o repositório (é público).
 
 ## O que prende no TikTok (princípios)
 1. **Gancho em até 2 s.** Nada de saudação, logo ou "hoje vou falar sobre". O primeiro texto na tela já é a promessa ou a provocação. Precisa funcionar **sem som**: texto grande, uma ideia só.
@@ -32,14 +32,15 @@ Bloco opcional `"tiktok"` no `spec.json` do dia:
 "tiktok": {
   "gancho": {"kicker": "Dívidas", "l1": "Você está pagando suas dívidas na ordem errada?", "l2": "Existem 2 métodos.", "l2_at": 1.0, "dur": 2.8},
   "ritmo": 0.85,
-  "narracao": "texto corrido da locução, ~2,5 palavras por segundo (guardado para quando a voz entrar)"
+  "narracao": ["fala do gancho", "fala do slide 1", "slide 2", "slide 3", "slide 4", "fala do slide 5 com a pergunta", "Segue a Steady Money pra aprender mais."]
 }
 ```
 - `gancho`: abre o vídeo com uma tela de texto (fundo azul-marinho, frase grande em creme, virada em itálico dourado) **no lugar da capa**. A capa da categoria continua no 1º quadro (`capa_inicio.py`) e na `capa-video.jpg`. `l1` com até ~50 caracteres (cabe em 3 linhas), `l2` com até ~25. Se o dia tiver cena de IA (`"hook"` com `clip`), a cena tem prioridade e o `gancho` é ignorado: nesse caso, escreva o `l1`/`l2` do `hook` com as mesmas regras.
 - `ritmo`: multiplica o tempo de cada slide interno (mínimo de 2,6 s por slide). Use 0,8–0,9 para deixar mais ágil; 1,0 é o padrão.
+- `narracao`: lista com **7 falas, uma por cena** (gancho ou capa, os 5 internos, o final). Cada cena dura pelo menos o tempo da fala. Regras da fala: linguagem falada, frases curtas, números por extenso ("seiscentos reais", "doze por cento"), ~2,5 palavras por segundo, no máx. ~25 palavras por cena (cena parada muito tempo derruba a retenção). A fala do gancho repete a provocação do `l1`; a do slide 5 termina com a pergunta do comentário; a última é sempre "Segue a Steady Money pra aprender mais.". A fala pode explicar mais que o texto da tela, mas nunca dizer algo diferente do carrossel.
 - No vídeo, cada slide interno mostra só `big`, `sub` e `quote` (ou `cta`). Então, pensando no TikTok, você pode sugerir ajustes nesses três campos: `big` curto e forte, `quote` como frase de impacto. Não mude os bullets (são do carrossel) e mantenha o mesmo conteúdo do carrossel.
 
-No dia do Steady (`steady.json`, `tools/steady.py`): você escreve a 1ª cena como gancho (legenda curta e provocativa, pose de susto ou confusão, `P05`/`P04`/`P14`), mantém cenas de 3,5–4,5 s, põe a cena de "curte o vídeo" no meio e fecha com a cena de seguir. Siga `assets/steady/README-roteiro.md`.
+No dia do Steady (`steady.json`, `tools/steady.py`): você escreve a 1ª cena como gancho (legenda curta e provocativa, pose de susto ou confusão, `P05`/`P04`/`P14`), mantém cenas de 3,5–4,5 s, põe a cena de "curte o vídeo" no meio e fecha com a cena de seguir. Siga `assets/steady/README-roteiro.md`. Narração: campo `"narracao"` em cada cena do `steady.json` (uma fala por cena, mesmas regras acima); a `legenda` continua sendo o texto curto na tela.
 
 ## Como trabalhar na rotina diária
 Quando a rotina diária te chamar, você recebe a pasta do dia (`posts/AAAA-MM-DD-slug/`) com o `spec.json` (e o `steady.json`, no dia do Steady). Faça:

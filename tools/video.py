@@ -7,6 +7,7 @@ from PIL import Image, ImageDraw, ImageFont
 import os as _os
 sys.path.insert(0, _os.path.dirname(_os.path.abspath(__file__)))
 from categorias import cat, label, rgb
+import narracao
 
 W, H, FPS = 1080, 1920, 30
 CREAM = (251, 249, 244); NAVY = (27, 42, 65); GOLD = (156, 122, 60); LINE = (222, 216, 201)
@@ -307,6 +308,18 @@ def main(spec_path, out):
             fn, d = inner_scene(s)
             scenes.append((fn, max(2.6, d * ritmo)))
     scenes.append(end_scene())
+    # Narração (ElevenLabs): tiktok.narracao = lista com 1 fala por cena (gancho/capa, 5 internos, final).
+    # A cena dura pelo menos o tempo da fala + respiro. Sem ELEVENLABS_API_KEY, o vídeo sai só com a trilha.
+    falas_txt = tk.get('narracao') if isinstance(tk.get('narracao'), list) else None
+    falas_mp3 = [None] * len(scenes)
+    if falas_txt and narracao.ativa():
+        pasta = _os.path.dirname(_os.path.abspath(out))
+        for i, txt in enumerate(falas_txt[:len(scenes)]):
+            if txt and txt.strip():
+                falas_mp3[i] = narracao.tts(txt.strip(), pasta)
+                fn, d = scenes[i]; scenes[i] = (fn, max(d, narracao.duracao(falas_mp3[i]) + 0.55))
+    elif falas_txt:
+        print('aviso: tiktok.narracao existe, mas ELEVENLABS_API_KEY não está definida; vídeo sem voz')
     XF = 0.35
     starts = []; acc = 0
     for _, d in scenes:
@@ -325,10 +338,11 @@ def main(spec_path, out):
             img = Image.blend(scenes[i1][0](t1).im.convert('RGB'), scenes[i2][0](t2).im.convert('RGB'), eio(t2 / XF))
         p.stdin.write(img.tobytes())
     p.stdin.close(); p.wait()
+    off = 0.0  # deslocamento das falas quando há cena de IA na frente
     if spec.get('hook'):  # abertura com cena de IA na frente do vídeo
         import os, shutil
         hk = out + '.hook.mp4'; body = out + '.body.mp4'; shutil.move(out, body)
-        total += hook_clip(spec['hook'], hk)
+        off = hook_clip(spec['hook'], hk); total += off
         lst = out + '.txt'; open(lst, 'w').write(f"file '{os.path.abspath(hk)}'\nfile '{os.path.abspath(body)}'\n")
         subprocess.run(['ffmpeg', '-y', '-loglevel', 'error', '-f', 'concat', '-safe', '0', '-i', lst, '-c', 'copy',
                         '-movflags', '+faststart', out], check=True)
@@ -336,7 +350,14 @@ def main(spec_path, out):
             os.remove(f_)
         fr = out.rsplit('.', 1)[0] + '-check0.jpg'
         subprocess.run(['ffmpeg', '-y', '-loglevel', 'error', '-ss', '3.5', '-i', out, '-frames:v', '1', fr], check=True)
-    add_music(out, total)
+    if any(falas_mp3):
+        import os, shutil
+        mudo = out + '.mudo.mp4'; shutil.move(out, mudo)
+        trilha = os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', 'assets', 'trilha-padrao.m4a')
+        falas = [(off + starts[i] + 0.15, m) for i, m in enumerate(falas_mp3) if m]
+        narracao.mixar(mudo, out, falas, total, trilha); os.remove(mudo)
+    else:
+        add_music(out, total)
     # quadros de conferência: o fim de cada cena
     for i, (fn, d) in enumerate(scenes):
         fn(d - 0.05).im.convert('RGB').save(out.rsplit('.', 1)[0] + f'-check{i + 1}.jpg', quality=80)

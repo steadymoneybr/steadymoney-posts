@@ -13,6 +13,7 @@ Gerador: `python3 tools/steady.py posts/AAAA-MM-DD-slug/steady.json posts/AAAA-M
   - `personagem`: `img`, `x` (centro, padrão 540), `h` (altura, padrão 1000; use ~880 quando divide a tela com objeto), `anim`: `bob` (padrão), `shake` (susto), `jump`, `grow`, `still`.
   - `objetos`: lista de `{img, x, w, y (base, padrão 1430), delay, pulse (instante do pulo), brilho (true = estrelinhas no pulse), chao}`.
   - `efeitos`: `interrogacao {x,y}`, `coracoes` (cena do "curte o vídeo"), `chuva {img}` (objeto voando), `poeira {de:[x,y] na imagem original]}`, `envelopes`, `cofrinho`.
+  - `narracao` (opcional): fala da cena (voz Lucas, ElevenLabs). A cena dura pelo menos a fala. Ver regras em `TIKTOK.md`.
   - `placa` (só com P16): texto escrito na placa. O gerador centraliza e gira junto com a inclinação da placa. Confira no check.
 - Uma cena final de 0,5 s igual à primeira é adicionada sozinha (loop).
 

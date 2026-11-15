@@ -19,6 +19,8 @@ Imagens em assets/steady/ (fundo verde chroma). Trilha padrão em assets/trilha-
 import sys, math, random, subprocess, os, json
 import numpy as np
 from PIL import Image, ImageDraw, ImageFont, ImageFilter
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import narracao
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 ASSETS = os.path.join(ROOT, 'assets', 'steady')
@@ -287,7 +289,18 @@ def caption(c, text, age, HL):
     place(c, layer, W / 2, 1700, scale=max(0.05, 0.85 + 0.15 * k))
 
 def render(spec, out, check):
-    scenes = list(spec['cenas'])
+    scenes = [dict(s) for s in spec['cenas']]
+    # Narração (ElevenLabs): campo "narracao" em cada cena (fala daquela cena). A cena dura pelo menos a fala + respiro.
+    falas_mp3 = [None] * len(scenes)
+    if any(s.get('narracao') for s in scenes):
+        if narracao.ativa():
+            pasta = os.path.dirname(os.path.abspath(out))
+            for i, s in enumerate(scenes):
+                if (s.get('narracao') or '').strip():
+                    falas_mp3[i] = narracao.tts(s['narracao'].strip(), pasta)
+                    s['dur'] = max(s['dur'], narracao.duracao(falas_mp3[i]) + 0.5)
+        else:
+            print('aviso: há "narracao" no roteiro, mas ELEVENLABS_API_KEY não está definida; vídeo sem voz')
     first = scenes[0].get('personagem')
     if first:  # meio segundo final igual ao começo, pro vídeo emendar no loop
         scenes.append({'dur': 0.5, 'legenda': [], 'personagem': dict(first, anim='still'), 'placa': scenes[0].get('placa')})
@@ -328,6 +341,9 @@ def render(spec, out, check):
     for f in range(nfr):
         proc.stdin.write(full_frame(f / FPS).tobytes())
     proc.stdin.close(); proc.wait()
+    if any(falas_mp3):
+        narracao.mixar(tmp, out, [(starts[i] + 0.15, m) for i, m in enumerate(falas_mp3) if m], total, TRACK)
+        os.remove(tmp); print(out + ':', round(total, 1), 's (com narração)'); return
     fa = total - 2
     subprocess.run(['ffmpeg', '-v', 'error', '-y', '-i', tmp, '-i', TRACK, '-filter_complex',
                     f'[1:a]atrim=0:{total},afade=t=in:d=0.5,afade=t=out:st={fa}:d=2,loudnorm=I=-20:TP=-3:LRA=7[a]',

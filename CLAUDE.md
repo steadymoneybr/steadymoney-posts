@@ -14,6 +14,8 @@ Formato (decidido pelo Vini em 29/10/2026): **Instagram recebe o carrossel; TikT
 **Horário (decidido pelo Vini em 01/11/2026):** dias úteis às **19:00**; **sábados, domingos e feriados nacionais às 14:00** (America/Sao_Paulo). Em todo este arquivo, "o horário do dia" é esse.
 Feriados nacionais: 02/11/2026, 15/11/2026, 20/11/2026, 25/12/2026, 01/01/2027, 08/02/2027 e 09/02/2027 (Carnaval), 26/03/2027 (Sexta-feira Santa), 21/04/2027, 01/05/2027, 27/05/2027 (Corpus Christi), 07/09/2027, 12/10/2027, 02/11/2027, 15/11/2027, 20/11/2027, 25/12/2027. Atualize a lista no fim de 2027.
 
+**Narração (15/11/2026):** voz de IA da ElevenLabs, voz **Lucas** (escolhida pelo Vini), gerada por `tools/narracao.py` a partir do campo `narracao` (ver `TIKTOK.md`). A chave fica na variável `ELEVENLABS_API_KEY`, passada pelas instruções privadas da tarefa agendada; **nunca** escreva a chave em arquivo do repositório (é público). Cache dos áudios em `.narracao/` (fora do git). Com narração, a trilha fica bem baixinha por baixo da voz.
+
 Todos os vídeos do TikTok usam a trilha padrão aprovada pelo Vini (`assets/trilha-padrao.m4a`, instrumental leve, 110 BPM, volume baixo). O `tools/video.py` já aplica sozinho. Não trocar a música sem ele pedir.
 
 1. Escolha o primeiro tema com status `pendente` em `temas.md`.
@@ -47,7 +49,7 @@ Todos os vídeos do TikTok usam a trilha padrão aprovada pelo Vini (`assets/tri
 **Status: ATIVO** (o Vini aprovou o vídeo de teste `posts/_teste-steady-5-perguntas/` em 06/11/2026; use-o como referência de estilo).
 Quando ATIVO: o TikTok alterna os formatos. Olhe a pasta de post mais recente em `posts/` (ignorando as que começam com `_`): se ela tem `steady.json`, hoje é o formato de slides acima; se não tem, hoje é o Steady.
 No dia do Steady: o carrossel do Instagram continua igual; para o TikTok escreva `posts/AAAA-MM-DD-slug/steady.json` com os mesmos 5 pontos, seguindo `assets/steady/README-roteiro.md`, e gere
-`python3 tools/steady.py posts/AAAA-MM-DD-slug/steady.json posts/AAAA-MM-DD-slug/video.mp4 --check` (confira cada `video-check*.jpg`) e depois sem `--check`. Sem cena de IA (hook) e sem prompt de PixVerse nesses dias. O revisor confere os quadros do mesmo jeito. Por enquanto só legenda + trilha padrão (narração com voz do ElevenLabs entra quando o Vini mandar a chave de API).
+`python3 tools/steady.py posts/AAAA-MM-DD-slug/steady.json posts/AAAA-MM-DD-slug/video.mp4 --check` (confira cada `video-check*.jpg`) e depois sem `--check`. Sem cena de IA (hook) e sem prompt de PixVerse nesses dias. O revisor confere os quadros do mesmo jeito. Narração: campo `narracao` em cada cena (ver `TIKTOK.md`); só sai com voz quando `ELEVENLABS_API_KEY` estiver definida.
 
 ## Regras da marca (obrigatórias)
 
