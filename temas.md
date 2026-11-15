@@ -24,7 +24,7 @@ Status: `pendente` ou `publicado AAAA-MM-DD`. Categoria da capa: `confronto`, `m
 | 16 | Juros compostos: o tempo trabalha pra você | Finanças Avançado | conceito | pendente |
 | 17 | LCI/LCA x CDB: isenção não é tudo | Renda Fixa | confronto | publicado 2026-11-12 |
 | 18 | Dividend yield: o que ele diz e o que esconde | Fundos Imobiliários | mito | pendente |
-| 19 | Rentabilidade "boa demais": como desconfiar | Multiplicar Dinheiro com Risco Baixo | golpe | pendente |
+| 19 | Rentabilidade "boa demais": como desconfiar | Multiplicar Dinheiro com Risco Baixo | golpe | publicado 2026-11-15 |
 | 20 | Diversificação não é ter muitos ativos | Finanças Intermediário | mito | publicado 2026-11-13 |
 | 21 | Custódia em corretora x carteira própria (cripto) | Criptomoedas | confronto | pendente |
 | 22 | Taxa de administração: o custo silencioso | Previdência Privada | conceito | pendente |

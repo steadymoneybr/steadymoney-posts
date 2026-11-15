@@ -1,0 +1,76 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "tag": "Educação Financeira",
+   "title": "Rendimento bom<br>demais?",
+   "sub": "Como saber se aquela oferta<br>pode ser golpe.",
+   "category": "golpe"
+  },
+  {
+   "type": "inner",
+   "tag": "1 de 5 — Golpes",
+   "big": "Garantido",
+   "sub": "Ganho alto e certo não existe",
+   "bullets": [
+    "Retorno alto sempre vem com risco alto",
+    "Ninguém pode garantir ganho alto",
+    "5% ao mês dá quase 80% em um ano",
+    "Nenhum investimento sério garante isso"
+   ],
+   "quote": "Alto e garantido<br>não andam juntos."
+  },
+  {
+   "type": "inner",
+   "tag": "2 de 5 — Golpes",
+   "big": "Pressa",
+   "sub": "Urgência é tática de golpe",
+   "bullets": [
+    "\"Só hoje\", \"últimas vagas\", \"entra agora\"",
+    "A pressa é pra você não pesquisar",
+    "Investimento sério espera você pensar",
+    "Pressão pra decidir já é sinal vermelho"
+   ],
+   "quote": "Quem tem pressa<br>é o golpista."
+  },
+  {
+   "type": "inner",
+   "tag": "3 de 5 — Golpes",
+   "big": "Registro",
+   "sub": "Confira antes de mandar um real",
+   "bullets": [
+    "Quem oferece investimento precisa de autorização",
+    "Consulte a empresa no site da CVM",
+    "Banco ou financeira: no site do Banco Central",
+    "Pesquise o nome junto com \"golpe\""
+   ],
+   "quote": "Sem registro,<br>sem dinheiro."
+  },
+  {
+   "type": "inner",
+   "tag": "4 de 5 — Golpes",
+   "big": "Indicação",
+   "sub": "Ganhar pra trazer gente nova",
+   "bullets": [
+    "Bônus por cada amigo que você indica",
+    "O dinheiro dos novos paga os antigos",
+    "Isso é pirâmide e uma hora desmorona",
+    "Quem entra por último costuma perder tudo"
+   ],
+   "quote": "Se o ganho vem de indicar,<br>desconfie."
+  },
+  {
+   "type": "inner",
+   "tag": "5 de 5 — Golpes",
+   "big": "Na prática",
+   "sub": "Antes de colocar dinheiro",
+   "bullets": [
+    "Pergunte: de onde vem esse rendimento?",
+    "Desconfie de Pix pra conta de pessoa física",
+    "Não entendeu o produto? Não entre",
+    "Na dúvida, não mande o dinheiro"
+   ],
+   "cta": "💬 <b>Comenta aqui embaixo:</b><br>já te ofereceram algo assim?<br>Sim ou não?"
+  }
+ ]
+}

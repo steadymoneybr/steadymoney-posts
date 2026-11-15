@@ -1,0 +1,159 @@
+{
+ "titulo": "Rendimento bom demais?",
+ "destaques": [
+  "garantido",
+  "golpe",
+  "pressa",
+  "registro",
+  "CVM",
+  "pirâmide",
+  "dúvida",
+  "curte",
+  "manda",
+  "comenta",
+  "Steady",
+  "Money",
+  "5%",
+  "80%"
+ ],
+ "cenas": [
+  {
+   "dur": 2.6,
+   "legenda": [
+    "5% ao mês,",
+    "garantido?",
+    "É assim que",
+    "muito golpe começa."
+   ],
+   "personagem": {
+    "img": "P14.png",
+    "anim": "shake"
+   },
+   "efeitos": [
+    {
+     "tipo": "interrogacao",
+     "x": 860,
+     "y": 600
+    }
+   ],
+   "narracao": "Cinco por cento ao mês, garantido? É assim que muito golpe começa."
+  },
+  {
+   "dur": 2.6,
+   "legenda": [
+    "5% ao mês dá",
+    "quase 80% ao ano.",
+    "Ganho alto e certo",
+    "não existe."
+   ],
+   "pill": "GARANTIDO",
+   "personagem": {
+    "img": "P05.png",
+    "anim": "shake"
+   },
+   "narracao": "Isso dá quase oitenta por cento ao ano. Ganho alto e certo não existe."
+  },
+  {
+   "dur": 2.6,
+   "legenda": [
+    "\"Só hoje!\"",
+    "\"Últimas vagas!\"",
+    "Essa pressa",
+    "é pra você",
+    "não pesquisar."
+   ],
+   "pill": "PRESSA",
+   "personagem": {
+    "img": "P08.png",
+    "x": 340,
+    "h": 880
+   },
+   "objetos": [
+    {
+     "img": "O12.png",
+     "x": 790,
+     "w": 380,
+     "y": 1400,
+     "delay": 0.3,
+     "pulse": 2.0
+    }
+   ],
+   "narracao": "Só hoje, últimas vagas? Essa pressa é pra você não pesquisar."
+  },
+  {
+   "dur": 2.6,
+   "legenda": [
+    "Confira a empresa",
+    "no site da CVM",
+    "antes de mandar",
+    "um real."
+   ],
+   "pill": "REGISTRO",
+   "personagem": {
+    "img": "P16.png"
+   },
+   "placa": "TEM\nREGISTRO?",
+   "narracao": "Antes de mandar um real, confira se a empresa tem registro no site da CVM."
+  },
+  {
+   "dur": 2.6,
+   "legenda": [
+    "Curte o vídeo",
+    "e manda pra quem",
+    "precisa ver isso."
+   ],
+   "personagem": {
+    "img": "P07.png",
+    "anim": "jump"
+   },
+   "efeitos": [
+    {
+     "tipo": "coracoes"
+    }
+   ],
+   "narracao": "Curte o vídeo e manda pra quem precisa ver isso."
+  },
+  {
+   "dur": 2.6,
+   "legenda": [
+    "Bônus pra indicar",
+    "amigos? Pirâmide.",
+    "O dinheiro dos novos",
+    "paga os antigos."
+   ],
+   "pill": "INDICAÇÃO",
+   "personagem": {
+    "img": "P12.png"
+   },
+   "narracao": "Bônus pra trazer amigos? É pirâmide. O dinheiro dos novos paga os antigos."
+  },
+  {
+   "dur": 2.6,
+   "legenda": [
+    "De onde vem",
+    "esse rendimento?",
+    "Na dúvida, não manda.",
+    "Já te ofereceram",
+    "algo assim?"
+   ],
+   "pill": "NA PRÁTICA",
+   "personagem": {
+    "img": "P09.png"
+   },
+   "narracao": "De onde vem esse rendimento? Na dúvida, não manda. Já te ofereceram algo assim?"
+  },
+  {
+   "dur": 2.6,
+   "legenda": [
+    "Segue a",
+    "Steady Money",
+    "pra aprender",
+    "mais."
+   ],
+   "personagem": {
+    "img": "P10.png"
+   },
+   "narracao": "Segue a Steady Money pra aprender mais."
+  }
+ ]
+}
