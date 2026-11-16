@@ -31,7 +31,7 @@ Status: `pendente` ou `publicado AAAA-MM-DD`. Categoria da capa: `confronto`, `m
 | 23 | Rebalanceamento de carteira | Finanças Intermediário | conceito | pendente |
 | 24 | ETF não tem isenção dos R$ 20 mil | Carteira de ETFs | mito | pendente |
 | 25 | Regra dos 4% e independência financeira | Finanças Avançado | conceito | pendente |
-| 26 | FGC: o que ele cobre (e o que não cobre) | Renda Fixa | mito | pendente |
+| 26 | FGC: o que ele cobre (e o que não cobre) | Renda Fixa | mito | publicado 2026-11-16 |
 | 27 | Liquidez: o dinheiro precisa estar disponível? | Finanças Básico | conceito | pendente |
 | 28 | Home broker: os campos de uma ordem | Como Comprar uma Ação na B3 | conceito | pendente |
 | 29 | Vacância e inadimplência em FIIs | Fundos Imobiliários | conceito | pendente |

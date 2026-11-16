@@ -1,0 +1,100 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "tag": "Educação Financeira",
+   "title": "O FGC protege<br>tudo?",
+   "sub": "Não. Veja o que ele cobre<br>e o que fica de fora.",
+   "category": "mito"
+  },
+  {
+   "type": "inner",
+   "tag": "1 de 5 — FGC",
+   "big": "R$ 250 mil",
+   "sub": "Por CPF, por instituição",
+   "bullets": [
+    "Se o banco quebrar, devolve até R$ 250 mil",
+    "Vale por CPF e por instituição ou grupo",
+    "Conta o valor aplicado mais o rendimento",
+    "O que passar disso pode não voltar"
+   ],
+   "quote": "Protege se o banco quebrar,<br>não se o preço cair."
+  },
+  {
+   "type": "inner",
+   "tag": "2 de 5 — FGC",
+   "big": "Cobre",
+   "sub": "Os produtos de banco",
+   "bullets": [
+    "Poupança e conta corrente",
+    "CDB e RDB",
+    "LCI e LCA",
+    "Letra de câmbio (LC)"
+   ],
+   "quote": "Nem todo papel de banco<br>tem FGC: confira."
+  },
+  {
+   "type": "inner",
+   "tag": "3 de 5 — FGC",
+   "big": "Não cobre",
+   "sub": "Muita coisa fica de fora",
+   "bullets": [
+    "Tesouro Direto (quem garante é o governo)",
+    "Ações, fundos e previdência",
+    "Debêntures, CRI e CRA",
+    "Criptomoedas"
+   ],
+   "quote": "Fora do FGC não é golpe.<br>É outro tipo de risco."
+  },
+  {
+   "type": "inner",
+   "tag": "4 de 5 — FGC",
+   "big": "R$ 1 milhão",
+   "sub": "O teto geral",
+   "bullets": [
+    "Somando várias instituições, tem um teto",
+    "O máximo é R$ 1 milhão por CPF",
+    "Esse teto vale por um período de 4 anos",
+    "Depois desse prazo, o limite renova"
+   ],
+   "quote": "Espalhar o dinheiro ajuda,<br>mas tem limite."
+  },
+  {
+   "type": "inner",
+   "tag": "5 de 5 — FGC",
+   "big": "Na prática",
+   "sub": "Antes de investir",
+   "bullets": [
+    "Confira se o produto tem FGC",
+    "Some o que você tem em cada instituição",
+    "Taxa alta demais? Veja quem é o emissor",
+    "FGC não cobre perda por sobe e desce"
+   ],
+   "cta": "💬 <b>Comenta aqui embaixo:</b><br>você confere o FGC antes<br>de investir? Sim ou não?"
+  }
+ ],
+ "tiktok": {
+  "gancho": {
+   "kicker": "Mito ou verdade?",
+   "l1": "O FGC protege todo o seu dinheiro.",
+   "l2": "Será mesmo?"
+  },
+  "ritmo": 0.85,
+  "narracao": [
+   "O FGC protege todo o seu dinheiro? Não. Veja o que fica de fora.",
+   "Se o banco quebrar, ele devolve até duzentos e cinquenta mil reais por CPF, em cada instituição.",
+   "Ele cobre produto de banco: poupança, conta corrente, CDB, LCI e LCA.",
+   "Mas não cobre Tesouro Direto, ações, fundos, previdência nem cripto.",
+   "E tem um teto geral: um milhão de reais por CPF, a cada quatro anos.",
+   "Queda de preço fica de fora. Comenta aí: você confere o FGC antes de investir?",
+   "Segue a Steady Money pra aprender mais."
+  ]
+ },
+ "story": {
+  "pontos": [
+   "Até R$ 250 mil por CPF/banco",
+   "Tesouro e ações: sem FGC",
+   "Teto total: R$ 1 mi em 4 anos"
+  ]
+ }
+}
