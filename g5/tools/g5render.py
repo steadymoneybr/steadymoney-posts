@@ -25,43 +25,81 @@ FONTS = ''.join(f"@font-face{{font-family:BC;font-weight:{w};src:url(data:font/w
 CSS = FONTS + """
 *{margin:0;padding:0;box-sizing:border-box}
 :root{--p:1;--o:1}
-body{width:1080px;height:var(--H);background:#111417;color:#F2F2EE;font-family:BC,'DejaVu Sans',sans-serif;position:relative;overflow:hidden}
-.grid{position:absolute;inset:0;background-image:linear-gradient(rgba(255,255,255,.035) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.035) 1px,transparent 1px);background-size:54px 54px}
+body{width:1080px;height:var(--H);background:var(--bg);color:var(--fg);font-family:BC,'DejaVu Sans',sans-serif;position:relative;overflow:hidden}
+.grid{position:absolute;inset:0;background-image:linear-gradient(var(--gridc) 1px,transparent 1px),linear-gradient(90deg,var(--gridc) 1px,transparent 1px);background-size:54px 54px}
 .pad{position:absolute;inset:0;padding:var(--PT) 80px 84px;display:flex;flex-direction:column}
-.top{display:flex;justify-content:space-between;align-items:center;font-weight:700;font-size:30px;letter-spacing:4px;text-transform:uppercase;color:#9AA0A6}
-.logo{color:#F2F2EE;font-weight:900;letter-spacing:2px;font-size:38px}
-.logo b{color:#FF5A1F}
-.stripe{height:10px;width:calc(140px * var(--p));background:#FF5A1F;margin:44px 0 30px}
-.kicker{font-weight:700;font-size:34px;letter-spacing:5px;text-transform:uppercase;color:#FF5A1F}
+.top{display:flex;justify-content:space-between;align-items:center;font-weight:700;font-size:30px;letter-spacing:4px;text-transform:uppercase;color:var(--mut)}
+.logo{color:var(--fg);font-weight:900;letter-spacing:2px;font-size:38px}
+.logo b{color:var(--acc)}
+.stripe{height:10px;width:calc(140px * var(--p));background:var(--acc);margin:44px 0 30px}
+.kicker{font-weight:700;font-size:34px;letter-spacing:5px;text-transform:uppercase;color:var(--acc)}
 h2{font-weight:800;font-size:88px;line-height:.98;text-transform:uppercase;margin-top:14px}
-.lead{font-weight:400;font-size:44px;line-height:1.2;color:#C9CDD1;margin-top:30px;max-width:920px}
+.lead{font-weight:400;font-size:44px;line-height:1.2;color:var(--sub);margin-top:30px;max-width:920px}
 .score{display:grid;grid-template-columns:1fr auto auto auto 1fr;align-items:center;gap:22px;margin-top:56px}
 .score .t{font-weight:800;font-size:56px;text-transform:uppercase;line-height:1}
 .score .t.r{text-align:right}
 .score .n{font-weight:900;font-size:170px;line-height:1}
-.score .x{font-weight:400;font-size:70px;color:#5D646B}
-.unit{text-align:center;font-weight:700;font-size:34px;letter-spacing:8px;text-transform:uppercase;color:#9AA0A6;margin-top:10px}
-.w{color:#FF5A1F!important}
-.l{color:#F2F2EE}
-.scorers{display:grid;grid-template-columns:1fr 1fr;gap:30px;margin-top:26px;font-weight:600;font-size:34px;line-height:1.35;color:#C9CDD1}
+.score .x{font-weight:400;font-size:70px;color:var(--dim)}
+.unit{text-align:center;font-weight:700;font-size:34px;letter-spacing:8px;text-transform:uppercase;color:var(--mut);margin-top:10px}
+.w{color:var(--acc)!important}
+.l{color:var(--fg)}
+.scorers{display:grid;grid-template-columns:1fr 1fr;gap:30px;margin-top:26px;font-weight:600;font-size:34px;line-height:1.35;color:var(--sub)}
 .scorers > div:last-child{text-align:right}
-.scorers .lbl{font-weight:700;font-size:26px;letter-spacing:4px;color:#6E757C;text-transform:uppercase;margin-bottom:6px}
+.scorers .lbl{font-weight:700;font-size:26px;letter-spacing:4px;color:var(--faint);text-transform:uppercase;margin-bottom:6px}
 .bars{display:flex;flex-direction:column;gap:42px}
 .row .lab{display:flex;justify-content:space-between;font-weight:700;font-size:40px;text-transform:uppercase;letter-spacing:1px;margin-bottom:14px}
-.row .lab span:nth-child(2){color:#9AA0A6;font-weight:600;font-size:30px;letter-spacing:3px;align-self:center;text-align:center}
+.row .lab span:nth-child(2){color:var(--mut);font-weight:600;font-size:30px;letter-spacing:3px;align-self:center;text-align:center}
 .track{display:flex;height:30px;gap:6px}
 .track div{height:100%}
-.c0{background:#5D646B}.c1{background:#FF5A1F}
-.teams{display:flex;justify-content:space-between;font-weight:700;font-size:30px;letter-spacing:3px;text-transform:uppercase;color:#9AA0A6;margin:36px 0 30px}
-.foot{margin-top:auto;display:flex;justify-content:space-between;align-items:flex-end;font-weight:600;font-size:28px;letter-spacing:3px;text-transform:uppercase;color:#6E757C}
+.c0{background:var(--dim)}.c1{background:var(--acc)}
+.teams{display:flex;justify-content:space-between;font-weight:700;font-size:30px;letter-spacing:3px;text-transform:uppercase;color:var(--mut);margin:36px 0 30px}
+.foot{margin-top:auto;display:flex;justify-content:space-between;align-items:flex-end;font-weight:600;font-size:28px;letter-spacing:3px;text-transform:uppercase;color:var(--faint)}
 .big{font-weight:900;font-size:210px;line-height:.9}
 .duo{display:flex;gap:60px;margin-top:46px;align-items:flex-end}
 .duo .c{flex:1}
-.duo .k{font-weight:700;font-size:34px;letter-spacing:3px;text-transform:uppercase;color:#9AA0A6;margin-top:10px}
-.note{font-weight:400;font-size:40px;line-height:1.25;color:#C9CDD1;margin-top:46px;border-left:8px solid #FF5A1F;padding-left:28px}
-.cta{font-weight:800;font-size:52px;text-transform:uppercase;line-height:1.05;color:#F2F2EE}
+.duo .k{font-weight:700;font-size:34px;letter-spacing:3px;text-transform:uppercase;color:var(--mut);margin-top:10px}
+.note{font-weight:400;font-size:40px;line-height:1.25;color:var(--sub);margin-top:46px;border-left:8px solid var(--acc);padding-left:28px}
+.cta{font-weight:800;font-size:52px;text-transform:uppercase;line-height:1.05;color:var(--fg)}
 .fade{opacity:var(--o);transform:translateY(calc((1 - var(--o)) * 30px))}
 """
+
+
+# Temas de fundo (Vini, 16/11/2026): o spec escolhe com "theme"; padrão "escuro".
+THEMES = {
+    'escuro':  dict(bg='#111417', fg='#F2F2EE', sub='#C9CDD1', mut='#9AA0A6', faint='#6E757C', dim='#5D646B', acc='#FF5A1F', gridc='rgba(255,255,255,.035)'),
+    'claro':   dict(bg='#F3EFE6', fg='#111417', sub='#3A4047', mut='#5D646B', faint='#80868C', dim='#B4B8BC', acc='#E8490F', gridc='rgba(17,20,23,.05)'),
+    'laranja': dict(bg='#FF5A1F', fg='#FFFFFF', sub='#FFE9DF', mut='#FFD6C4', faint='#FFE3D6', dim='#FFB08F', acc='#111417', gridc='rgba(255,255,255,.08)'),
+}
+
+
+def theme_vars(name):
+    th = THEMES.get(name or 'escuro', THEMES['escuro'])
+    return ';'.join(f'--{k}:{v}' for k, v in th.items())
+
+
+ROTACAO = ['escuro', 'claro', 'laranja']
+
+
+def auto_theme(spec, spec_path):
+    """Sem "theme" no spec: segue o rodízio escuro -> claro -> laranja olhando o post anterior em g5/posts/
+    (post antigo sem "theme" conta como escuro) e grava a escolha no spec.json."""
+    if spec.get('theme'):
+        return spec['theme']
+    pasta = os.path.dirname(os.path.abspath(spec_path))
+    posts = os.path.dirname(pasta)
+    if os.path.basename(posts) != 'posts':
+        return 'escuro'
+    anteriores = sorted(d for d in os.listdir(posts)
+                        if d < os.path.basename(pasta) and not d.startswith('_')
+                        and os.path.exists(os.path.join(posts, d, 'spec.json')))
+    ult = 'escuro'
+    if anteriores:
+        ult = json.load(open(os.path.join(posts, anteriores[-1], 'spec.json'))).get('theme', 'escuro')
+    th = ROTACAO[(ROTACAO.index(ult) + 1) % 3] if ult in ROTACAO else 'escuro'
+    spec['theme'] = th
+    with open(spec_path, 'w') as f:
+        json.dump(spec, f, ensure_ascii=False, indent=1)
+    return th
 
 
 def esc(s):
@@ -118,8 +156,8 @@ def bars_slide(spec, s):
 def big_slide(spec, s, last):
     ca = 'w' if s.get('winner') == 'a' else ''
     cb = 'w' if s.get('winner') == 'b' else ''
-    sa = "style='color:#5D646B'" if not ca else ''
-    sb = "style='color:#5D646B'" if not cb else ''
+    sa = "style='color:var(--dim)'" if not ca else ''
+    sb = "style='color:var(--dim)'" if not cb else ''
     extra = f"<p class='lead fade' style='margin-top:36px'>{s['extra']}</p>" if s.get('extra') else ''
     foot_left = (f"<span class=cta>{spec.get('cta', 'Concorda com a leitura?')}<br><span class=w>Comenta aí.</span></span>"
                  if last else f"<span>Dados: {spec.get('source', 'Sofascore')}</span>")
@@ -149,12 +187,13 @@ def build(spec):
     return pages
 
 
-def doc(body, H, PT):
-    return f"<html><head><meta charset=utf-8><style>{CSS}</style></head><body style='--H:{H}px;--PT:{PT}px'>{body}</body></html>"
+def doc(body, H, PT, theme=None):
+    return f"<html><head><meta charset=utf-8><style>{CSS}</style></head><body style='--H:{H}px;--PT:{PT}px;{theme_vars(theme)}'>{body}</body></html>"
 
 
 async def render(spec_path):
     spec = json.load(open(spec_path))
+    auto_theme(spec, spec_path)
     out = os.path.dirname(os.path.abspath(spec_path))
     pages = build(spec)
     frames_dir = os.path.join(out, '_frames')
@@ -164,7 +203,7 @@ async def render(spec_path):
         # carrossel 4:5
         pg = await b.new_page(viewport={'width': 1080, 'height': 1350})
         for i, body in enumerate(pages, 1):
-            await pg.set_content(doc(body, 1350, 84)); await pg.wait_for_timeout(250)
+            await pg.set_content(doc(body, 1350, 84, spec.get('theme'))); await pg.wait_for_timeout(250)
             png = os.path.join(out, f'slide{i}.png')
             await pg.screenshot(path=png)
             from PIL import Image
@@ -176,7 +215,7 @@ async def render(spec_path):
         listing = []
         for i, body in enumerate(pages):
             vbody = body.replace('<span>Arrasta pro lado →</span>', '<span>G5 Delay</span>') if i == 0 else body
-            await pv.set_content(doc(vbody, 1920, 380)); await pv.wait_for_timeout(250)
+            await pv.set_content(doc(vbody, 1920, 380, spec.get('theme'))); await pv.wait_for_timeout(250)
             for f in range(anim):
                 t = (f + 1) / anim
                 e = 1 - (1 - t) ** 3
