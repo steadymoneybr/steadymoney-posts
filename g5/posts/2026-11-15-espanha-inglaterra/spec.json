@@ -1,0 +1,97 @@
+{
+ "comp": "Nations League · Grupo A3",
+ "date": "15.11.2026",
+ "source": "Sports Mole / 101GreatGoals / Opta",
+ "home": "Espanha",
+ "away": "Inglaterra",
+ "hs": 2,
+ "as": 3,
+ "scorers": {
+  "home": [
+   "Oyarzabal 65' (pên.)",
+   "Nico Williams 75'"
+  ],
+  "away": [
+   "Kane 45' (pên.)",
+   "Konsa 53'",
+   "Ben White 57'"
+  ]
+ },
+ "kicker": "Fim da invencibilidade",
+ "hook": "23 chutes da Espanha.<br>E derrota.",
+ "lead": "Com 10 desde os 63', a Inglaterra segurou o 3 x 2 em Madri e encerrou 968 dias sem derrota da Espanha.",
+ "slides": [
+  {
+   "type": "bars",
+   "tag": "1 de 4 · O domínio",
+   "title": "A Espanha<br>teve a bola",
+   "rows": [
+    [
+     "Posse",
+     64,
+     36,
+     "%"
+    ],
+    [
+     "Finalizações",
+     23,
+     9
+    ],
+    [
+     "Chutes no gol",
+     7,
+     5
+    ]
+   ],
+   "note": "Quase 2/3 da posse e mais que o dobro de finalizações. Mesmo assim, a Inglaterra fez 3 gols com 9 chutes."
+  },
+  {
+   "type": "big",
+   "tag": "2 de 4 · A expulsão",
+   "kicker": "Expulsão de Anderson aos 63'",
+   "a": "0x3",
+   "la": "Placar aos 57'",
+   "b": "2x3",
+   "lb": "Placar final",
+   "winner": "a",
+   "note": "Kane de pênalti, Konsa e Ben White: 3 x 0 em 12 minutos. Com o vermelho de Anderson, a Espanha fez 2 (Oyarzabal de pênalti e Nico Williams) e parou aí."
+  },
+  {
+   "type": "bars",
+   "tag": "3 de 4 · O muro",
+   "title": "Trafford<br>segurou",
+   "rows": [
+    [
+     "Defesas do goleiro",
+     2,
+     6
+    ],
+    [
+     "Escanteios",
+     4,
+     6
+    ],
+    [
+     "Faltas",
+     14,
+     15
+    ]
+   ],
+   "note": "6 defesas de Trafford, com uma defesa dupla nos acréscimos. Com menos bola, a Inglaterra ainda teve mais escanteios."
+  },
+  {
+   "type": "big",
+   "tag": "4 de 4 · O recorde",
+   "kicker": "A sequência que caiu",
+   "a": "968",
+   "la": "Dias sem perder",
+   "b": "43",
+   "lb": "Jogos sem perder",
+   "winner": "a",
+   "note": "1ª derrota da Espanha desde o 1 x 0 pra Colômbia, em março de 2024. As duas vão às quartas; a Inglaterra fica em 1º do grupo.",
+   "extra": "<span style='font-size:.7em;letter-spacing:.08em;opacity:.7'>DADOS: SPORTS MOLE / 101GREATGOALS / OPTA</span>"
+  }
+ ],
+ "cta": "Mérito ou apagão?",
+ "hook_static": true
+}
