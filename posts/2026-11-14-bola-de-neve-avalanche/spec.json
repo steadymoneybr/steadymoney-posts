@@ -72,5 +72,12 @@
    ],
    "cta": "💬 <b>Comenta aqui embaixo:</b><br>Bola de neve ou avalanche:<br>qual você usaria?"
   }
- ]
+ ],
+ "story": {
+  "pontos": [
+   "Bola de neve: menor dívida antes",
+   "Avalanche: juros mais altos antes",
+   "O melhor é o que você segue"
+  ]
+ }
 }
