@@ -69,6 +69,7 @@ THEMES = {
     'escuro':  dict(bg='#111417', fg='#F2F2EE', sub='#C9CDD1', mut='#9AA0A6', faint='#6E757C', dim='#5D646B', acc='#FF5A1F', gridc='rgba(255,255,255,.035)'),
     'claro':   dict(bg='#F3EFE6', fg='#111417', sub='#3A4047', mut='#5D646B', faint='#80868C', dim='#B4B8BC', acc='#E8490F', gridc='rgba(17,20,23,.05)'),
     'laranja': dict(bg='#FF5A1F', fg='#FFFFFF', sub='#FFE9DF', mut='#FFD6C4', faint='#FFE3D6', dim='#FFB08F', acc='#111417', gridc='rgba(255,255,255,.08)'),
+    'azul':    dict(bg='#1F5CFF', fg='#FFFFFF', sub='#DDE6FF', mut='#C3D3FF', faint='#C3D3FF', dim='#7FA0FF', acc='#FFD23F', gridc='rgba(255,255,255,.08)'),
 }
 
 
@@ -77,7 +78,7 @@ def theme_vars(name):
     return ';'.join(f'--{k}:{v}' for k, v in th.items())
 
 
-ROTACAO = ['escuro', 'claro', 'laranja']
+ROTACAO = ['escuro', 'claro', 'laranja', 'azul']  # azul entrou em 17/11/2026 (mais cor no feed)
 
 
 def auto_theme(spec, spec_path):
@@ -95,7 +96,7 @@ def auto_theme(spec, spec_path):
     ult = 'escuro'
     if anteriores:
         ult = json.load(open(os.path.join(posts, anteriores[-1], 'spec.json'))).get('theme', 'escuro')
-    th = ROTACAO[(ROTACAO.index(ult) + 1) % 3] if ult in ROTACAO else 'escuro'
+    th = ROTACAO[(ROTACAO.index(ult) + 1) % len(ROTACAO)] if ult in ROTACAO else 'escuro'
     spec['theme'] = th
     with open(spec_path, 'w') as f:
         json.dump(spec, f, ensure_ascii=False, indent=1)

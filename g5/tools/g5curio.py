@@ -60,7 +60,7 @@ h2{font-weight:800;font-size:76px;line-height:1;text-transform:uppercase;margin-
 .stage{position:absolute;left:80px;right:80px;top:470px;bottom:420px;display:flex;flex-direction:column;justify-content:center}
 .vb{font-weight:900;line-height:.9;text-transform:uppercase;transform:scale(var(--s));transform-origin:left center;opacity:var(--o)}
 .vs{font-weight:600;font-size:58px;line-height:1.15;color:var(--sub);margin-top:36px;opacity:var(--o2,1);transform:translateY(calc((1 - var(--o2,1)) * 24px))}
-.flash{position:absolute;inset:0;background:var(--acc);opacity:var(--fl)}
+.flash{position:absolute;inset:0;background:#FFFFFF;opacity:var(--fl)}
 .vfoot{position:absolute;left:80px;right:80px;bottom:330px;display:flex;justify-content:space-between;font-weight:700;font-size:30px;letter-spacing:4px;text-transform:uppercase;color:var(--faint)}
 """
 
@@ -109,7 +109,26 @@ def beat_dur(b, first):
     return round(min(max(d, 1.4), 2.6), 2)
 
 
-def doc(body, H, PT, theme):
+# Vídeo colorido (Vini, 17/11/2026: "muito escuro"): cada beat troca de fundo, nunca o escuro.
+VPAL = {
+    'laranja': dict(bg='#FF5A1F', fg='#FFFFFF', sub='#FFE9DF', mut='#FFD6C4', faint='#FFE3D6', acc='#111417', gridc='rgba(255,255,255,.08)'),
+    'creme':   dict(bg='#F3EFE6', fg='#111417', sub='#3A4047', mut='#5D646B', faint='#80868C', acc='#E8490F', gridc='rgba(17,20,23,.05)'),
+    'azul':    dict(bg='#1F5CFF', fg='#FFFFFF', sub='#DDE6FF', mut='#C3D3FF', faint='#C3D3FF', acc='#FFD23F', gridc='rgba(255,255,255,.08)'),
+    'amarelo': dict(bg='#FFD23F', fg='#111417', sub='#3B3420', mut='#5A4E22', faint='#6B5D28', acc='#1F5CFF', gridc='rgba(17,20,23,.06)'),
+    'verde':   dict(bg='#14C670', fg='#0B1F14', sub='#0F3A23', mut='#145A35', faint='#145A35', acc='#FFFFFF', gridc='rgba(11,31,20,.07)'),
+}
+VORDEM = ['laranja', 'creme', 'azul', 'amarelo', 'verde', 'creme']
+
+
+def vvars(i):
+    pal = VPAL[VORDEM[i % len(VORDEM)]]
+    return ';'.join(f'--{k}:{v}' for k, v in pal.items())
+
+
+def doc(body, H, PT, theme, beat=None):
+    if beat is not None:
+        return f"<html><head><meta charset=utf-8><style>{CSS}</style></head><body style='--H:{H}px;--PT:{PT}px;{vvars(beat)}'>{body}</body></html>"
+
     return f"<html><head><meta charset=utf-8><style>{CSS}</style></head><body style='--H:{H}px;--PT:{PT}px;{theme_vars(theme)}'>{body}</body></html>"
 
 
@@ -137,7 +156,7 @@ async def render(spec_path, video_only=False):
         pv = await br.new_page(viewport={'width': 1080, 'height': 1920})
         listing = []; k = 0; t0 = 0.0
         for i, b in enumerate(beats):
-            await pv.set_content(doc(beat_html(spec, b, i, n), 1920, 0, th)); await pv.wait_for_timeout(150)
+            await pv.set_content(doc(beat_html(spec, b, i, n), 1920, 0, th, beat=i)); await pv.wait_for_timeout(150)
             nf = int(round(durs[i] * fps))
             anim = 0 if i == 0 else 7          # 1º beat já aparece pronto no quadro 0 (capa/gancho)
             for f in range(nf):
