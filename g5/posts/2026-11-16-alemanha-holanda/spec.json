@@ -1,0 +1,91 @@
+{
+ "comp": "Liga das Nações · 6ª rodada",
+ "date": "16.11.2026",
+ "source": "ESPN / AP",
+ "home": "Alemanha",
+ "away": "Holanda",
+ "hs": 5,
+ "as": 0,
+ "scorers": {
+  "home": [
+   "Scherhant 41'",
+   "Wirtz 60' e 71'",
+   "Schlotterbeck 65'",
+   "Gruda 77'"
+  ],
+  "away": []
+ },
+ "kicker": "Goleada em Berlim",
+ "hook": "10 chutes no gol.<br>Contra 1.",
+ "lead": "A Holanda chegou líder e só precisava de um empate pra fechar em 1º. Saiu de Berlim com 5 x 0 nas costas.",
+ "slides": [
+  {
+   "type": "bars",
+   "tag": "1 de 4 · A pontaria",
+   "title": "Só um time<br>ameaçou",
+   "rows": [
+    [
+     "Chutes no gol",
+     10,
+     1
+    ],
+    [
+     "Posse",
+     56,
+     44,
+     "%"
+    ],
+    [
+     "Passes certos",
+     429,
+     314
+    ]
+   ],
+   "note": "10 chutes no alvo contra 1. A Holanda passou o jogo inteiro sem exigir quase nada de ter Stegen."
+  },
+  {
+   "type": "big",
+   "tag": "2 de 4 · O 2º tempo",
+   "kicker": "Gols da Alemanha por tempo",
+   "a": "1",
+   "la": "1º tempo",
+   "b": "4",
+   "lb": "2º tempo",
+   "winner": "b",
+   "note": "Scherhant abriu aos 41'. Depois do intervalo vieram Wirtz (60' e 71'), Schlotterbeck (65') e Gruda (77'): 4 gols em 17 minutos."
+  },
+  {
+   "type": "bars",
+   "tag": "3 de 4 · Os goleiros",
+   "title": "Verbruggen<br>trabalhou",
+   "rows": [
+    [
+     "Chutes no gol sofridos",
+     1,
+     10
+    ],
+    [
+     "Defesas do goleiro",
+     1,
+     5
+    ]
+   ],
+   "note": "Verbruggen fez 5 defesas e ainda levou 5 gols. Do outro lado, ter Stegen precisou fazer 1."
+  },
+  {
+   "type": "big",
+   "tag": "4 de 4 · A tabela",
+   "kicker": "Grupo A2 terminou empatado",
+   "a": "3",
+   "la": "Seleções com 11 pontos",
+   "b": "1º",
+   "lb": "Alemanha no grupo",
+   "winner": "b",
+   "note": "Alemanha, Holanda e Grécia fecharam com 11. Nos critérios de desempate, a Alemanha ficou em 1º e a Holanda em 2º: as duas vão às quartas, e a Grécia ficou fora.",
+   "extra": "<span style='font-size:.7em;letter-spacing:.08em;opacity:.7'>DADOS: ESPN / AP</span>"
+  }
+ ],
+ "cta": "Show ou apagão?",
+ "hook_static": true,
+ "theme": "claro"
+}
