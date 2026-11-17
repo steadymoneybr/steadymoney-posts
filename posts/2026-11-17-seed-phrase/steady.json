@@ -1,0 +1,144 @@
+{
+ "titulo": "Pediram suas 12 palavras?",
+ "destaques": [
+  "12",
+  "palavras",
+  "tudo",
+  "golpe",
+  "golpista",
+  "estorno",
+  "papel",
+  "curte",
+  "manda",
+  "comenta",
+  "Steady",
+  "Money",
+  "volta"
+ ],
+ "cenas": [
+  {
+   "dur": 2.6,
+   "legenda": [
+    "Te pediram",
+    "suas 12 palavras?",
+    "É golpe.",
+    "E não tem volta."
+   ],
+   "personagem": {
+    "img": "P14.png",
+    "anim": "shake"
+   },
+   "efeitos": [
+    {
+     "tipo": "interrogacao",
+     "x": 860,
+     "y": 600
+    }
+   ],
+   "narracao": "Te pediram as doze palavras da sua carteira cripto? É golpe. E não tem volta."
+  },
+  {
+   "dur": 2.6,
+   "legenda": [
+    "Essas palavras",
+    "são a chave mestra.",
+    "Quem tem,",
+    "controla tudo."
+   ],
+   "pill": "SEED PHRASE",
+   "personagem": {
+    "img": "P12.png"
+   },
+   "narracao": "Essas palavras são a chave mestra da carteira. Quem tem, controla tudo."
+  },
+  {
+   "dur": 2.6,
+   "legenda": [
+    "\"Suporte\" no",
+    "Direct pedindo?",
+    "Ninguém sério",
+    "pede a seed."
+   ],
+   "pill": "SUPORTE",
+   "personagem": {
+    "img": "P16.png"
+   },
+   "placa": "NÃO\nPASSE!",
+   "narracao": "Suporte no Direct pedindo pra validar? Nenhuma empresa séria pede suas palavras."
+  },
+  {
+   "dur": 2.6,
+   "legenda": [
+    "Curte o vídeo",
+    "e manda pra quem",
+    "tem cripto."
+   ],
+   "personagem": {
+    "img": "P07.png",
+    "anim": "jump"
+   },
+   "efeitos": [
+    {
+     "tipo": "coracoes"
+    }
+   ],
+   "narracao": "Curte o vídeo e manda agora pra quem tem cripto."
+  },
+  {
+   "dur": 2.6,
+   "legenda": [
+    "Brinde, site",
+    "parecido, anúncio...",
+    "Pediu as palavras,",
+    "é golpe."
+   ],
+   "pill": "SITE FALSO",
+   "personagem": {
+    "img": "P04.png"
+   },
+   "narracao": "Brinde, site parecido, anúncio patrocinado. Pediu as palavras, é golpe."
+  },
+  {
+   "dur": 2.6,
+   "legenda": [
+    "O golpista leva",
+    "tudo em minutos.",
+    "Em cripto,",
+    "não tem estorno."
+   ],
+   "pill": "SEM VOLTA",
+   "personagem": {
+    "img": "P13.png"
+   },
+   "narracao": "O golpista transfere tudo em minutos. E em cripto não tem banco pra cancelar."
+  },
+  {
+   "dur": 2.6,
+   "legenda": [
+    "Anote no papel.",
+    "Nada de print",
+    "ou nuvem.",
+    "Já te pediram?",
+    "Sim ou não?"
+   ],
+   "pill": "NA PRÁTICA",
+   "personagem": {
+    "img": "P09.png"
+   },
+   "narracao": "Anote no papel, nada de print ou nuvem. Já te pediram? Sim ou não?"
+  },
+  {
+   "dur": 2.6,
+   "legenda": [
+    "Segue a",
+    "Steady Money",
+    "pra aprender",
+    "mais."
+   ],
+   "personagem": {
+    "img": "P10.png"
+   },
+   "narracao": "Segue a Steady Money pra aprender mais."
+  }
+ ]
+}

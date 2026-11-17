@@ -1,0 +1,83 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "tag": "Educação Financeira",
+   "title": "Pediram suas<br>12 palavras?",
+   "sub": "Por que a seed phrase da sua<br>carteira cripto nunca se compartilha.",
+   "category": "golpe"
+  },
+  {
+   "type": "inner",
+   "tag": "1 de 5 — Golpes",
+   "big": "Seed phrase",
+   "sub": "A chave mestra da carteira",
+   "bullets": [
+    "São 12 ou 24 palavras em uma ordem",
+    "Servem pra recuperar a carteira cripto",
+    "Quem tem as palavras controla tudo",
+    "Perdeu as palavras? Perdeu o acesso"
+   ],
+   "quote": "As palavras são<br>o próprio dinheiro."
+  },
+  {
+   "type": "inner",
+   "tag": "2 de 5 — Golpes",
+   "big": "Suporte",
+   "sub": "Ninguém sério pede suas palavras",
+   "bullets": [
+    "Nenhuma empresa séria pede a seed phrase",
+    "\"Suporte\" no Direct ou no WhatsApp? Golpe",
+    "Nem pra \"validar\" ou \"desbloquear\"",
+    "Pediu as palavras, encerre a conversa"
+   ],
+   "quote": "Pediu a seed,<br>é golpista."
+  },
+  {
+   "type": "inner",
+   "tag": "3 de 5 — Golpes",
+   "big": "Site falso",
+   "sub": "Cuidado onde você digita",
+   "bullets": [
+    "Sites copiam o visual de carteiras famosas",
+    "Brinde ou airdrop que pede as palavras",
+    "Anúncio patrocinado também pode ser golpe",
+    "Só digite ao restaurar no app oficial"
+   ],
+   "quote": "Pedido de seed<br>é sempre golpe."
+  },
+  {
+   "type": "inner",
+   "tag": "4 de 5 — Golpes",
+   "big": "Sem volta",
+   "sub": "Transação cripto não se desfaz",
+   "bullets": [
+    "O golpista transfere tudo em minutos",
+    "Não tem banco pra cancelar a transação",
+    "Recuperar costuma ser quase impossível",
+    "\"Recuperadores\" pagos também são golpe"
+   ],
+   "quote": "Em cripto,<br>não tem estorno."
+  },
+  {
+   "type": "inner",
+   "tag": "5 de 5 — Golpes",
+   "big": "Na prática",
+   "sub": "Como guardar com segurança",
+   "bullets": [
+    "Anote no papel e guarde em lugar seguro",
+    "Nada de print, foto, nuvem ou e-mail",
+    "Não mostre pra ninguém, nem pra amigo",
+    "Desconfie de qualquer pedido das palavras"
+   ],
+   "cta": "💬 <b>Comenta aqui embaixo:</b><br>você já recebeu um pedido desses?<br>Sim ou não?"
+  }
+ ],
+ "story": {
+  "pontos": [
+   "Quem tem a seed controla tudo",
+   "Ninguém sério pede as palavras",
+   "Guarde no papel, nunca em foto"
+  ]
+ }
+}

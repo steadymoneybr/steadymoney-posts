@@ -19,7 +19,7 @@ Status: `pendente` ou `publicado AAAA-MM-DD`. Categoria da capa: `confronto`, `m
 | 11 | O que é um ETF, em 3 slides | Carteira de ETFs | conceito | pendente |
 | 12 | Método bola de neve x avalanche | Finanças Básico | confronto | publicado 2026-11-14 |
 | 13 | Come-cotas: o imposto que você não vê | Finanças Intermediário | conceito | pendente |
-| 14 | Seed phrase: por que nunca compartilhar | Criptomoedas | golpe | pendente |
+| 14 | Seed phrase: por que nunca compartilhar | Criptomoedas | golpe | publicado 2026-11-17 |
 | 15 | Tabela regressiva x progressiva na previdência | Previdência Privada | confronto | pendente |
 | 16 | Juros compostos: o tempo trabalha pra você | Finanças Avançado | conceito | pendente |
 | 17 | LCI/LCA x CDB: isenção não é tudo | Renda Fixa | confronto | publicado 2026-11-12 |
