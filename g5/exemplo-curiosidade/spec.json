@@ -1,0 +1,28 @@
+{
+ "formato": "curiosidade",
+ "tag": "Curiosidade · Copa de 1950",
+ "vtag": "Copa de 1950",
+ "kicker": "A Copa sem final",
+ "hook": "Não teve<br>final.",
+ "lead": "Em 1950, o Brasil só precisava de um empate contra o Uruguai no último jogo do quadrangular. Você sabe o resto.",
+ "date": "Exemplo",
+ "source": "FIFA",
+ "theme": "escuro",
+ "slides": [
+  {"tag": "1 de 4 · O formato", "big": "4", "title": "seleções no quadrangular final", "text": "Brasil, Uruguai, Suécia e Espanha. Quem somasse mais pontos levava a taça. Não existia um jogo chamado final."},
+  {"tag": "2 de 4 · A conta", "big": "1", "title": "ponto de vantagem do Brasil", "text": "Antes do último jogo: Brasil 4 pontos, Uruguai 3. Um empate bastava pro título."},
+  {"tag": "3 de 4 · A virada", "big": "2x1", "title": "Uruguai campeão no Maracanã", "text": "Friaça abriu aos 47'. Schiaffino empatou aos 66' e Ghiggia virou aos 79'."},
+  {"tag": "4 de 4 · O silêncio", "big": "173.850", "title": "pagantes, segundo a FIFA", "text": "O jogo virou sinônimo de zebra: o Maracanazo."}
+ ],
+ "cta": "Qual foi a maior zebra da história?",
+ "beats": [
+  {"big": "NÃO TEVE<br>FINAL.", "small": "Copa de 1950. E o Brasil perdeu mesmo assim."},
+  {"big": "QUADRANGULAR", "small": "4 seleções, pontos corridos"},
+  {"big": "SÓ PRECISAVA<br>EMPATAR", "small": "Brasil 4 pontos, Uruguai 3"},
+  {"big": "FRIAÇA 47'", "small": "Brasil 1 x 0"},
+  {"big": "SCHIAFFINO 66'", "small": "1 x 1. A taça ainda era nossa"},
+  {"big": "GHIGGIA 79'", "small": "Uruguai 2 x 1"},
+  {"big": "173.850", "small": "pagantes em silêncio (FIFA)"},
+  {"big": "MARACANAZO", "small": "Segue a G5 pra mais histórias assim"}
+ ]
+}
