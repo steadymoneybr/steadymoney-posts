@@ -23,7 +23,7 @@ Status: `pendente` ou `publicado AAAA-MM-DD`. Categoria da capa: `confronto`, `m
 | 15 | Tabela regressiva x progressiva na previdência | Previdência Privada | confronto | pendente |
 | 16 | Juros compostos: o tempo trabalha pra você | Finanças Avançado | conceito | pendente |
 | 17 | LCI/LCA x CDB: isenção não é tudo | Renda Fixa | confronto | publicado 2026-11-12 |
-| 18 | Dividend yield: o que ele diz e o que esconde | Fundos Imobiliários | mito | pendente |
+| 18 | Dividend yield: o que ele diz e o que esconde | Fundos Imobiliários | mito | publicado 2026-11-18 |
 | 19 | Rentabilidade "boa demais": como desconfiar | Multiplicar Dinheiro com Risco Baixo | golpe | publicado 2026-11-15 |
 | 20 | Diversificação não é ter muitos ativos | Finanças Intermediário | mito | publicado 2026-11-13 |
 | 21 | Custódia em corretora x carteira própria (cripto) | Criptomoedas | confronto | pendente |

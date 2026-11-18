@@ -1,0 +1,100 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "tag": "Educação Financeira",
+   "title": "Dividend yield<br>alto é<br>sempre bom?",
+   "sub": "Nem sempre. Veja o que esse<br>número mostra e o que esconde.",
+   "category": "mito"
+  },
+  {
+   "type": "inner",
+   "tag": "1 de 5 — Dividend yield",
+   "big": "DY",
+   "sub": "Dividendos ÷ preço",
+   "bullets": [
+    "Soma os dividendos dos últimos 12 meses",
+    "Divide pelo preço atual da ação",
+    "Ex.: pagou R$ 1 e custa R$ 10 = DY de 10%",
+    "Vale pra ações e pra fundos imobiliários"
+   ],
+   "quote": "É um retrato do passado,<br>não uma promessa."
+  },
+  {
+   "type": "inner",
+   "tag": "2 de 5 — Dividend yield",
+   "big": "Preço caiu",
+   "sub": "O DY sobe quando a ação cai",
+   "bullets": [
+    "Ação de R$ 10 pagou R$ 1: DY de 10%",
+    "Se o preço cai pra R$ 5, o DY vira 20%",
+    "O dividendo não mudou, o preço é que caiu",
+    "E às vezes a queda tem motivo"
+   ],
+   "quote": "DY subindo pode ser<br>sinal de problema."
+  },
+  {
+   "type": "inner",
+   "tag": "3 de 5 — Dividend yield",
+   "big": "Pontual",
+   "sub": "Dividendo que não se repete",
+   "bullets": [
+    "Venda de um imóvel ou de uma empresa",
+    "Lucro extra de um ano fora da curva",
+    "Isso infla o DY daquele período",
+    "No ano seguinte, o pagamento pode cair"
+   ],
+   "quote": "Olhe vários anos,<br>não só os últimos 12 meses."
+  },
+  {
+   "type": "inner",
+   "tag": "4 de 5 — Dividend yield",
+   "big": "Payout",
+   "sub": "Quanto do lucro vira dividendo",
+   "bullets": [
+    "É a parte do lucro que foi distribuída",
+    "Acima de 100%: pagou mais do que lucrou",
+    "Isso não costuma durar muito tempo",
+    "Lucro estável sustenta dividendo estável"
+   ],
+   "quote": "Dividendo bom vem de<br>lucro de verdade."
+  },
+  {
+   "type": "inner",
+   "tag": "5 de 5 — Dividend yield",
+   "big": "Na prática",
+   "sub": "Antes de olhar só o DY",
+   "bullets": [
+    "Veja por que o preço caiu",
+    "Confira o histórico de vários anos",
+    "Compare o dividendo com o lucro",
+    "DY alto, sozinho, não diz muita coisa"
+   ],
+   "cta": "💬 <b>Comenta aqui embaixo:</b><br>você olha o DY antes<br>de investir? Sim ou não?"
+  }
+ ],
+ "story": {
+  "pontos": [
+   "DY = dividendos ÷ preço",
+   "Preço caiu? O DY sobe sozinho",
+   "Olhe vários anos e o lucro"
+  ]
+ },
+ "tiktok": {
+  "gancho": {
+   "kicker": "Mito ou verdade?",
+   "l1": "Dividend yield de 20% é sempre bom?",
+   "l2": "Às vezes é alarme."
+  },
+  "ritmo": 0.85,
+  "narracao": [
+   "Dividend yield de vinte por cento é sempre bom? Às vezes, é sinal de alarme.",
+   "O dividend yield soma os dividendos de doze meses e divide pelo preço atual.",
+   "Se a ação de dez reais cai pra cinco, ele dobra. E o dividendo nem mudou.",
+   "Dividendo pontual, como a venda de um imóvel, infla o número daquele ano.",
+   "Olhe o payout. Acima de cem por cento, a empresa pagou mais do que lucrou.",
+   "Veja o histórico e o lucro. Comenta aí: você olha esse número antes de investir?",
+   "Segue a Steady Money pra aprender mais."
+  ]
+ }
+}
