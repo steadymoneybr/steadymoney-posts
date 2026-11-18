@@ -1,0 +1,72 @@
+{
+ "formato": "curiosidade",
+ "tag": "Curiosidade · Rogério Ceni",
+ "vtag": "Goleiro artilheiro",
+ "kicker": "O goleiro artilheiro",
+ "hook": "131 gols.<br>Sendo goleiro.",
+ "lead": "Rogério Ceni balançou a rede 131 vezes pelo São Paulo. Nenhum goleiro na história fez tantos gols.",
+ "date": "17.11.2026",
+ "source": "Lance / Wikipedia / Gazeta Esportiva / FutDados",
+ "slides": [
+  {
+   "tag": "1 de 4 · O começo",
+   "big": "1997",
+   "title": "o primeiro gol, de falta",
+   "text": "15 de fevereiro, em Araras: falta contra o União São João, pelo Paulistão. Foi o 1º de 131."
+  },
+  {
+   "tag": "2 de 4 · A cobrança",
+   "big": "69",
+   "title": "gols de pênalti",
+   "text": "A maioria dos outros saiu em cobrança de falta, a marca registrada dele."
+  },
+  {
+   "tag": "3 de 4 · O ano",
+   "big": "21",
+   "title": "gols só em 2005",
+   "text": "Nenhum outro ano da carreira dele teve tantos gols. Em 2006, por exemplo, foram 16."
+  },
+  {
+   "tag": "4 de 4 · O centésimo",
+   "big": "100º",
+   "title": "gol veio no clássico",
+   "text": "27 de março de 2011: o 100º saiu de falta contra o Corinthians, em Barueri. Foram 1.237 jogos pelo São Paulo."
+  }
+ ],
+ "cta": "Algum goleiro chega perto desse recorde?",
+ "beats": [
+  {
+   "big": "131 GOLS",
+   "small": "E ele era o goleiro."
+  },
+  {
+   "big": "ROGÉRIO<br>CENI",
+   "small": "1.237 jogos pelo São Paulo"
+  },
+  {
+   "big": "1997",
+   "small": "1º gol: falta no União São João"
+  },
+  {
+   "big": "69",
+   "small": "gols de pênalti"
+  },
+  {
+   "big": "21 EM 2005",
+   "small": "gols numa só temporada"
+  },
+  {
+   "big": "100º GOL",
+   "small": "de falta, contra o Corinthians"
+  },
+  {
+   "big": "RECORDE",
+   "small": "nenhum goleiro fez mais gols"
+  },
+  {
+   "big": "E AÍ?",
+   "small": "Segue a G5 pra mais histórias assim"
+  }
+ ],
+ "theme": "laranja"
+}
