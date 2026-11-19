@@ -1,0 +1,143 @@
+{
+ "titulo": "Corretora x carteira própria",
+ "destaques": [
+  "chave",
+  "corretora",
+  "carteira",
+  "FGC",
+  "seed",
+  "você",
+  "empresa",
+  "curte",
+  "manda",
+  "comenta",
+  "Steady",
+  "Money",
+  "risco"
+ ],
+ "cenas": [
+  {
+   "dur": 3.2,
+   "legenda": [
+    "Sua cripto",
+    "tá na corretora?",
+    "Então a chave",
+    "não é sua."
+   ],
+   "personagem": {
+    "img": "P14.png",
+    "anim": "shake"
+   },
+   "efeitos": [
+    {
+     "tipo": "interrogacao",
+     "x": 860,
+     "y": 600
+    }
+   ],
+   "narracao": "Sua cripto tá na corretora? Então a chave não é sua. E pouca gente sabe disso."
+  },
+  {
+   "dur": 3.2,
+   "legenda": [
+    "Toda carteira",
+    "tem uma chave.",
+    "Quem tem a chave,",
+    "manda."
+   ],
+   "pill": "A CHAVE",
+   "personagem": {
+    "img": "P12.png"
+   },
+   "narracao": "Toda carteira cripto tem uma chave privada. Quem tem a chave, manda."
+  },
+  {
+   "dur": 3.2,
+   "legenda": [
+    "Na corretora,",
+    "a empresa guarda.",
+    "Prático,",
+    "mas a chave é dela."
+   ],
+   "pill": "CORRETORA",
+   "personagem": {
+    "img": "P11.png"
+   },
+   "narracao": "Na corretora, a empresa guarda a chave. Prático, mas a chave é dela."
+  },
+  {
+   "dur": 3.2,
+   "legenda": [
+    "Saque travado,",
+    "empresa quebrada...",
+    "E cripto",
+    "não tem FGC."
+   ],
+   "pill": "O RISCO",
+   "personagem": {
+    "img": "P05.png",
+    "anim": "shake"
+   },
+   "narracao": "A empresa pode travar saques ou quebrar. E cripto não tem FGC."
+  },
+  {
+   "dur": 3.0,
+   "legenda": [
+    "Curte o vídeo",
+    "e manda pra quem",
+    "tem cripto."
+   ],
+   "personagem": {
+    "img": "P07.png",
+    "anim": "jump"
+   },
+   "efeitos": [
+    {
+     "tipo": "coracoes"
+    }
+   ],
+   "narracao": "Curte o vídeo e manda agora pra quem tem cripto."
+  },
+  {
+   "dur": 3.2,
+   "legenda": [
+    "Na carteira própria,",
+    "a chave é sua.",
+    "Perdeu a seed?",
+    "Ninguém recupera."
+   ],
+   "pill": "CARTEIRA PRÓPRIA",
+   "personagem": {
+    "img": "P13.png"
+   },
+   "narracao": "Na carteira própria, a chave é só sua. Perdeu a seed, o backup da chave? Ninguém recupera."
+  },
+  {
+   "dur": 3.2,
+   "legenda": [
+    "Nenhuma opção",
+    "é sem risco.",
+    "Corretora",
+    "ou carteira?"
+   ],
+   "pill": "NA PRÁTICA",
+   "personagem": {
+    "img": "P09.png"
+   },
+   "narracao": "Nenhuma opção é sem risco. E a sua cripto: corretora ou carteira?"
+  },
+  {
+   "dur": 2.8,
+   "legenda": [
+    "Segue a",
+    "Steady Money",
+    "pra aprender",
+    "mais."
+   ],
+   "personagem": {
+    "img": "P10.png"
+   },
+   "narracao": "Segue a Steady Money pra aprender mais."
+  }
+ ]
+}

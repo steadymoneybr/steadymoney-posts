@@ -55,7 +55,8 @@ def main(spec_path, out, tipo):
             break
     y = 440
     for ln in TL:
-        center(ln, fT, y, titc); y += int(fT.size * 1.18)
+        # "x" sozinho na linha (títulos de comparação) sai na cor do "x" da categoria, como na capa
+        center(ln, fT, y, rgb(c.get('vs', c['title'])) if ln.strip().lower() == 'x' else titc); y += int(fT.size * 1.18)
 
     # 3 pontos
     y += 70

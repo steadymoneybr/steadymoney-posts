@@ -26,7 +26,7 @@ Status: `pendente` ou `publicado AAAA-MM-DD`. Categoria da capa: `confronto`, `m
 | 18 | Dividend yield: o que ele diz e o que esconde | Fundos Imobiliários | mito | publicado 2026-11-18 |
 | 19 | Rentabilidade "boa demais": como desconfiar | Multiplicar Dinheiro com Risco Baixo | golpe | publicado 2026-11-15 |
 | 20 | Diversificação não é ter muitos ativos | Finanças Intermediário | mito | publicado 2026-11-13 |
-| 21 | Custódia em corretora x carteira própria (cripto) | Criptomoedas | confronto | pendente |
+| 21 | Custódia em corretora x carteira própria (cripto) | Criptomoedas | confronto | publicado 2026-11-19 |
 | 22 | Taxa de administração: o custo silencioso | Previdência Privada | conceito | pendente |
 | 23 | Rebalanceamento de carteira | Finanças Intermediário | conceito | pendente |
 | 24 | ETF não tem isenção dos R$ 20 mil | Carteira de ETFs | mito | pendente |

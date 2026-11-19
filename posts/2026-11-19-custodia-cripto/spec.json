@@ -1,0 +1,83 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "tag": "Educação Financeira",
+   "title": "Corretora<br>x<br>carteira própria",
+   "sub": "Onde fica sua cripto e quem tem<br>a chave de verdade.",
+   "category": "confronto"
+  },
+  {
+   "type": "inner",
+   "tag": "1 de 5 — Cripto",
+   "big": "A chave",
+   "sub": "Quem tem a chave, manda",
+   "bullets": [
+    "Toda carteira cripto tem uma chave privada",
+    "É ela que autoriza mover as moedas",
+    "A seed phrase é o backup dessa chave",
+    "A pergunta é: quem guarda a chave?"
+   ],
+   "quote": "Escolher onde guardar é<br>escolher quem tem a chave."
+  },
+  {
+   "type": "inner",
+   "tag": "2 de 5 — Cripto",
+   "big": "Corretora",
+   "sub": "A empresa guarda por você",
+   "bullets": [
+    "Você acessa com login e senha",
+    "Prático pra comprar, vender e sacar em reais",
+    "Esqueceu a senha? Dá pra recuperar",
+    "Mas a chave fica com a empresa"
+   ],
+   "quote": "Prático, mas a chave<br>não é sua."
+  },
+  {
+   "type": "inner",
+   "tag": "3 de 5 — Cripto",
+   "big": "O risco",
+   "sub": "Você depende da empresa",
+   "bullets": [
+    "A empresa pode travar saques ou quebrar",
+    "Conta invadida também é um risco",
+    "Cripto não tem garantia do FGC",
+    "Pesquise a empresa antes de deixar lá"
+   ],
+   "quote": "Na corretora, você confia<br>em alguém pela chave."
+  },
+  {
+   "type": "inner",
+   "tag": "4 de 5 — Cripto",
+   "big": "Carteira própria",
+   "sub": "Você vira o próprio banco",
+   "bullets": [
+    "Só você tem a chave e a seed phrase",
+    "Nenhuma empresa consegue travar seu saldo",
+    "Perdeu a seed? Ninguém recupera",
+    "Erro de envio também não tem volta"
+   ],
+   "quote": "Mais controle,<br>mais responsabilidade."
+  },
+  {
+   "type": "inner",
+   "tag": "5 de 5 — Cripto",
+   "big": "Na prática",
+   "sub": "Não existe opção sem risco",
+   "bullets": [
+    "Corretora: risco está na empresa",
+    "Carteira própria: risco está em você",
+    "Tem gente que usa as duas, pra fins diferentes",
+    "Seed nunca em foto, print ou nuvem"
+   ],
+   "cta": "💬 <b>Comenta aqui embaixo:</b><br>onde fica a sua cripto?<br>Corretora ou carteira?"
+  }
+ ],
+ "story": {
+  "pontos": [
+   "Na corretora, a chave é dela",
+   "Na carteira, a chave é sua",
+   "Cripto não tem garantia do FGC"
+  ]
+ }
+}
