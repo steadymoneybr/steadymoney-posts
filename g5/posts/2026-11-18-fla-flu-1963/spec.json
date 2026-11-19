@@ -1,0 +1,72 @@
+{
+ "formato": "curiosidade",
+ "tag": "Curiosidade · Fla-Flu",
+ "vtag": "Fla-Flu de 1963",
+ "kicker": "O maior público entre clubes",
+ "hook": "194.603<br>num Fla-Flu.",
+ "lead": "Final do Carioca de 1963, no Maracanã. Nenhum jogo entre clubes na história do futebol reuniu tanta gente.",
+ "date": "18.11.2026",
+ "source": "Trivela / Soccerway / Lance / RSSSF",
+ "slides": [
+  {
+   "tag": "1 de 4 · O jogo",
+   "big": "0x0",
+   "title": "e o Flamengo foi campeão",
+   "text": "15 de dezembro de 1963, final do Carioca. O Flamengo só precisava de um empate, e o placar não saiu do zero."
+  },
+  {
+   "tag": "2 de 4 · O público",
+   "big": "194.603",
+   "title": "pessoas no Maracanã",
+   "text": "É o público oficial do jogo. Desse total, 177.020 pagaram ingresso."
+  },
+  {
+   "tag": "3 de 4 · O recorde",
+   "big": "Nº 1",
+   "title": "maior público entre clubes",
+   "text": "Nenhum jogo entre clubes, em nenhum lugar do mundo, teve mais gente na arquibancada."
+  },
+  {
+   "tag": "4 de 4 · O ranking",
+   "big": "3º",
+   "title": "maior público da história",
+   "text": "Só perde para dois jogos da Seleção no Maracanã: Brasil x Uruguai (1950) e Brasil x Paraguai (1954)."
+  }
+ ],
+ "cta": "Qual é o maior clássico do Brasil?",
+ "beats": [
+  {
+   "big": "194.603",
+   "small": "pessoas num Fla-Flu. Que terminou 0 a 0."
+  },
+  {
+   "big": "FINAL DO<br>CARIOCA",
+   "small": "15 de dezembro de 1963"
+  },
+  {
+   "big": "0 x 0",
+   "small": "o empate bastava pro Flamengo"
+  },
+  {
+   "big": "FLA CAMPEÃO",
+   "small": "com o Maracanã lotado"
+  },
+  {
+   "big": "177.020",
+   "small": "pagaram ingresso"
+  },
+  {
+   "big": "RECORDE<br>MUNDIAL",
+   "small": "maior público entre clubes"
+  },
+  {
+   "big": "3º MAIOR",
+   "small": "só perde pra 2 jogos da Seleção"
+  },
+  {
+   "big": "E AÍ?",
+   "small": "Segue a G5 pra mais histórias assim"
+  }
+ ],
+ "theme": "azul"
+}
