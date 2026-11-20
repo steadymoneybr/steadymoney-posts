@@ -29,7 +29,7 @@ Status: `pendente` ou `publicado AAAA-MM-DD`. Categoria da capa: `confronto`, `m
 | 21 | Custódia em corretora x carteira própria (cripto) | Criptomoedas | confronto | publicado 2026-11-19 |
 | 22 | Taxa de administração: o custo silencioso | Previdência Privada | conceito | pendente |
 | 23 | Rebalanceamento de carteira | Finanças Intermediário | conceito | pendente |
-| 24 | ETF não tem isenção dos R$ 20 mil | Carteira de ETFs | mito | pendente |
+| 24 | ETF não tem isenção dos R$ 20 mil | Carteira de ETFs | mito | publicado 2026-11-20 |
 | 25 | Regra dos 4% e independência financeira | Finanças Avançado | conceito | pendente |
 | 26 | FGC: o que ele cobre (e o que não cobre) | Renda Fixa | mito | publicado 2026-11-16 |
 | 27 | Liquidez: o dinheiro precisa estar disponível? | Finanças Básico | conceito | pendente |

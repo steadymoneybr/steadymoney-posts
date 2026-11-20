@@ -1,0 +1,100 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "tag": "Educação Financeira",
+   "title": "ETF tem<br>isenção dos<br>R$ 20 mil?",
+   "sub": "Não tem. E muita gente só<br>descobre isso tarde demais.",
+   "category": "mito"
+  },
+  {
+   "type": "inner",
+   "tag": "1 de 5 — ETF e imposto",
+   "big": "R$ 20 mil",
+   "sub": "A isenção que existe",
+   "bullets": [
+    "Vendeu até R$ 20 mil em ações no mês",
+    "O lucro dessas vendas fica isento",
+    "Conta o total vendido, não o lucro",
+    "Não vale pra day trade"
+   ],
+   "quote": "É uma regra das ações,<br>não de tudo na bolsa."
+  },
+  {
+   "type": "inner",
+   "tag": "2 de 5 — ETF e imposto",
+   "big": "ETF",
+   "sub": "Aqui não tem isenção",
+   "bullets": [
+    "ETF de ações paga IR sobre o lucro",
+    "Vale até se vender só R$ 100 no mês",
+    "Alíquota de 15% nas operações comuns",
+    "E de 20% se for day trade"
+   ],
+   "quote": "Vendeu com lucro?<br>Tem imposto."
+  },
+  {
+   "type": "inner",
+   "tag": "3 de 5 — ETF e imposto",
+   "big": "Exemplo",
+   "sub": "Quanto sai na prática",
+   "bullets": [
+    "Você vende R$ 5 mil em cotas de ETF",
+    "O lucro nessa venda foi de R$ 1 mil",
+    "Imposto: 15% de R$ 1 mil = R$ 150",
+    "Se fosse ação, esse lucro seria isento"
+   ],
+   "quote": "Mesma venda,<br>conta diferente."
+  },
+  {
+   "type": "inner",
+   "tag": "4 de 5 — ETF e imposto",
+   "big": "DARF",
+   "sub": "Quem paga é você",
+   "bullets": [
+    "A corretora não recolhe esse IR por você",
+    "Você calcula e emite o DARF",
+    "Prazo: último dia útil do mês seguinte",
+    "Atrasou? Paga multa e juros"
+   ],
+   "quote": "Esquecer o DARF<br>sai caro."
+  },
+  {
+   "type": "inner",
+   "tag": "5 de 5 — ETF e imposto",
+   "big": "Na prática",
+   "sub": "Pra não levar susto",
+   "bullets": [
+    "Anote o preço de compra de cada cota",
+    "Some as vendas e o lucro de cada mês",
+    "Prejuízo pode abater lucros futuros",
+    "Ação e ETF têm regras diferentes"
+   ],
+   "cta": "💬 <b>Comenta aqui embaixo:</b><br>você sabia que ETF não<br>tem isenção? Sim ou não?"
+  }
+ ],
+ "story": {
+  "pontos": [
+   "Isenção de R$ 20 mil: só ações",
+   "ETF de ações: 15% sobre o lucro",
+   "Você mesmo emite o DARF"
+  ]
+ },
+ "tiktok": {
+  "gancho": {
+   "kicker": "Mito ou verdade?",
+   "l1": "ETF é isento até R$ 20 mil por mês.",
+   "l2": "Não é. E sai caro."
+  },
+  "ritmo": 0.85,
+  "narracao": [
+   "ETF é isento até vinte mil por mês? Não é. E quase ninguém avisa.",
+   "A isenção dos vinte mil é das ações. Não vale pra tudo na bolsa.",
+   "No ETF de ações, lucro paga quinze por cento. Mesmo numa venda de cem reais.",
+   "Lucrou mil reais vendendo cotas de ETF? São cento e cinquenta de imposto.",
+   "E a corretora não recolhe. Você emite o DARF até o último dia útil do mês seguinte.",
+   "Comenta aí: você sabia que ETF não tem isenção? Sim ou não?",
+   "Segue a Steady Money pra aprender mais."
+  ]
+ }
+}
