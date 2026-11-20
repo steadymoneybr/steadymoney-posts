@@ -1,0 +1,103 @@
+{
+ "comp": "Brasileirão · 35ª rodada",
+ "date": "19.11.2026",
+ "source": "Placar / Metrópoles / Playmaker",
+ "home": "São Paulo",
+ "away": "Fluminense",
+ "hs": 0,
+ "as": 1,
+ "scorers": {
+  "home": [],
+  "away": [
+   "Hércules 31'"
+  ]
+ },
+ "kicker": "Vitória no Morumbi",
+ "hook": "Mais de 10 chutes.<br>Nenhum no gol.",
+ "lead": "O São Paulo finalizou pelo menos 11 vezes em casa e não acertou o alvo nenhuma vez. O Flu fez 1 a 0 e emendou a 3ª vitória seguida.",
+ "slides": [
+  {
+   "type": "big",
+   "tag": "1 de 4 · A pontaria",
+   "kicker": "O ataque do São Paulo",
+   "a": "11+",
+   "la": "Finalizações do SP",
+   "b": "0",
+   "lb": "No alvo",
+   "winner": "b",
+   "note": "Foram 11 finalizações pelo Playmaker e 12 pela Placar. Nas duas contas, nenhuma no gol: Fábio terminou o jogo sem fazer uma defesa."
+  },
+  {
+   "type": "big",
+   "tag": "2 de 4 · O gol",
+   "kicker": "O lance que decidiu",
+   "a": "31'",
+   "la": "Gol de Hércules",
+   "b": "0 x 1",
+   "lb": "Placar final",
+   "winner": "a",
+   "note": "Guga cruzou da direita, a bola desviou em Hulk e sobrou pro Hércules, que bateu de primeira, no ângulo. Do outro lado, Rafael ainda parou Hulk, Arana e Martinelli."
+  },
+  {
+   "type": "big",
+   "tag": "3 de 4 · O Flu",
+   "kicker": "Fase do Fluminense",
+   "a": "3",
+   "la": "Vitórias seguidas",
+   "b": "60",
+   "lb": "Pontos no G4",
+   "winner": "b",
+   "note": "O Flu chegou a 60 pontos e se firmou no G4, 6 à frente do Athletico. Faltam 3 rodadas, e o próximo é o Mirassol, domingo, no Maracanã."
+  },
+  {
+   "type": "big",
+   "tag": "4 de 4 · O São Paulo",
+   "kicker": "Fase do São Paulo",
+   "a": "4",
+   "la": "Jogos sem vencer",
+   "b": "11º",
+   "lb": "Com 44 pontos",
+   "winner": "a",
+   "note": "Em casa, o São Paulo não conseguiu exigir o goleiro nenhuma vez. Na segunda, visita o Botafogo, no Nilton Santos."
+  }
+ ],
+ "cta": "Mérito ou apagão?",
+ "hook_static": true,
+ "vtag": "Brasileirão",
+ "beats": [
+  {
+   "big": "0 CHUTES<br>NO GOL",
+   "small": "do São Paulo, em casa, contra o Flu"
+  },
+  {
+   "big": "11+",
+   "small": "finalizações, nenhuma no alvo"
+  },
+  {
+   "big": "0 DEFESAS",
+   "small": "Fábio nem precisou trabalhar"
+  },
+  {
+   "big": "31'",
+   "small": "Hércules, de primeira, no ângulo"
+  },
+  {
+   "big": "0 x 1",
+   "small": "Flu vence no Morumbi"
+  },
+  {
+   "big": "3 SEGUIDAS",
+   "small": "Flu chega a 60 pontos, no G4"
+  },
+  {
+   "big": "4 SEM<br>VENCER",
+   "small": "São Paulo segue em 11º"
+  },
+  {
+   "big": "E AÍ?",
+   "small": "Mérito do Flu ou apagão do SP?"
+  }
+ ],
+ "theme": "escuro",
+ "vfoot": "Análise"
+}

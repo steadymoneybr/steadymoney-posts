@@ -97,7 +97,7 @@ def beat_html(spec, b, i, n):
     return f"""<div class=grid></div><div class=bar></div>
 <div class=vtop><span class=logo>G5<b>.</b>DELAY</span><span>{spec.get('vtag', spec.get('tag', 'Curiosidade'))}</span></div>
 <div class=stage><div class=vb style='font-size:{size}px;{color}'>{b['big']}</div>{small}</div>
-<div class=vfoot><span>{'Segue a G5' if i == n - 1 else 'Curiosidade'}</span><span>@g5delay</span></div>
+<div class=vfoot><span>{'Segue a G5' if i == n - 1 else spec.get('vfoot', 'Curiosidade')}</span><span>@g5delay</span></div>
 <div class=flash></div>"""
 
 
