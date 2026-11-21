@@ -1,0 +1,72 @@
+{
+ "formato": "curiosidade",
+ "tag": "Curiosidade · Maracanã",
+ "vtag": "Maracanã",
+ "kicker": "O nome oficial do estádio",
+ "hook": "Não se chama<br>Maracanã.",
+ "lead": "O nome oficial do maior estádio do Brasil é Estádio Jornalista Mário Filho. E tem uma briga por trás disso.",
+ "date": "20.11.2026",
+ "source": "Wikipedia / Vermelho / Agência Brasil",
+ "slides": [
+  {
+   "tag": "1 de 4 · O nome",
+   "big": "1966",
+   "title": "ano em que ganhou o nome",
+   "text": "Mário Filho morreu em 1966 e o estádio passou a levar o nome dele: Estádio Jornalista Mário Filho."
+  },
+  {
+   "tag": "2 de 4 · A briga",
+   "big": "Lacerda",
+   "title": "queria o estádio em Jacarepaguá",
+   "text": "Carlos Lacerda criticou o projeto e defendia outro lugar. Mário Filho bancou o Maracanã na imprensa e venceu."
+  },
+  {
+   "tag": "3 de 4 · A família",
+   "big": "Irmão",
+   "title": "de Nelson Rodrigues",
+   "text": "O jornalista que dá nome ao estádio era irmão do dramaturgo Nelson Rodrigues."
+  },
+  {
+   "tag": "4 de 4 · O apelido",
+   "big": "TUPI",
+   "title": "a origem da palavra Maracanã",
+   "text": "O apelido vem do rio Maracanã, nome tupi de um tipo de papagaio da região."
+  }
+ ],
+ "cta": "Você sabia que o nome oficial era outro?",
+ "beats": [
+  {
+   "big": "NÃO É<br>MARACANÃ",
+   "small": "o nome oficial do estádio é outro"
+  },
+  {
+   "big": "MÁRIO FILHO",
+   "small": "Estádio Jornalista Mário Filho"
+  },
+  {
+   "big": "JORNALISTA",
+   "small": "bancou o estádio no Maracanã"
+  },
+  {
+   "big": "JACAREPAGUÁ?",
+   "small": "era onde Lacerda queria o estádio"
+  },
+  {
+   "big": "1966",
+   "small": "Mário morre e vira o nome do estádio"
+  },
+  {
+   "big": "IRMÃO DE<br>NELSON",
+   "small": "o dramaturgo Nelson Rodrigues"
+  },
+  {
+   "big": "PAPAGAIO",
+   "small": "é o que Maracanã quer dizer em tupi"
+  },
+  {
+   "big": "E AÍ?",
+   "small": "Segue a G5 pra mais histórias assim"
+  }
+ ],
+ "theme": "claro"
+}
