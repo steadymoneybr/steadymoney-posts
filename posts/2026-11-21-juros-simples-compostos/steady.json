@@ -1,0 +1,141 @@
+{
+ "titulo": "Juros simples x compostos",
+ "destaques": [
+  "simples",
+  "compostos",
+  "juros",
+  "tempo",
+  "cartão",
+  "cuidado",
+  "curte",
+  "manda",
+  "Steady",
+  "Money",
+  "favor",
+  "contra"
+ ],
+ "cenas": [
+  {
+   "dur": 3.6,
+   "legenda": [
+    "Mesmos R$ 1.000,",
+    "1% ao mês, 10 anos:",
+    "R$ 2.200",
+    "ou R$ 3.300?"
+   ],
+   "personagem": {
+    "img": "P04.png"
+   },
+   "efeitos": [
+    {
+     "tipo": "interrogacao",
+     "x": 860,
+     "y": 600
+    }
+   ],
+   "narracao": "Mesmos mil reais, mesma taxa, dez anos. Dois mil e duzentos ou três mil e trezentos?"
+  },
+  {
+   "dur": 3.4,
+   "legenda": [
+    "Juros simples:",
+    "sempre sobre os mil.",
+    "R$ 10 por mês.",
+    "12 meses: R$ 1.120"
+   ],
+   "pill": "SIMPLES",
+   "personagem": {
+    "img": "P12.png"
+   },
+   "narracao": "Simples: dez reais todo mês. Num ano, mil cento e vinte."
+  },
+  {
+   "dur": 3.4,
+   "legenda": [
+    "Juros compostos:",
+    "juros sobre juros.",
+    "12 meses: R$ 1.126,83"
+   ],
+   "pill": "COMPOSTOS",
+   "personagem": {
+    "img": "P09.png"
+   },
+   "narracao": "Compostos: juros sobre juros. Num ano, uns mil cento e vinte e sete."
+  },
+  {
+   "dur": 3.4,
+   "legenda": [
+    "Já em 10 anos:",
+    "simples, R$ 2.200.",
+    "Compostos,",
+    "uns R$ 3.300."
+   ],
+   "pill": "O TEMPO",
+   "personagem": {
+    "img": "P07.png",
+    "anim": "jump"
+   },
+   "narracao": "Em dez anos: dois mil e duzentos contra uns três mil e trezentos."
+  },
+  {
+   "dur": 3.0,
+   "legenda": [
+    "Curte o vídeo",
+    "e manda pra quem",
+    "precisa ver isso."
+   ],
+   "personagem": {
+    "img": "P07.png",
+    "anim": "jump"
+   },
+   "efeitos": [
+    {
+     "tipo": "coracoes"
+    }
+   ],
+   "narracao": "Curte o vídeo e manda pra quem precisa ver isso."
+  },
+  {
+   "dur": 3.4,
+   "legenda": [
+    "Mas cuidado:",
+    "cartão e cheque",
+    "especial também",
+    "usam juros compostos."
+   ],
+   "pill": "CONTRA VOCÊ",
+   "personagem": {
+    "img": "P13.png",
+    "anim": "shake"
+   },
+   "narracao": "No cartão e no cheque especial, os juros compostos jogam contra você."
+  },
+  {
+   "dur": 3.4,
+   "legenda": [
+    "Investindo,",
+    "o tempo ajuda.",
+    "E pra você hoje:",
+    "a favor ou contra?"
+   ],
+   "pill": "NA PRÁTICA",
+   "personagem": {
+    "img": "P11.png"
+   },
+   "narracao": "Investindo, o tempo ajuda. E hoje, os juros estão a favor ou contra você?"
+  },
+  {
+   "dur": 2.8,
+   "legenda": [
+    "Segue a",
+    "Steady Money",
+    "pra aprender",
+    "mais."
+   ],
+   "personagem": {
+    "img": "P10.png"
+   },
+   "narracao": "Segue a Steady Money pra aprender mais."
+  }
+ ]
+}

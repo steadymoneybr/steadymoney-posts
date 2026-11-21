@@ -1,0 +1,82 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "tag": "Educação Financeira",
+   "title": "Juros simples<br>x<br>juros compostos",
+   "sub": "Por que um vira bola de neve<br>e o outro não.",
+   "category": "confronto"
+  },
+  {
+   "type": "inner",
+   "tag": "1 de 5 — Juros",
+   "big": "Simples",
+   "sub": "Juros só sobre o valor inicial",
+   "bullets": [
+    "A conta é sempre sobre o que você aplicou",
+    "R$ 1.000 a 1% ao mês rendem R$ 10 por mês",
+    "O valor dos juros nunca muda",
+    "Em 12 meses: R$ 1.120"
+   ],
+   "quote": "Cresce sempre<br>do mesmo tamanho."
+  },
+  {
+   "type": "inner",
+   "tag": "2 de 5 — Juros",
+   "big": "Compostos",
+   "sub": "Juros sobre juros",
+   "bullets": [
+    "Os juros do mês entram na conta do próximo",
+    "Mês 1: R$ 10. Mês 2: R$ 10,10. E assim vai",
+    "A base do cálculo cresce todo mês",
+    "Em 12 meses: R$ 1.126,83"
+   ],
+   "quote": "No começo, a diferença<br>quase não aparece."
+  },
+  {
+   "type": "inner",
+   "tag": "3 de 5 — Juros",
+   "big": "O tempo",
+   "sub": "É ele que abre a diferença",
+   "bullets": [
+    "Mesmo exemplo: R$ 1.000 a 1% ao mês",
+    "Em 10 anos, nos simples: R$ 2.200",
+    "Em 10 anos, nos compostos: uns R$ 3.300",
+    "Exemplo de conta, sem IR nem inflação"
+   ],
+   "quote": "Quanto mais tempo,<br>maior a bola de neve."
+  },
+  {
+   "type": "inner",
+   "tag": "4 de 5 — Juros",
+   "big": "Contra você",
+   "sub": "Dívida também cresce assim",
+   "bullets": [
+    "Cartão e cheque especial usam juros compostos",
+    "Os juros não pagos viram dívida nova",
+    "No mês seguinte, cobram juros também",
+    "Por isso a dívida parece não parar de crescer"
+   ],
+   "quote": "Os juros compostos<br>não escolhem lado."
+  },
+  {
+   "type": "inner",
+   "tag": "5 de 5 — Juros",
+   "big": "Na prática",
+   "sub": "Onde eles aparecem pra você",
+   "bullets": [
+    "CDB, Tesouro e poupança rendem juros compostos",
+    "Quanto antes começar, mais tempo eles trabalham",
+    "Na dívida, quitar cedo corta a bola de neve"
+   ],
+   "cta": "💬 <b>Comenta aqui embaixo:</b><br>hoje os juros compostos estão<br>a favor ou contra você?"
+  }
+ ],
+ "story": {
+  "pontos": [
+   "Simples: juros sempre iguais",
+   "Compostos: juros sobre juros",
+   "O tempo aumenta a diferença"
+  ]
+ }
+}
