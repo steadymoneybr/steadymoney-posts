@@ -1,0 +1,72 @@
+{
+ "formato": "curiosidade",
+ "tag": "Curiosidade · Copas do Mundo",
+ "vtag": "Copa do Mundo",
+ "kicker": "O gol mais rápido das Copas",
+ "hook": "Gol em<br>11 segundos.",
+ "lead": "Hakan Sükür, da Turquia, marcou aos 11 segundos contra a Coreia do Sul em 2002. Ninguém nunca chegou perto.",
+ "date": "21.11.2026",
+ "source": "Lance / ESPN / Flashscore",
+ "slides": [
+  {
+   "tag": "1 de 4 · O jogo",
+   "big": "11s",
+   "title": "Turquia x Coreia do Sul, 2002",
+   "text": "Na disputa do 3º lugar, a Coreia errou na troca de passes logo na saída de bola. Hakan Sükür pegou a sobra e marcou."
+  },
+  {
+   "tag": "2 de 4 · O placar",
+   "big": "3x2",
+   "title": "Turquia fica com o bronze",
+   "text": "Foi o único gol do atacante naquela Copa. A Turquia terminou o Mundial em 3º lugar."
+  },
+  {
+   "tag": "3 de 4 · A distância",
+   "big": "15s",
+   "title": "o 2º gol mais rápido",
+   "text": "Václav Masek, da Tchecoslováquia, em 1962. Nenhum outro gol de Copa saiu em menos de 15 segundos."
+  },
+  {
+   "tag": "4 de 4 · Em 2026",
+   "big": "64s",
+   "title": "o mais rápido da fase de grupos",
+   "text": "Matías Galarza, ex-Vasco, marcou aos 64 segundos e o Paraguai venceu por 1x0. O eliminado? A Turquia."
+  }
+ ],
+ "cta": "Qual o gol mais rápido que você já viu ao vivo?",
+ "beats": [
+  {
+   "big": "11<br>SEGUNDOS",
+   "small": "o gol mais rápido da história das Copas"
+  },
+  {
+   "big": "2002",
+   "small": "Turquia x Coreia do Sul, disputa do 3º lugar"
+  },
+  {
+   "big": "ERRO NA<br>SAÍDA",
+   "small": "a Coreia perde a bola no começo do jogo"
+  },
+  {
+   "big": "HAKAN",
+   "small": "Hakan Sükür pega a sobra e marca"
+  },
+  {
+   "big": "3x2",
+   "small": "e a Turquia fica com o bronze"
+  },
+  {
+   "big": "15s",
+   "small": "o 2º mais rápido: Masek, em 1962"
+  },
+  {
+   "big": "64s",
+   "small": "2026: Galarza elimina... a Turquia"
+  },
+  {
+   "big": "E AÍ?",
+   "small": "Segue a G5 pra mais histórias assim"
+  }
+ ],
+ "theme": "laranja"
+}
