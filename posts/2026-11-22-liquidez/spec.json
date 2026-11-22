@@ -1,0 +1,100 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "tag": "Educação Financeira",
+   "title": "Seu dinheiro sai<br>quando você<br>precisa?",
+   "sub": "Isso tem nome: liquidez.<br>E faz toda a diferença.",
+   "category": "conceito"
+  },
+  {
+   "type": "inner",
+   "tag": "1 de 5 — Liquidez",
+   "big": "Liquidez",
+   "sub": "O que é",
+   "bullets": [
+    "É a rapidez pra virar dinheiro na mão",
+    "Sem perder valor no caminho",
+    "Alta liquidez: saca em horas ou dias",
+    "Baixa liquidez: pode levar meses"
+   ],
+   "quote": "Rápido e sem desconto:<br>isso é liquidez."
+  },
+  {
+   "type": "inner",
+   "tag": "2 de 5 — Liquidez",
+   "big": "D+0, D+1",
+   "sub": "O prazo do resgate",
+   "bullets": [
+    "D+0: o dinheiro cai no mesmo dia",
+    "D+1: cai no dia útil seguinte",
+    "D+30: 30 dias depois (úteis ou corridos)",
+    "Esse prazo vem escrito no investimento"
+   ],
+   "quote": "Rende bem, mas<br>demora quanto pra sair?"
+  },
+  {
+   "type": "inner",
+   "tag": "3 de 5 — Liquidez",
+   "big": "Carência",
+   "sub": "Um tempo sem poder sacar",
+   "bullets": [
+    "Alguns títulos travam o saque por um prazo",
+    "Ex.: CDB sem liquidez diária",
+    "Às vezes a carência vai até o vencimento",
+    "Até lá, o dinheiro fica preso"
+   ],
+   "quote": "Taxa maior costuma<br>ter esse preço."
+  },
+  {
+   "type": "inner",
+   "tag": "4 de 5 — Liquidez",
+   "big": "Imóvel",
+   "sub": "Vale muito, vende devagar",
+   "bullets": [
+    "Achar comprador pode levar meses",
+    "Com pressa, o jeito é baixar o preço",
+    "Ainda tem corretagem, imposto e papelada",
+    "Patrimônio alto não é dinheiro na mão"
+   ],
+   "quote": "Ter valor não é<br>ter liquidez."
+  },
+  {
+   "type": "inner",
+   "tag": "5 de 5 — Liquidez",
+   "big": "Na prática",
+   "sub": "Cada dinheiro no seu lugar",
+   "bullets": [
+    "Reserva de emergência: liquidez diária",
+    "Objetivo com data: prazo que combine",
+    "Longo prazo aguenta menos liquidez",
+    "Leia o prazo de resgate antes de aplicar"
+   ],
+   "cta": "💬 <b>Comenta aqui embaixo:</b><br>em quantos dias você<br>sacaria sua reserva?"
+  }
+ ],
+ "story": {
+  "pontos": [
+   "Liquidez: virar dinheiro rápido",
+   "Veja o prazo: D+0, D+1, D+30",
+   "Reserva pede liquidez diária"
+  ]
+ },
+ "tiktok": {
+  "gancho": {
+   "kicker": "Entenda",
+   "l1": "Precisou do dinheiro e ele não saiu na hora?",
+   "l2": "Isso tem nome."
+  },
+  "ritmo": 0.85,
+  "narracao": [
+   "Precisou do seu dinheiro e ele não saiu na hora? Isso tem nome: liquidez.",
+   "Liquidez é a rapidez pra virar dinheiro na mão, sem perder valor no caminho.",
+   "D mais zero cai no mesmo dia. D mais um, no dia útil seguinte. Vem escrito no investimento.",
+   "Alguns títulos não deixam sacar antes do vencimento. Taxa maior costuma ter esse preço.",
+   "Imóvel vale muito, mas vende devagar. Com pressa, o jeito é baixar o preço.",
+   "Reserva de emergência pede liquidez diária. Comenta aí: em quantos dias você sacaria sua reserva?",
+   "Segue a Steady Money pra aprender mais."
+  ]
+ }
+}
