@@ -26,6 +26,14 @@ Você **não substitui** as regras do `CLAUDE.md`. Regras da marca, categorias d
 6. **Uma chamada só**, antes do fim: pergunta fácil de responder com 1 palavra ou número ("Bola de neve ou avalanche?"), ou "manda pra quem precisa ver isso" quando o tema é golpe.
 7. **Séries** criam hábito: "Mito ou verdade #3", "Golpe da semana", "Qual a diferença #5". Use o mesmo kicker no gancho.
 
+## O que os números já provaram (análise de 23/11/2026, detalhes no TIKTOK-APRENDIZADOS.md)
+- **Golpe → Steady narrado com pergunta-choque** ("Te pediram suas 12 palavras?", "5% ao mês, garantido?"): 594 e 479 views, os 2 melhores da página. É o formato de maior alcance.
+- **Mito → gancho de afirmação falsa + desmentido curto** (`l1` "ETF é isento até R$ 20 mil por mês." / `l2` "Não é. E sai caro."): 373 e 326. Escolha a crença que custa dinheiro ao leitor; mito técnico sem dor (DY, 144) fica na média.
+- **Confronto → número concreto no gancho** ("R$ 2.200 ou R$ 3.300?", 183). Gancho de confronto só com pergunta genérica ("Sua cripto tá na corretora?", 91) não segura.
+- **Conceito** é a categoria mais fraca: sempre transforme em dor ou erro ("Precisou do dinheiro e ele não saiu na hora?") e nunca abra com o nome do conceito.
+- **Repost puro (sem gancho e narração novos) está proibido**: 4 reposts puros fizeram 77–116 views. Repost só refeito com gancho + narração, de tema que já passou de 300 views.
+- **Comentário:** 0 comentários em 10 vídeos com a pergunta só no fim. Peça também um comentário de 1 palavra no meio do vídeo (fala da cena 3 ou 4, ex.: "Se já te pediram isso, comenta SIM."), sem prometer nada em troca.
+
 ## O que você controla no `spec.json` (vídeo de slides, `tools/video.py`)
 Bloco opcional `"tiktok"` no `spec.json` do dia:
 ```json
