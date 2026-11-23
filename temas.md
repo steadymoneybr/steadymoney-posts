@@ -20,7 +20,7 @@ Status: `pendente` ou `publicado AAAA-MM-DD`. Categoria da capa: `confronto`, `m
 | 12 | Método bola de neve x avalanche | Finanças Básico | confronto | publicado 2026-11-14 |
 | 13 | Come-cotas: o imposto que você não vê | Finanças Intermediário | conceito | pendente |
 | 14 | Seed phrase: por que nunca compartilhar | Criptomoedas | golpe | publicado 2026-11-17 |
-| 15 | Tabela regressiva x progressiva na previdência | Previdência Privada | confronto | pendente |
+| 15 | Tabela regressiva x progressiva na previdência | Previdência Privada | confronto | rascunho 2026-11-23 (aguardando aprovação) |
 | 16 | Juros simples x juros compostos (o tempo trabalha pra você) | Finanças Avançado | confronto | publicado 2026-11-21 |
 | 17 | LCI/LCA x CDB: isenção não é tudo | Renda Fixa | confronto | publicado 2026-11-12 |
 | 18 | Dividend yield: o que ele diz e o que esconde | Fundos Imobiliários | mito | publicado 2026-11-18 |

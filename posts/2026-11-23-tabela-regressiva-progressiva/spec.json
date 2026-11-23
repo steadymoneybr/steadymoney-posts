@@ -1,0 +1,81 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "tag": "Educação Financeira",
+   "title": "Regressiva<br>x<br>progressiva",
+   "sub": "As duas tabelas de IR<br>da previdência privada.",
+   "category": "confronto"
+  },
+  {
+   "type": "inner",
+   "tag": "1 de 5 — Previdência",
+   "big": "Regressiva",
+   "sub": "O imposto cai com o tempo",
+   "bullets": [
+    "Até 2 anos no plano: 35% de IR",
+    "Cai 5 pontos a cada 2 anos",
+    "Depois de 10 anos: só 10%",
+    "Não depende da sua renda"
+   ],
+   "quote": "Quanto mais tempo,<br>menos imposto."
+  },
+  {
+   "type": "inner",
+   "tag": "2 de 5 — Previdência",
+   "big": "Progressiva",
+   "sub": "O imposto depende da renda",
+   "bullets": [
+    "Usa a mesma tabela do IR do salário",
+    "Pode ir de isento até 27,5%",
+    "No resgate, retém 15% na hora",
+    "O acerto vem na declaração anual"
+   ],
+   "quote": "Aqui, quem manda<br>é a sua renda."
+  },
+  {
+   "type": "inner",
+   "tag": "3 de 5 — Previdência",
+   "big": "Cada aporte",
+   "sub": "Tem o seu próprio relógio",
+   "bullets": [
+    "Na regressiva, o prazo conta por depósito",
+    "Aporte antigo pode pagar 10%",
+    "Aporte de ontem ainda paga 35%",
+    "Sacar cedo pode sair caro"
+   ],
+   "quote": "Não é a idade do plano,<br>é a de cada aporte."
+  },
+  {
+   "type": "inner",
+   "tag": "4 de 5 — Previdência",
+   "big": "Qual cabe?",
+   "sub": "Depende de prazo e renda",
+   "bullets": [
+    "Vai deixar 10 anos ou mais? Regressiva tende a pesar menos",
+    "Renda baixa no resgate? Progressiva pode ser menor",
+    "Prazo curto e renda alta: as duas pesam"
+   ],
+   "quote": "Não existe tabela certa,<br>existe a que cabe em você."
+  },
+  {
+   "type": "inner",
+   "tag": "5 de 5 — Previdência",
+   "big": "Sem pressa",
+   "sub": "A escolha pode ficar pra depois",
+   "bullets": [
+    "Desde 2024, dá pra decidir até o 1º resgate",
+    "Ou até começar a receber a renda",
+    "Depois de escolher, não tem volta"
+   ],
+   "cta": "💬 <b>Comenta aqui embaixo:</b><br>o seu plano está na regressiva<br>ou na progressiva?"
+  }
+ ],
+ "story": {
+  "pontos": [
+   "Regressiva: IR cai com o tempo",
+   "Progressiva: IR segue a renda",
+   "Dá pra escolher até o resgate"
+  ]
+ }
+}

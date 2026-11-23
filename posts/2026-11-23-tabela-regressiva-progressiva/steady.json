@@ -1,0 +1,144 @@
+{
+ "titulo": "Regressiva x progressiva",
+ "destaques": [
+  "regressiva",
+  "progressiva",
+  "35%",
+  "10%",
+  "27,5%",
+  "renda",
+  "tempo",
+  "aporte",
+  "resgate",
+  "curte",
+  "manda",
+  "Steady",
+  "Money"
+ ],
+ "cenas": [
+  {
+   "dur": 3.4,
+   "legenda": [
+    "Sua previdência",
+    "pode pagar",
+    "35% de IR?"
+   ],
+   "personagem": {
+    "img": "P05.png",
+    "anim": "shake"
+   },
+   "narracao": "Sua previdência pode pagar trinta e cinco por cento de imposto."
+  },
+  {
+   "dur": 3.4,
+   "legenda": [
+    "Regressiva:",
+    "começa em 35%",
+    "e cai com o tempo.",
+    "+10 anos: só 10%"
+   ],
+   "pill": "REGRESSIVA",
+   "personagem": {
+    "img": "P12.png"
+   },
+   "narracao": "Na regressiva, cai de trinta e cinco a dez por cento, depois de dez anos."
+  },
+  {
+   "dur": 3.6,
+   "legenda": [
+    "Progressiva:",
+    "depende da renda.",
+    "De isento",
+    "até 27,5%."
+   ],
+   "pill": "PROGRESSIVA",
+   "personagem": {
+    "img": "P09.png"
+   },
+   "narracao": "Na progressiva, vale a tabela do salário: de isento até vinte e sete e meio por cento."
+  },
+  {
+   "dur": 3.6,
+   "legenda": [
+    "Na regressiva,",
+    "cada aporte",
+    "tem seu relógio.",
+    "O de ontem: 35%."
+   ],
+   "pill": "CADA APORTE",
+   "personagem": {
+    "img": "P04.png"
+   },
+   "efeitos": [
+    {
+     "tipo": "interrogacao",
+     "x": 860,
+     "y": 600
+    }
+   ],
+   "narracao": "Na regressiva, cada aporte tem seu prazo: o de ontem paga trinta e cinco."
+  },
+  {
+   "dur": 2.4,
+   "legenda": [
+    "Curte",
+    "e manda pra quem",
+    "tem previdência."
+   ],
+   "personagem": {
+    "img": "P07.png",
+    "anim": "jump"
+   },
+   "efeitos": [
+    {
+     "tipo": "coracoes"
+    }
+   ],
+   "narracao": "Curte e manda pra quem tem previdência."
+  },
+  {
+   "dur": 3.8,
+   "legenda": [
+    "Prazo longo:",
+    "favorece",
+    "a regressiva.",
+    "Renda baixa:",
+    "a progressiva."
+   ],
+   "pill": "QUAL CABE?",
+   "personagem": {
+    "img": "P11.png"
+   },
+   "narracao": "Prazo longo favorece a regressiva. Renda baixa no resgate, a progressiva."
+  },
+  {
+   "dur": 4.2,
+   "legenda": [
+    "Dá pra escolher",
+    "até o 1º resgate.",
+    "Mas não tem volta.",
+    "E o seu plano:",
+    "regressiva",
+    "ou progressiva?"
+   ],
+   "pill": "A ESCOLHA",
+   "personagem": {
+    "img": "P08.png"
+   },
+   "narracao": "Dá pra escolher até o primeiro resgate. E o seu plano: regressiva ou progressiva?"
+  },
+  {
+   "dur": 2.5,
+   "legenda": [
+    "Segue a",
+    "Steady Money",
+    "pra aprender",
+    "mais."
+   ],
+   "personagem": {
+    "img": "P10.png"
+   },
+   "narracao": "Segue a Steady Money pra aprender mais."
+  }
+ ]
+}
