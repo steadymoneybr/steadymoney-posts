@@ -1,0 +1,124 @@
+{
+ "comp": "Premier League · 11ª rodada",
+ "date": "22.11.2026",
+ "source": "Opta / Sports Mole",
+ "home": "Liverpool",
+ "away": "Man. United",
+ "hs": 4,
+ "as": 0,
+ "scorers": {
+  "home": [
+   "Szoboszlai 10'",
+   "Wirtz 13'",
+   "Ngumoha 66'",
+   "Víctor Muñoz 82'"
+  ],
+  "away": []
+ },
+ "kicker": "Clássico em Anfield",
+ "hook": "Expulso aos 8'.<br>Goleada aos 82'.",
+ "lead": "Yoro levou vermelho direto aos 8 minutos, a expulsão mais rápida do United na história da Premier League. Daí em diante, só deu Liverpool.",
+ "slides": [
+  {
+   "type": "big",
+   "tag": "1 de 4 · O lance",
+   "kicker": "Vermelho direto",
+   "a": "8'",
+   "la": "Yoro expulso",
+   "b": "13'",
+   "lb": "Já estava 2 x 0",
+   "winner": "a",
+   "note": "Yoro derrubou Isak, que saía livre na cara do gol. Foi a expulsão mais rápida de um jogador do United na Premier League. Cinco minutos depois, o Liverpool já vencia por 2 a 0."
+  },
+  {
+   "type": "bars",
+   "tag": "2 de 4 · O massacre",
+   "title": "11 contra 10,<br>e sem dó",
+   "rows": [
+    [
+     "Posse",
+     64,
+     36,
+     "%"
+    ],
+    [
+     "Finalizações",
+     28,
+     10
+    ],
+    [
+     "No alvo",
+     11,
+     4
+    ],
+    [
+     "Escanteios",
+     15,
+     5
+    ]
+   ],
+   "note": "Com um a mais desde o início, o Liverpool chutou quase 3x mais."
+  },
+  {
+   "type": "big",
+   "tag": "3 de 4 · O número",
+   "kicker": "Grandes chances",
+   "a": "9",
+   "la": "Liverpool",
+   "b": "0",
+   "lb": "United",
+   "winner": "a",
+   "note": "O xG terminou 4,38 a 0,64. Sozinho, Wirtz fez 1 gol, deu 1 assistência e criou 10 chances, uma a mais que o United inteiro."
+  },
+  {
+   "type": "big",
+   "tag": "4 de 4 · A tabela",
+   "kicker": "Estreia de Pochettino",
+   "a": "9",
+   "la": "Jogos sem vencer",
+   "b": "19º",
+   "lb": "Com 8 pontos",
+   "winner": "a",
+   "note": "O United segue na zona de rebaixamento e não vence há 9 jogos na Premier League. O Liverpool chegou a 21 pontos e subiu para o 4º lugar."
+  }
+ ],
+ "cta": "Fim da linha pro United?",
+ "hook_static": true,
+ "vtag": "Premier League",
+ "vfoot": "Análise",
+ "beats": [
+  {
+   "big": "EXPULSO<br>AOS 8'",
+   "small": "Yoro, vermelho direto, em Anfield"
+  },
+  {
+   "big": "MAIS RÁPIDA",
+   "small": "expulsão do United na história da Premier"
+  },
+  {
+   "big": "2 x 0<br>AOS 13'",
+   "small": "Szoboszlai de falta e Wirtz"
+  },
+  {
+   "big": "28 x 10",
+   "small": "finalizações no jogo"
+  },
+  {
+   "big": "9 x 0",
+   "small": "em grandes chances"
+  },
+  {
+   "big": "4 x 0",
+   "small": "Ngumoha e Víctor Muñoz fecharam a conta"
+  },
+  {
+   "big": "9 SEM<br>VENCER",
+   "small": "United em 19º na estreia de Pochettino"
+  },
+  {
+   "big": "E AÍ?",
+   "small": "Fim da linha pro United?"
+  }
+ ],
+ "theme": "azul"
+}
