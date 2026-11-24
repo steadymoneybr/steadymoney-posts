@@ -10,6 +10,7 @@ Registro do que já foi postado (não repetir) e banco de ideias. Toda curiosida
 | 2026-11-20 | Maracanã se chama Estádio Jornalista Mário Filho (nome dado em 1966, após a morte dele); Mário defendeu a obra contra Lacerda (Jacarepaguá); irmão de Nelson Rodrigues; "Maracanã" vem do rio, nome tupi de ave da família dos papagaios; Alerj aprovou "Rei Pelé" em 2021 e o governador vetou | Wikipedia, Vermelho, Agência Brasil, Exame |
 | 2026-11-17 | Rogério Ceni, goleiro com 131 gols (69 de pênalti, 1º em 1997, 21 em 2005, 100º em 2011) | Lance, Wikipedia (lista de gols), FutDados, Gazeta Esportiva, Placar |
 | 2026-11-21 | Gol mais rápido das Copas: Hakan Sükür (Turquia) aos 11 s x Coreia do Sul, 3º lugar 2002 (3x2, único gol dele na Copa); 2º: Masek 15 s (1962); em 2026 Galarza (Paraguai, ex-Vasco) fez aos 64 s no 1x0 que eliminou a Turquia | Lance, Caracol, ESPN, Flashscore, Onmanorama |
+| 2026-11-23 | Austrália 31x0 Samoa Americana (11/04/2001, Eliminatórias 2002, Coffs Harbour): 16x0 no intervalo, Archie Thompson 13 gols (recorde entre seleções), Zdrilic 8; só o goleiro Salapu do elenco original jogou (passaporte), garotos de 15 anos; placar do estádio mostrou 32x0; recorde anterior 22x0 da Austrália sobre Tonga 2 dias antes | FIFA, Wikipedia, CBC, Soccerway, FourFourTwo, Guinness |
 
 ## Banco de ideias (confirmar os números antes de usar)
 - A Copa de 1950 não teve final (quadrangular) e o Maracanazo (já pronta em g5/exemplo-curiosidade/)

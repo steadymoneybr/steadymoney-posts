@@ -1,0 +1,68 @@
+{
+ "formato": "curiosidade",
+ "tag": "Curiosidade · Eliminatórias",
+ "vtag": "Eliminatórias",
+ "kicker": "A maior goleada entre seleções",
+ "hook": "31 a 0.",
+ "lead": "Em 2001, a Austrália venceu a Samoa Americana por 31 a 0 nas Eliminatórias da Copa. Até hoje, nenhuma seleção fez mais.",
+ "date": "23.11.2026",
+ "source": "FIFA / Soccerway / CBC",
+ "slides": [
+  {
+   "tag": "1 de 4 · O jogo",
+   "big": "16x0",
+   "title": "já no intervalo",
+   "text": "Eliminatórias da Copa de 2002, em Coffs Harbour, na Austrália, no dia 11 de abril de 2001."
+  },
+  {
+   "tag": "2 de 4 · O artilheiro",
+   "big": "13",
+   "title": "gols de Archie Thompson",
+   "text": "Recorde de gols de um jogador num jogo entre seleções. O companheiro David Zdrilic ainda fez 8."
+  },
+  {
+   "tag": "3 de 4 · O desfalque",
+   "big": "1",
+   "title": "jogador do elenco original",
+   "text": "Por problema de passaporte, só o goleiro Nicky Salapu pôde jogar. O time teve garotos de 15 anos e média de 18."
+  },
+  {
+   "tag": "4 de 4 · Dois dias antes",
+   "big": "22x0",
+   "title": "o recorde que durou 2 dias",
+   "text": "A própria Austrália tinha goleado Tonga por 22 a 0, no mesmo estádio. A Oceania depois criou uma fase preliminar."
+  }
+ ],
+ "cta": "Qual a maior goleada que você já viu?",
+ "beats": [
+  {
+   "big": "31 A 0",
+   "small": "a maior goleada da história entre seleções"
+  },
+  {
+   "big": "2001",
+   "small": "Austrália x Samoa Americana, Eliminatórias"
+  },
+  {
+   "big": "16 x 0",
+   "small": "e era só o 1º tempo"
+  },
+  {
+   "big": "13 GOLS",
+   "small": "de um jogador só: Archie Thompson"
+  },
+  {
+   "big": "GAROTOS<br>DE 15 ANOS",
+   "small": "só 1 do elenco original pôde jogar"
+  },
+  {
+   "big": "32 x 0?",
+   "small": "o placar do estádio errou a conta"
+  },
+  {
+   "big": "E AÍ?",
+   "small": "Segue a G5 pra mais histórias assim"
+  }
+ ],
+ "theme": "escuro"
+}
