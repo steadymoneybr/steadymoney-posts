@@ -27,7 +27,7 @@ Status: `pendente` ou `publicado AAAA-MM-DD`. Categoria da capa: `confronto`, `m
 | 19 | Rentabilidade "boa demais": como desconfiar | Multiplicar Dinheiro com Risco Baixo | golpe | publicado 2026-11-15 |
 | 20 | Diversificação não é ter muitos ativos | Finanças Intermediário | mito | publicado 2026-11-13 |
 | 21 | Custódia em corretora x carteira própria (cripto) | Criptomoedas | confronto | publicado 2026-11-19 |
-| 22 | Taxa de administração: o custo silencioso | Previdência Privada | conceito | pendente |
+| 22 | Taxa de administração: o custo silencioso | Previdência Privada | conceito | publicado 2026-11-24 |
 | 23 | Rebalanceamento de carteira | Finanças Intermediário | conceito | pendente |
 | 24 | ETF não tem isenção dos R$ 20 mil | Carteira de ETFs | mito | publicado 2026-11-20 |
 | 25 | Regra dos 4% e independência financeira | Finanças Avançado | conceito | pendente |

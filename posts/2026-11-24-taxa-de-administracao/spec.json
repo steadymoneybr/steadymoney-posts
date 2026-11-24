@@ -1,0 +1,100 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "tag": "Educação Financeira",
+   "title": "Quanto seu fundo<br>cobra por ano?",
+   "sub": "A taxa de administração sai<br>todo dia, sem você ver.",
+   "category": "conceito"
+  },
+  {
+   "type": "inner",
+   "tag": "1 de 5 — Taxa de adm.",
+   "big": "% ao ano",
+   "sub": "O que é",
+   "bullets": [
+    "É o quanto o fundo cobra pra funcionar",
+    "Paga quem administra e quem gere o fundo",
+    "Vem em % ao ano sobre o seu saldo",
+    "Ex.: 1% ao ano sobre R$ 10 mil = R$ 100"
+   ],
+   "quote": "Todo fundo tem um custo.<br>A questão é quanto."
+  },
+  {
+   "type": "inner",
+   "tag": "2 de 5 — Taxa de adm.",
+   "big": "Invisível",
+   "sub": "Você não vê o desconto",
+   "bullets": [
+    "Não aparece como cobrança no extrato",
+    "Sai um pouquinho todo dia, direto da cota",
+    "O rendimento que você vê já vem sem ela",
+    "Por isso quase ninguém percebe"
+   ],
+   "quote": "Não tem boleto,<br>mas você paga."
+  },
+  {
+   "type": "inner",
+   "tag": "3 de 5 — Taxa de adm.",
+   "big": "Sempre",
+   "sub": "Com lucro ou prejuízo",
+   "bullets": [
+    "Cobrada sobre o saldo, não sobre o lucro",
+    "Ano ruim? A taxa sai do mesmo jeito",
+    "Taxa de performance é outra coisa",
+    "Essa só vale quando o fundo bate a meta"
+   ],
+   "quote": "Ela não depende<br>do resultado."
+  },
+  {
+   "type": "inner",
+   "tag": "4 de 5 — Taxa de adm.",
+   "big": "R$ 20 mil",
+   "sub": "O peso de 2% em 20 anos",
+   "bullets": [
+    "R$ 10 mil rendendo 10% ao ano, por 20 anos",
+    "Sem taxa: cerca de R$ 67 mil no fim",
+    "Com 2% de taxa: cerca de R$ 46 mil",
+    "Exemplo simplificado, sem imposto"
+   ],
+   "quote": "Juros compostos também<br>trabalham contra você."
+  },
+  {
+   "type": "inner",
+   "tag": "5 de 5 — Taxa de adm.",
+   "big": "Na prática",
+   "sub": "Olhe antes de aplicar",
+   "bullets": [
+    "A taxa vem na lâmina do fundo",
+    "Pode aparecer como “taxa global”",
+    "Compare fundos parecidos entre si",
+    "Taxa alta precisa se pagar no resultado"
+   ],
+   "cta": "💬 <b>Comenta aqui embaixo:</b><br>você sabe a taxa do<br>seu fundo? Sim ou não?"
+  }
+ ],
+ "story": {
+  "pontos": [
+   "Sai todo dia, direto da cota",
+   "É cobrada até em ano ruim",
+   "Confira na lâmina do fundo"
+  ]
+ },
+ "tiktok": {
+  "gancho": {
+   "kicker": "Custo invisível",
+   "l1": "2% ao ano pode te custar R$ 20 mil.",
+   "l2": "E nem aparece no extrato."
+  },
+  "ritmo": 0.85,
+  "narracao": [
+   "Dois por cento ao ano pode te custar vinte mil reais. E nem aparece no extrato.",
+   "É a taxa de administração: um percentual ao ano sobre todo o seu saldo no fundo.",
+   "Não vem boleto. Sai um pouquinho todo dia, direto da cota, sem você perceber.",
+   "E sai até em ano de prejuízo. Se isso é novidade pra você, comenta EU.",
+   "Dez mil, vinte anos, dez por cento ao ano: sem taxa, sessenta e sete mil. Com ela, quarenta e seis.",
+   "Confere a taxa na lâmina antes de aplicar. E você, sabe a taxa do seu fundo?",
+   "Segue a Steady Money pra aprender mais."
+  ]
+ }
+}
