@@ -1,0 +1,72 @@
+{
+ "formato": "curiosidade",
+ "tag": "Curiosidade · Flamengo",
+ "vtag": "Flamengo",
+ "kicker": "A origem do mascote",
+ "hook": "Era xingamento.",
+ "lead": "Rivais chamavam a torcida do Flamengo de urubu pra ofender. Em 1969, a própria torcida soltou um urubu no Maracanã.",
+ "date": "24.11.2026",
+ "source": "Lance / A Bola / Jornal de Brasília",
+ "slides": [
+  {
+   "tag": "1 de 4 · O apelido",
+   "big": "URUBU",
+   "title": "era ofensa dos rivais",
+   "text": "Nos anos 1960, torcidas rivais chamavam os rubro-negros de urubus, em tom pejorativo. O mascote oficial ainda era o Popeye, criado nos anos 1940."
+  },
+  {
+   "tag": "2 de 4 · O jejum",
+   "big": "4 anos",
+   "title": "sem vencer o Botafogo",
+   "text": "Era o tamanho da fila do Flamengo contra o rival no Campeonato Carioca antes do clássico de 1º de junho de 1969."
+  },
+  {
+   "tag": "3 de 4 · O voo",
+   "big": "1 urubu",
+   "title": "solto no Maracanã",
+   "text": "Torcedores entraram com um urubu vivo, com uma bandeira do Flamengo presa nas patas, e soltaram a ave no estádio."
+  },
+  {
+   "tag": "4 de 4 · A virada",
+   "big": "2x1",
+   "title": "e o jejum acabou",
+   "text": "O Flamengo venceu o Botafogo naquele dia. O cartunista Henfil desenhou o urubu nas charges e ele virou o mascote."
+  }
+ ],
+ "cta": "Qual apelido de rival você adotaria?",
+ "beats": [
+  {
+   "big": "ERA<br>XINGAMENTO",
+   "small": "e virou o mascote do Flamengo"
+  },
+  {
+   "big": "URUBU",
+   "small": "o apelido que os rivais usavam pra ofender"
+  },
+  {
+   "big": "1969",
+   "small": "Flamengo x Botafogo, no Maracanã"
+  },
+  {
+   "big": "4 ANOS",
+   "small": "sem vencer o rival no Carioca"
+  },
+  {
+   "big": "SOLTARAM<br>UM URUBU",
+   "small": "com a bandeira do Flamengo nas patas"
+  },
+  {
+   "big": "2 x 1",
+   "small": "vitória e fim do jejum"
+  },
+  {
+   "big": "ADEUS,<br>POPEYE",
+   "small": "o urubu virou o mascote do clube"
+  },
+  {
+   "big": "E AÍ?",
+   "small": "Segue a G5 pra mais histórias assim"
+  }
+ ],
+ "theme": "claro"
+}
