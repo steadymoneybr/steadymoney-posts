@@ -1,0 +1,83 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "tag": "Educação Financeira",
+   "title": "Quanto você precisa<br>pra viver de renda?",
+   "sub": "A regra dos 4% dá uma<br>conta de partida.",
+   "category": "conceito"
+  },
+  {
+   "type": "inner",
+   "tag": "1 de 5 — Regra dos 4%",
+   "big": "4% ao ano",
+   "sub": "O que é",
+   "bullets": [
+    "No 1º ano, você retira 4% do total",
+    "Depois, corrige esse valor pela inflação",
+    "A ideia é o dinheiro durar uns 30 anos",
+    "Saiu de estudos dos EUA, nos anos 90"
+   ],
+   "quote": "Uma regra de bolso,<br>não uma promessa."
+  },
+  {
+   "type": "inner",
+   "tag": "2 de 5 — Regra dos 4%",
+   "big": "25x",
+   "sub": "A conta de trás pra frente",
+   "bullets": [
+    "4% é o mesmo que 1 dividido por 25",
+    "Meta = seu gasto por ano x 25",
+    "Gasta R$ 4 mil/mês? São R$ 48 mil/ano",
+    "R$ 48 mil x 25 = R$ 1,2 milhão"
+   ],
+   "quote": "Primeiro o gasto,<br>depois o número."
+  },
+  {
+   "type": "inner",
+   "tag": "3 de 5 — Regra dos 4%",
+   "big": "Gasto",
+   "sub": "Por que ele vem antes",
+   "bullets": [
+    "Quem gasta menos precisa juntar menos",
+    "R$ 100/mês a menos = R$ 30 mil a menos",
+    "Saber seu custo real é o 1º passo",
+    "Inclua saúde, manutenção e imprevistos"
+   ],
+   "quote": "A meta depende<br>do seu custo de vida."
+  },
+  {
+   "type": "inner",
+   "tag": "4 de 5 — Regra dos 4%",
+   "big": "Cuidado",
+   "sub": "Os limites da regra",
+   "bullets": [
+    "Foi testada com dados dos EUA",
+    "Aqui, inflação, juros e IR são outros",
+    "Anos ruins logo no início pesam mais",
+    "Não garante que o dinheiro vai durar"
+   ],
+   "quote": "Ponto de partida,<br>não certeza."
+  },
+  {
+   "type": "inner",
+   "tag": "5 de 5 — Regra dos 4%",
+   "big": "Na prática",
+   "sub": "Como fazer a sua conta",
+   "bullets": [
+    "Anote quanto você gasta por mês",
+    "Atalho: gasto mensal x 300",
+    "Quer mais folga? Use uma retirada menor",
+    "Refaça a conta todo ano"
+   ],
+   "cta": "💬 <b>Comenta aqui embaixo:</b><br>você já fez essa conta?<br>Sim ou não?"
+  }
+ ],
+ "story": {
+  "pontos": [
+   "Meta = gasto anual x 25",
+   "Atalho: gasto mensal x 300",
+   "É ponto de partida, não garantia"
+  ]
+ }
+}

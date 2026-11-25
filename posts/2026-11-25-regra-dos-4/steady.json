@@ -1,0 +1,143 @@
+{
+ "titulo": "Regra dos 4%",
+ "destaques": [
+  "4%",
+  "25",
+  "300",
+  "4 mil",
+  "inflação",
+  "gasto",
+  "EUA",
+  "garantia",
+  "SIM",
+  "curte",
+  "manda",
+  "Steady",
+  "Money"
+ ],
+ "cenas": [
+  {
+   "dur": 3.4,
+   "legenda": [
+    "Viver de",
+    "R$ 4 mil por mês?",
+    "Precisa de quanto?"
+   ],
+   "personagem": {
+    "img": "P04.png"
+   },
+   "efeitos": [
+    {
+     "tipo": "interrogacao",
+     "x": 860,
+     "y": 600
+    }
+   ],
+   "narracao": "Quer viver de quatro mil reais por mês? O número assusta."
+  },
+  {
+   "dur": 3.6,
+   "legenda": [
+    "Regra dos 4%:",
+    "no 1º ano, tira 4%.",
+    "Depois, corrige",
+    "pela inflação."
+   ],
+   "pill": "O QUE É",
+   "personagem": {
+    "img": "P12.png"
+   },
+   "narracao": "No primeiro ano, você tira quatro por cento. Depois, só corrige pela inflação."
+  },
+  {
+   "dur": 3.8,
+   "legenda": [
+    "Meta:",
+    "gasto do ano x 25.",
+    "R$ 4 mil por mês",
+    "= R$ 1,2 milhão."
+   ],
+   "pill": "A CONTA",
+   "personagem": {
+    "img": "P09.png"
+   },
+   "narracao": "Meta: gasto do ano vezes vinte e cinco. Quatro mil por mês? Um milhão e duzentos."
+  },
+  {
+   "dur": 4.0,
+   "legenda": [
+    "R$ 100 por mês",
+    "a menos de gasto",
+    "= R$ 30 mil",
+    "a menos na meta.",
+    "Sabe seu gasto?",
+    "Comenta SIM."
+   ],
+   "pill": "O GASTO",
+   "personagem": {
+    "img": "P08.png"
+   },
+   "narracao": "Cem reais a menos por mês tira trinta mil da meta. Sabe seu gasto? Comenta SIM."
+  },
+  {
+   "dur": 2.4,
+   "legenda": [
+    "Curte",
+    "e manda pra quem",
+    "sonha em viver",
+    "de renda."
+   ],
+   "personagem": {
+    "img": "P07.png",
+    "anim": "jump"
+   },
+   "efeitos": [
+    {
+     "tipo": "coracoes"
+    }
+   ],
+   "narracao": "Curte e manda pra quem sonha em viver de renda."
+  },
+  {
+   "dur": 3.8,
+   "legenda": [
+    "Mas ela veio",
+    "de dados dos EUA.",
+    "Aqui é diferente.",
+    "Não é garantia."
+   ],
+   "pill": "CUIDADO",
+   "personagem": {
+    "img": "P11.png"
+   },
+   "narracao": "Cuidado: ela veio de dados dos Estados Unidos. Não é garantia."
+  },
+  {
+   "dur": 4.0,
+   "legenda": [
+    "Atalho:",
+    "gasto do mês x 300.",
+    "Já fez essa conta?",
+    "Sim ou não?"
+   ],
+   "pill": "NA PRÁTICA",
+   "personagem": {
+    "img": "P03.png"
+   },
+   "narracao": "Atalho: gasto do mês vezes trezentos. Já fez essa conta? Sim ou não?"
+  },
+  {
+   "dur": 2.5,
+   "legenda": [
+    "Segue a",
+    "Steady Money",
+    "pra aprender",
+    "mais."
+   ],
+   "personagem": {
+    "img": "P10.png"
+   },
+   "narracao": "Segue a Steady Money pra aprender mais."
+  }
+ ]
+}
