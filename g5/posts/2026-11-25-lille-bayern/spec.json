@@ -1,0 +1,115 @@
+{
+ "comp": "Champions League · 5ª rodada",
+ "date": "25.11.2026",
+ "source": "Sofascore / ESPN / UEFA",
+ "home": "Lille",
+ "away": "Bayern",
+ "hs": 2,
+ "as": 1,
+ "scorers": {
+  "home": [
+   "Ueda 62'",
+   "Pavlović (contra) 65'"
+  ],
+  "away": [
+   "Upamecano 15'"
+  ]
+ },
+ "kicker": "Zebra na Champions",
+ "hook": "35% de posse.<br>E virou no Bayern.",
+ "lead": "O Bayern ficou com a bola, saiu na frente e levou a virada em 3 minutos. Foi a 1ª derrota dele nesta Champions.",
+ "slides": [
+  {
+   "type": "bars",
+   "tag": "1 de 4 · A bola",
+   "title": "O Bayern teve a bola,<br>o Lille teve o jogo",
+   "rows": [
+    [
+     "Posse",
+     35,
+     65,
+     "%"
+    ],
+    [
+     "Finalizações",
+     15,
+     12
+    ],
+    [
+     "No alvo",
+     3,
+     7
+    ]
+   ],
+   "note": "O Bayern teve quase 2/3 da bola e mais chutes no alvo. O Lille finalizou mais no total."
+  },
+  {
+   "type": "big",
+   "tag": "2 de 4 · As chances",
+   "kicker": "Gols esperados (xG)",
+   "a": "2,1",
+   "la": "Lille",
+   "b": "1,2",
+   "lb": "Bayern",
+   "winner": "a",
+   "note": "Com só 35% da bola, o Lille criou as melhores chances. O Bayern só marcou de cabeça, com Upamecano."
+  },
+  {
+   "type": "big",
+   "tag": "3 de 4 · A virada",
+   "kicker": "3 minutos de pesadelo",
+   "a": "62'",
+   "la": "Ueda empata",
+   "b": "65'",
+   "lb": "Gol contra",
+   "winner": "a",
+   "note": "Ueda empatou após passe de Ngoy. Três minutos depois, Pavlović mandou contra o próprio gol e completou a virada."
+  },
+  {
+   "type": "big",
+   "tag": "4 de 4 · A tabela",
+   "kicker": "Fase de liga",
+   "a": "1ª",
+   "la": "Derrota do Bayern",
+   "b": "15º",
+   "lb": "Com 8 pontos",
+   "winner": "a",
+   "note": "O Bayern caiu para 15º, com 8 pontos. O Lille venceu pela 1ª vez nesta Champions e foi a 4 pontos, em 29º."
+  }
+ ],
+ "cta": "Zebra ou alerta pro Bayern?",
+ "hook_static": true,
+ "vtag": "Champions League",
+ "vfoot": "Análise",
+ "beats": [
+  {
+   "big": "35% DE<br>POSSE",
+   "small": "e o Lille virou em cima do Bayern"
+  },
+  {
+   "big": "0 x 1",
+   "small": "Upamecano abriu de cabeça aos 15'"
+  },
+  {
+   "big": "2,1 x 1,2",
+   "small": "no xG: o Lille criou mais"
+  },
+  {
+   "big": "1 x 1<br>AOS 62'",
+   "small": "Ueda empatou após passe de Ngoy"
+  },
+  {
+   "big": "2 x 1<br>AOS 65'",
+   "small": "gol contra de Pavlović"
+  },
+  {
+   "big": "1ª DERROTA",
+   "small": "do Bayern nesta Champions"
+  },
+  {
+   "big": "E AÍ?",
+   "small": "Zebra ou alerta pro Bayern?"
+  }
+ ],
+ "theme": "laranja"
+}
