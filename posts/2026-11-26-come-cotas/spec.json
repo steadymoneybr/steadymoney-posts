@@ -1,0 +1,100 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "tag": "Educação Financeira",
+   "title": "Fundo cobra IR<br>sem você resgatar?",
+   "sub": "Cobra, sim. Duas vezes por ano,<br>no tal do come-cotas.",
+   "category": "mito"
+  },
+  {
+   "type": "inner",
+   "tag": "1 de 5 — Come-cotas",
+   "big": "Cobra, sim",
+   "sub": "E tem nome: come-cotas",
+   "bullets": [
+    "É o IR do fundo cobrado antes do resgate",
+    "Acontece 2 vezes por ano: maio e novembro",
+    "Sempre no último dia útil desses meses",
+    "O próximo é na segunda, 30 de novembro"
+   ],
+   "quote": "O leão não espera<br>você sacar."
+  },
+  {
+   "type": "inner",
+   "tag": "2 de 5 — Come-cotas",
+   "big": "Menos cotas",
+   "sub": "Como ele é cobrado",
+   "bullets": [
+    "O imposto sai do rendimento do semestre",
+    "A Receita leva parte das suas cotas",
+    "O valor da cota segue igual, a quantidade cai",
+    "Por isso o saldo dá um tranco nesses dias"
+   ],
+   "quote": "Não sumiu dinheiro:<br>foi imposto."
+  },
+  {
+   "type": "inner",
+   "tag": "3 de 5 — Come-cotas",
+   "big": "15% ou 20%",
+   "sub": "Quanto ele leva",
+   "bullets": [
+    "Fundo de longo prazo: 15% do rendimento",
+    "Fundo de curto prazo: 20% do rendimento",
+    "No resgate, você acerta só a diferença",
+    "A alíquota final depende do tempo aplicado"
+   ],
+   "quote": "É um adiantamento,<br>não um imposto a mais."
+  },
+  {
+   "type": "inner",
+   "tag": "4 de 5 — Come-cotas",
+   "big": "Quem tem",
+   "sub": "Nem todo investimento tem",
+   "bullets": [
+    "Fundos de renda fixa e multimercado: têm",
+    "Fundos de ações: não têm",
+    "CDB, Tesouro e previdência: não têm",
+    "Neles, o IR fica pra quando o dinheiro sai"
+   ],
+   "quote": "Antes de aplicar, pergunte:<br>esse fundo tem come-cotas?"
+  },
+  {
+   "type": "inner",
+   "tag": "5 de 5 — Come-cotas",
+   "big": "O custo real",
+   "sub": "Menos dinheiro rendendo",
+   "bullets": [
+    "As cotas levadas param de render pra você",
+    "Com os anos, isso pesa nos juros compostos",
+    "Compare fundos pelo rendimento líquido",
+    "Em novembro, o tranco no saldo é normal"
+   ],
+   "cta": "💬 <b>Comenta aqui embaixo:</b><br>você já tinha ouvido falar<br>em come-cotas? Sim ou não?"
+  }
+ ],
+ "story": {
+  "pontos": [
+   "Cobrado em maio e novembro",
+   "Leva 15% ou 20% do rendimento",
+   "Fundo de ações não tem"
+  ]
+ },
+ "tiktok": {
+  "gancho": {
+   "kicker": "Mito ou verdade?",
+   "l1": "Fundo só cobra IR quando você resgata.",
+   "l2": "Não. Segunda tem cobrança."
+  },
+  "ritmo": 0.85,
+  "narracao": [
+   "Fundo só cobra imposto quando você resgata? Não. A próxima cobrança é nessa segunda.",
+   "Chama come-cotas. É o imposto de renda do fundo, cobrado em maio e novembro.",
+   "A Receita leva parte das suas cotas. Por isso o saldo dá um tranco nesses dias.",
+   "Quinze por cento do rendimento no fundo de longo prazo. Vinte por cento no de curto prazo.",
+   "Fundos de renda fixa e multimercado têm. De ações, CDB e Tesouro, não. Tem fundo? Comenta FUNDO.",
+   "As cotas levadas param de render pra você. Comenta aí: já tinha ouvido falar em come-cotas?",
+   "Segue a Steady Money pra aprender mais."
+  ]
+ }
+}
