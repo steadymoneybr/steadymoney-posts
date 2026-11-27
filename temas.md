@@ -36,7 +36,7 @@ Status: `pendente` ou `publicado AAAA-MM-DD`. Categoria da capa: `confronto`, `m
 | 28 | Home broker: os campos de uma ordem | Como Comprar uma Ação na B3 | conceito | pendente |
 | 29 | Vacância e inadimplência em FIIs | Fundos Imobiliários | conceito | pendente |
 | 30 | Planejamento sucessório: por que pensar nisso cedo | Finanças Avançado | conceito | pendente |
-| 31 | Golpe da falsa central de segurança do banco | Finanças Básico | golpe | pendente |
+| 31 | Golpe da falsa central de segurança do banco | Finanças Básico | golpe | publicado 2026-11-27 |
 | 32 | Rotativo x parcelamento da fatura | Finanças Básico | confronto | pendente |
 | 33 | Poupança é o investimento mais seguro? | Renda Fixa | mito | pendente |
 | 34 | Golpe do comprovante de Pix falso | Finanças Básico | golpe | pendente |

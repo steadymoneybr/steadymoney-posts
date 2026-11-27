@@ -1,0 +1,83 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "tag": "Educação Financeira",
+   "title": "O banco ligou<br>pedindo sua senha?",
+   "sub": "É o golpe da falsa central.<br>Veja como ele funciona.",
+   "category": "golpe"
+  },
+  {
+   "type": "inner",
+   "tag": "1 de 5 — Golpes",
+   "big": "A ligação",
+   "sub": "Como o golpe começa",
+   "bullets": [
+    "Alguém liga dizendo ser do seu banco",
+    "Fala de uma compra suspeita no cartão",
+    "Às vezes já sabe seu nome e seu CPF",
+    "O visor pode até mostrar o número do banco"
+   ],
+   "quote": "Pressa e medo<br>são a isca."
+  },
+  {
+   "type": "inner",
+   "tag": "2 de 5 — Golpes",
+   "big": "Senha",
+   "sub": "O que eles pedem",
+   "bullets": [
+    "Senha, token ou código do SMS",
+    "Pix pra uma tal de \"conta segura\"",
+    "Instalar um app no seu celular",
+    "Entregar o cartão a um motoboy"
+   ],
+   "quote": "Tudo com a desculpa<br>de te proteger."
+  },
+  {
+   "type": "inner",
+   "tag": "3 de 5 — Golpes",
+   "big": "Nunca",
+   "sub": "O que o banco não faz",
+   "bullets": [
+    "Não pede sua senha por telefone",
+    "Não manda transferir pra proteger o saldo",
+    "Não pede pra instalar app de acesso remoto",
+    "Não busca cartão na sua casa"
+   ],
+   "quote": "Pediu isso?<br>É golpe."
+  },
+  {
+   "type": "inner",
+   "tag": "4 de 5 — Golpes",
+   "big": "Desliga",
+   "sub": "O que fazer na hora",
+   "bullets": [
+    "Não confirme nenhum dado, só desligue",
+    "Ligue no número do verso do cartão",
+    "De preferência, de outro telefone",
+    "Ou confira direto no app do banco"
+   ],
+   "quote": "Quem liga pra conferir<br>é você."
+  },
+  {
+   "type": "inner",
+   "tag": "5 de 5 — Golpes",
+   "big": "Caiu?",
+   "sub": "Se já aconteceu",
+   "bullets": [
+    "Avise o banco o quanto antes",
+    "Foi por Pix? Peça o MED ao banco",
+    "Registre um boletim de ocorrência",
+    "Troque as senhas e bloqueie o cartão"
+   ],
+   "cta": "💬 <b>Comenta aqui embaixo:</b><br>já recebeu uma ligação dessas?<br>Sim ou não?"
+  }
+ ],
+ "story": {
+  "pontos": [
+   "Banco não pede senha na ligação",
+   "Nada de Pix pra \"conta segura\"",
+   "Desligue e ligue você pro banco"
+  ]
+ }
+}

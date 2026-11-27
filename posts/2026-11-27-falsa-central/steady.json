@@ -1,0 +1,144 @@
+{
+ "titulo": "Golpe da falsa central",
+ "destaques": [
+  "senha",
+  "golpe",
+  "Pix",
+  "conta",
+  "Desliga",
+  "MED",
+  "banco",
+  "SIM",
+  "Curte",
+  "manda",
+  "Steady",
+  "Money",
+  "pressa",
+  "ligação"
+ ],
+ "cenas": [
+  {
+   "dur": 3.5,
+   "legenda": [
+    "O banco ligou",
+    "pedindo sua senha?",
+    "É golpe."
+   ],
+   "personagem": {
+    "img": "P14.png",
+    "anim": "shake"
+   },
+   "narracao": "O banco ligou pedindo sua senha? É golpe, mesmo com o número do banco no visor.",
+   "pill": "GOLPE DA SEMANA"
+  },
+  {
+   "dur": 3.5,
+   "legenda": [
+    "Compra suspeita",
+    "no seu cartão.",
+    "E muita pressa!"
+   ],
+   "pill": "COMO COMEÇA",
+   "personagem": {
+    "img": "P04.png"
+   },
+   "efeitos": [
+    {
+     "tipo": "interrogacao",
+     "x": 860,
+     "y": 600
+    }
+   ],
+   "narracao": "Falam de uma compra suspeita no cartão e pedem pressa pra você agir."
+  },
+  {
+   "dur": 3.6,
+   "legenda": [
+    "Senha, token,",
+    "código do SMS",
+    "ou Pix pra uma",
+    "\"conta segura\"."
+   ],
+   "pill": "O QUE PEDEM",
+   "personagem": {
+    "img": "P05.png",
+    "anim": "shake"
+   },
+   "narracao": "Aí pedem senha, código do SMS ou um Pix pra uma tal de conta segura."
+  },
+  {
+   "dur": 4.0,
+   "legenda": [
+    "Banco não pede",
+    "senha nem Pix",
+    "por telefone.",
+    "Já te ligaram?",
+    "Comenta SIM."
+   ],
+   "pill": "A REGRA",
+   "personagem": {
+    "img": "P11.png"
+   },
+   "narracao": "Banco não pede senha nem Pix por telefone. Já te ligaram assim? Comenta SIM."
+  },
+  {
+   "dur": 2.4,
+   "legenda": [
+    "Curte",
+    "e manda pra",
+    "sua família."
+   ],
+   "personagem": {
+    "img": "P07.png",
+    "anim": "jump"
+   },
+   "efeitos": [
+    {
+     "tipo": "coracoes"
+    }
+   ],
+   "narracao": "Curte e manda pra sua família."
+  },
+  {
+   "dur": 3.8,
+   "legenda": [
+    "Desliga.",
+    "Liga você no",
+    "número do cartão,",
+    "de outro celular."
+   ],
+   "pill": "NA HORA",
+   "personagem": {
+    "img": "P09.png"
+   },
+   "narracao": "Desliga e liga você no número do verso do cartão, de outro telefone."
+  },
+  {
+   "dur": 4.2,
+   "legenda": [
+    "Caiu?",
+    "Avisa o banco.",
+    "Foi Pix?",
+    "Pede o MED."
+   ],
+   "pill": "CAIU?",
+   "personagem": {
+    "img": "P08.png"
+   },
+   "narracao": "Caiu? Avisa o banco na hora e, se foi Pix, pede o MED."
+  },
+  {
+   "dur": 2.5,
+   "legenda": [
+    "Segue a",
+    "Steady Money",
+    "pra aprender",
+    "mais."
+   ],
+   "personagem": {
+    "img": "P10.png"
+   },
+   "narracao": "Segue a Steady Money pra aprender mais."
+  }
+ ]
+}
