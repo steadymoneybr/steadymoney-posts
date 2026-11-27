@@ -1,0 +1,68 @@
+{
+ "formato": "curiosidade",
+ "tag": "Curiosidade · Regras",
+ "vtag": "Regras do futebol",
+ "kicker": "A regra que mudou o futebol",
+ "hook": "6 minutos com a bola na mão.",
+ "lead": "Na Copa de 1990, o goleiro da Irlanda ficou cerca de 6 minutos no total com a bola nas mãos num só jogo. Dois anos depois, a regra mudou.",
+ "date": "26.11.2026",
+ "source": "Wikipedia / Irish Times / Goal",
+ "slides": [
+  {
+   "tag": "1 de 4 · A Copa travada",
+   "big": "2,21",
+   "title": "gols por jogo em 1990",
+   "text": "A Copa da Itália teve a menor média de gols da história dos Mundiais. Recuar para o goleiro e esperar o tempo passar era tática comum."
+  },
+  {
+   "tag": "2 de 4 · O jogo símbolo",
+   "big": "0x0",
+   "title": "Irlanda x Egito",
+   "text": "Num dos jogos da fase de grupos, o goleiro irlandês Packie Bonner ficou cerca de 6 minutos, somando a partida toda, com a bola nas mãos."
+  },
+  {
+   "tag": "3 de 4 · A mudança",
+   "big": "1992",
+   "title": "o recuo ficou proibido",
+   "text": "A International Board mudou a regra: se o companheiro recua de propósito com o pé, o goleiro não pode pegar com a mão. A Euro de 1992 foi a última com o recuo liberado."
+  },
+  {
+   "tag": "4 de 4 · O castigo",
+   "big": "Tiro livre",
+   "title": "indireto dentro da área",
+   "text": "É a punição até hoje para o goleiro que pega o recuo com a mão. Os primeiros jogos com a regra nova foram os da Olimpíada de Barcelona, em 1992."
+  }
+ ],
+ "cta": "Qual goleiro do seu time seria o rei da cera?",
+ "beats": [
+  {
+   "big": "6 MINUTOS",
+   "small": "com a bola na mão num só jogo"
+  },
+  {
+   "big": "COPA<br>DE 1990",
+   "small": "Irlanda 0x0 Egito"
+  },
+  {
+   "big": "2,21",
+   "small": "gols por jogo, a menor média das Copas"
+  },
+  {
+   "big": "RECUA<br>E SEGURA",
+   "small": "a tática pra deixar o tempo passar"
+  },
+  {
+   "big": "1992",
+   "small": "o goleiro não pode mais pegar o recuo"
+  },
+  {
+   "big": "TIRO LIVRE<br>INDIRETO",
+   "small": "é o castigo até hoje"
+  },
+  {
+   "big": "E AÍ?",
+   "small": "Segue a G5 pra mais histórias assim"
+  }
+ ],
+ "theme": "azul"
+}
