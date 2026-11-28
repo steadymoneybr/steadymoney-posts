@@ -1,0 +1,68 @@
+{
+ "formato": "curiosidade",
+ "tag": "Curiosidade · Regras",
+ "vtag": "Regras do futebol",
+ "kicker": "A regra do gol de ouro",
+ "hook": "Com 9 em campo, eliminou o Brasil.",
+ "lead": "Na Olimpíada de 2000, Camarões terminou com 9 jogadores e mesmo assim tirou o Brasil com um gol que acabava o jogo na hora.",
+ "date": "27.11.2026",
+ "source": "Olympics.com / Olympedia / Trivela / Sky Sport",
+ "slides": [
+  {
+   "tag": "1 de 4 · A regra",
+   "big": "1993",
+   "title": "nasce o gol de ouro",
+   "text": "A FIFA criou a regra: na prorrogação, o primeiro gol dava a vitória na hora. O jogo acabava ali, sem esperar o tempo terminar."
+  },
+  {
+   "tag": "2 de 4 · O Brasil caiu",
+   "big": "2x1",
+   "title": "Camarões x Brasil",
+   "text": "Em Sydney 2000, nas quartas, Camarões ficou com 9 e Ronaldinho empatou nos acréscimos. Na prorrogação, M'Bami fez o gol de ouro aos 113'."
+  },
+  {
+   "tag": "3 de 4 · Outros heróis",
+   "big": "Euro 2000",
+   "title": "Trezeguet decide a final",
+   "text": "A França bateu a Itália por 2x1 com gol de ouro. Em 1998, Laurent Blanc já tinha feito o 1º gol de ouro das Copas, contra o Paraguai."
+  },
+  {
+   "tag": "4 de 4 · O fim",
+   "big": "2004",
+   "title": "a regra foi abolida",
+   "text": "Em vez de deixar o jogo mais ofensivo, o gol de ouro deixava os times com medo de arriscar. Depois da Euro 2004, a prorrogação voltou a ser jogada inteira."
+  }
+ ],
+ "cta": "Você preferia o gol de ouro ou a prorrogação inteira?",
+ "beats": [
+  {
+   "big": "COM 9<br>EM CAMPO",
+   "small": "Camarões eliminou o Brasil"
+  },
+  {
+   "big": "SYDNEY<br>2000",
+   "small": "quartas de final da Olimpíada"
+  },
+  {
+   "big": "GOL DE<br>OURO",
+   "small": "marcou na prorrogação, acabou o jogo"
+  },
+  {
+   "big": "113'",
+   "small": "M'Bami fez e o Brasil caiu"
+  },
+  {
+   "big": "TREZEGUET",
+   "small": "decidiu assim a final da Euro 2000"
+  },
+  {
+   "big": "2004",
+   "small": "a regra foi abolida"
+  },
+  {
+   "big": "E AÍ?",
+   "small": "Segue a G5 pra mais histórias assim"
+  }
+ ],
+ "theme": "escuro"
+}
