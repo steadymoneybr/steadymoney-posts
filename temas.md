@@ -37,7 +37,7 @@ Status: `pendente` ou `publicado AAAA-MM-DD`. Categoria da capa: `confronto`, `m
 | 29 | Vacância e inadimplência em FIIs | Fundos Imobiliários | conceito | pendente |
 | 30 | Planejamento sucessório: por que pensar nisso cedo | Finanças Avançado | conceito | pendente |
 | 31 | Golpe da falsa central de segurança do banco | Finanças Básico | golpe | publicado 2026-11-27 |
-| 32 | Rotativo x parcelamento da fatura | Finanças Básico | confronto | pendente |
+| 32 | Rotativo x parcelamento da fatura | Finanças Básico | confronto | publicado 2026-11-28 |
 | 33 | Poupança é o investimento mais seguro? | Renda Fixa | mito | pendente |
 | 34 | Golpe do comprovante de Pix falso | Finanças Básico | golpe | pendente |
 | 35 | Cartão de crédito x débito: qual pesa mais no orçamento | Finanças Compacto | confronto | pendente |

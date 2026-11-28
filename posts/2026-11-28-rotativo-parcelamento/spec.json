@@ -1,0 +1,100 @@
+{
+ "slides": [
+  {
+   "type": "cover",
+   "tag": "Educação Financeira",
+   "title": "Rotativo<br>x<br>parcelamento",
+   "sub": "Não pagou a fatura inteira?<br>Veja qual sai mais caro.",
+   "category": "confronto"
+  },
+  {
+   "type": "inner",
+   "tag": "1 de 5 — Fatura do cartão",
+   "big": "Rotativo",
+   "sub": "O que sobra vira dívida",
+   "bullets": [
+    "Pagou só parte? O resto vai pro rotativo",
+    "Os juros correm sobre o que ficou pra trás",
+    "Média de 446% ao ano em outubro (BC)",
+    "É um dos créditos mais caros do país"
+   ],
+   "quote": "Pagar o mínimo<br>não é pagar a fatura."
+  },
+  {
+   "type": "inner",
+   "tag": "2 de 5 — Fatura do cartão",
+   "big": "30 dias",
+   "sub": "O rotativo tem prazo",
+   "bullets": [
+    "Desde 2017, só vale até a próxima fatura",
+    "Depois, o banco deve oferecer parcelar",
+    "Com juros menores que os do rotativo",
+    "Leia a proposta antes de aceitar"
+   ],
+   "quote": "Rotativo é pra dias,<br>não pra meses."
+  },
+  {
+   "type": "inner",
+   "tag": "3 de 5 — Fatura do cartão",
+   "big": "Parcelamento",
+   "sub": "Juros menores, mas tem juros",
+   "bullets": [
+    "A fatura vira parcelas fixas",
+    "Média de 194,7% ao ano em outubro (BC)",
+    "Menos da metade do rotativo, ainda caro",
+    "As parcelas ocupam parte do seu limite"
+   ],
+   "quote": "Mais barato que o rotativo<br>não quer dizer barato."
+  },
+  {
+   "type": "inner",
+   "tag": "4 de 5 — Fatura do cartão",
+   "big": "Teto de 100%",
+   "sub": "O limite que a lei criou",
+   "bullets": [
+    "Vale desde janeiro de 2024",
+    "Juros e encargos não passam do valor devido",
+    "Deve R$ 1.000? No máximo R$ 1.000 a mais",
+    "Vale pro rotativo e pro parcelamento"
+   ],
+   "quote": "O teto limita o estrago,<br>não deixa barato."
+  },
+  {
+   "type": "inner",
+   "tag": "5 de 5 — Fatura do cartão",
+   "big": "Na prática",
+   "sub": "Como sair do sufoco",
+   "bullets": [
+    "Pague a fatura inteira sempre que der",
+    "Não deu? Compare o custo total (CET)",
+    "Veja se há crédito mais barato pra trocar",
+    "Segure as compras no cartão até quitar"
+   ],
+   "cta": "💬 <b>Comenta aqui embaixo:</b><br>você já caiu no rotativo?<br>Sim ou não?"
+  }
+ ],
+ "story": {
+  "pontos": [
+   "Rotativo: 446% ao ano",
+   "Parcelado: 194,7% ao ano",
+   "Juros limitados a 100% da dívida"
+  ]
+ },
+ "tiktok": {
+  "gancho": {
+   "kicker": "Qual a diferença?",
+   "l1": "Rotativo ou parcelado: 446% ou 194,7% ao ano?",
+   "l2": "Mais que o dobro."
+  },
+  "ritmo": 0.85,
+  "narracao": [
+   "Rotativo ou parcelado? Um deles cobra mais que o dobro do outro.",
+   "Sobrou fatura? Vai pro rotativo: em média, quatrocentos e quarenta e seis por cento ao ano.",
+   "O rotativo só vale até a próxima fatura. Já pagou só o mínimo? Comenta SIM.",
+   "Depois vem o parcelado: quase cento e noventa e cinco por cento ao ano. Ainda caro.",
+   "A lei pôs um teto: juros e encargos não passam de cem por cento da dívida.",
+   "Pague a fatura inteira sempre que der. E você, já caiu no rotativo? Sim ou não?",
+   "Segue a Steady Money pra aprender mais."
+  ]
+ }
+}
